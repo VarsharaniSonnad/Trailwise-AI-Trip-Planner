@@ -1,0 +1,90 @@
+2026-09-11 14:03:17,417 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-11 14:03:17,418 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-11 14:03:17,419 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-11 14:03:17,420 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-11 14:03:17,420 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-11 14:03:17,421 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-11 14:03:17,426 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-11 14:03:17,426 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-11 14:03:17,426 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-11 14:03:17,427 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-11 14:03:17,427 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-11 14:03:17,429 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-11 14:03:17,430 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-11 14:03:17,430 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-11 14:03:17,431 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-11 14:03:17,431 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-11 14:03:17,432 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-11 14:03:17,451 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-11 14:03:18,306 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-11 14:03:18,309 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-11 14:03:18,307 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-11 14:03:18,309 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-11 14:03:18,310 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-11 14:03:18,310 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-11 14:03:18,316 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-11 14:03:18,316 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-11 14:03:18,317 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-11 14:03:18,317 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-11 14:03:18,318 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-11 14:03:18,318 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-11 14:03:18,318 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-11 14:03:18,319 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-11 14:03:18,320 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-11 14:03:18,328 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-11 14:03:18,329 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-11 14:03:18,333 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-11 14:03:18,333 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-11 14:03:18,333 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-11 14:03:18,409 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-11 14:03:18,411 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-11 14:03:18,415 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-11 14:03:18,417 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-11 14:03:18,419 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-11 14:03:18,453 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-11 14:03:18,456 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-11 14:03:18,463 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-11 14:03:18,464 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-11 14:03:18,468 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-11 14:03:19,059 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-11 14:03:19,059 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-11 14:03:19,061 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-11 14:03:19,061 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-11 14:03:19,073 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-11 14:03:19,073 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-11 14:03:19,087 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-11 14:03:19,088 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-11 14:03:19,146 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-11 14:03:19,146 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-11 14:03:19,165 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-11 14:03:19,165 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-11 17:09:53,858 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-11 17:09:53,860 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-11 17:09:53,861 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-11 17:09:53,862 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-11 17:09:53,862 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-11 17:09:53,863 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-11 17:09:53,864 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-11 17:09:53,864 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-11 17:09:53,865 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-11 17:09:53,865 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-11 17:09:53,866 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-11 17:09:53,866 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-11 17:09:53,876 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-11 17:09:53,877 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-11 17:09:53,882 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-11 17:09:53,884 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-11 17:09:53,887 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-11 17:09:53,891 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-11 17:09:54,710 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-11 17:09:54,711 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-11 17:09:54,717 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-11 17:09:54,720 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-11 17:09:54,720 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-11 17:09:54,721 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-11 17:09:54,723 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-11 17:09:54,724 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-11 17:09:54,728 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-11 17:09:54,729 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-11 17:09:54,740 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-11 17:09:54,741 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1

@@ -1,0 +1,2181 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap");
+
+:root {
+  --ink: #12213a;
+  --teal: #1f4b4c;
+  --amber: #e8a33d;
+  --cream: #f3efe6;
+  --coral: #e1654a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.tw-page {
+  position: relative;
+  height: 100vh;
+  min-height: 0;
+  background: radial-gradient(120% 90% at 20% 0%, #1f4b4c 0%, #12213a 55%, #0b1626 100%);
+  color: var(--cream);
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.tw-contours {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------- Header ---------- */
+.tw-header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 48px;
+}
+
+.tw-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tw-logo-text {
+  font-family: "Fraunces", serif;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.tw-logo-sub {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-left: 8px;
+  opacity: 0.85;
+}
+
+.tw-login-btn {
+  background: rgba(243, 239, 230, 0.08);
+  border: 1px solid rgba(243, 239, 230, 0.25);
+  color: var(--cream);
+  padding: 9px 20px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.tw-login-btn:hover,
+.tw-login-btn:focus-visible {
+  background: rgba(243, 239, 230, 0.16);
+  border-color: rgba(243, 239, 230, 0.45);
+}
+
+/* ---------- Hero ---------- */
+.tw-hero {
+  position: relative;
+  z-index: 2;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 64px 24px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tw-eyebrow {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin: 0 0 20px;
+}
+
+.tw-headline {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: clamp(48px, 7vw, 76px);
+  line-height: 1.08;
+  margin: 0 0 24px;
+  letter-spacing: -0.01em;
+}
+
+.tw-subhead {
+  font-size: 17px;
+  line-height: 1.55;
+  color: rgba(243, 239, 230, 0.78);
+  max-width: 520px;
+  margin: 0 0 36px;
+}
+
+/* ---------- Search ---------- */
+.tw-search {
+  width: 100%;
+  max-width: 620px;
+  display: flex;
+  align-items: center;
+  background: rgba(243, 239, 230, 0.97);
+  border-radius: 16px;
+  padding: 6px 6px 6px 22px;
+  box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.5);
+}
+
+.tw-search input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 15px;
+  color: var(--ink);
+  padding: 14px 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.tw-search input::placeholder {
+  color: #8a8577;
+}
+
+.tw-search button {
+  background: var(--amber);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+
+.tw-search button:hover {
+  transform: translateX(2px);
+}
+
+/* ---------- Chips ---------- */
+.tw-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 22px 0 48px;
+}
+
+.tw-chip {
+  background: rgba(243, 239, 230, 0.08);
+  border: 1px solid rgba(243, 239, 230, 0.2);
+  color: rgba(243, 239, 230, 0.85);
+  font-size: 13px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.tw-chip:hover,
+.tw-chip:focus-visible {
+  background: rgba(232, 163, 61, 0.16);
+  border-color: rgba(232, 163, 61, 0.5);
+}
+
+/* ---------- Signature: Agent trace strip ---------- */
+.tw-trace {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  width: 100%;
+  max-width: 560px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(243, 239, 230, 0.12);
+}
+
+.tw-trace-step {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 22px;
+  opacity: 0.4;
+  transition: opacity 0.4s ease;
+}
+
+.tw-trace-step.is-active,
+.tw-trace-step.is-done {
+  opacity: 1;
+}
+
+.tw-trace-dot {
+  position: absolute;
+  top: -5px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: rgba(243, 239, 230, 0.3);
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.tw-trace-step.is-active .tw-trace-dot {
+  background: var(--amber);
+  box-shadow: 0 0 0 5px rgba(232, 163, 61, 0.18);
+}
+
+.tw-trace-step.is-done .tw-trace-dot {
+  background: rgba(232, 163, 61, 0.6);
+}
+
+.tw-trace-line {
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  width: 100%;
+  height: 1px;
+  background: rgba(243, 239, 230, 0.12);
+}
+
+.tw-trace-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11.5px;
+  letter-spacing: 0.02em;
+  display: block;
+}
+
+.tw-trace-detail {
+  font-size: 11px;
+  color: rgba(243, 239, 230, 0.5);
+  display: block;
+  margin-top: 3px;
+}
+
+/* ---------- Feature cards ---------- */
+.tw-features {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  margin: 20px auto 0;
+  padding: 40px 24px 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tw-feature-card {
+  background: rgba(243, 239, 230, 0.05);
+  border: 1px solid rgba(243, 239, 230, 0.1);
+  border-radius: 18px;
+  padding: 26px 22px;
+}
+
+.tw-feature-icon {
+  display: inline-block;
+  font-size: 20px;
+  color: var(--amber);
+  margin-bottom: 14px;
+}
+
+.tw-feature-card h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  font-size: 17px;
+  margin: 0 0 8px;
+}
+
+.tw-feature-card p {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: rgba(243, 239, 230, 0.65);
+  margin: 0;
+}
+
+/* ---------- Footer ---------- */
+.tw-footer {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 48px 28px;
+  font-size: 12.5px;
+  color: rgba(243, 239, 230, 0.45);
+  border-top: 1px solid rgba(243, 239, 230, 0.08);
+}
+
+.tw-footer-links a {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+.tw-footer-links a:hover {
+  color: var(--cream);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 720px) {
+  .tw-header {
+    padding: 20px 20px;
+  }
+
+  .tw-features {
+    grid-template-columns: 1fr;
+  }
+
+  .tw-trace {
+    flex-direction: column;
+    gap: 18px;
+    align-items: flex-start;
+  }
+
+  .tw-trace-step {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding-top: 0;
+    gap: 12px;
+  }
+
+  .tw-trace-dot {
+    position: static;
+  }
+
+  .tw-trace-line {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tw-trace-step {
+    transition: none;
+  }
+}
+
+/* ---------- Login gate ---------- */
+.tw-login-page {
+  align-items: center;
+  justify-content: center;
+}
+
+.tw-login-card {
+  position: relative;
+  z-index: 2;
+  max-width: 420px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(243, 239, 230, 0.05);
+  border: 1px solid rgba(243, 239, 230, 0.14);
+  border-radius: 20px;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tw-login-title {
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  font-size: 26px;
+  margin: 16px 0 10px;
+}
+
+.tw-login-sub {
+  font-size: 14px;
+  line-height: 1.55;
+  color: rgba(243, 239, 230, 0.7);
+  margin: 0 0 26px;
+}
+
+.tw-login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tw-login-form input {
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(243, 239, 230, 0.2);
+  background: rgba(243, 239, 230, 0.06);
+  color: var(--cream);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  outline: none;
+}
+
+.tw-login-form input::placeholder {
+  color: rgba(243, 239, 230, 0.4);
+}
+
+.tw-login-form input:focus {
+  border-color: var(--amber);
+}
+
+.tw-login-form button {
+  margin-top: 8px;
+  background: var(--amber);
+  color: var(--ink);
+  border: none;
+  padding: 13px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ---------- Chat layout ---------- */
+.tw-chat-main {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px 24px 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-hero-compact {
+  padding: 32px 0 0;
+}
+
+.tw-session-email {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  color: rgba(243, 239, 230, 0.55);
+}
+
+.tw-chat-thread {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.tw-bubble-row {
+  display: flex;
+}
+
+.tw-bubble-row.is-user {
+  justify-content: flex-end;
+}
+
+.tw-bubble-row.is-agent {
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.tw-bubble {
+  max-width: 82%;
+  padding: 14px 18px;
+  border-radius: 16px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.is-user .tw-bubble {
+  background: var(--amber);
+  color: var(--ink);
+  border-bottom-right-radius: 4px;
+}
+
+.is-agent .tw-bubble {
+  background: rgba(243, 239, 230, 0.07);
+  border: 1px solid rgba(243, 239, 230, 0.12);
+  color: rgba(243, 239, 230, 0.92);
+  border-bottom-left-radius: 4px;
+}
+
+.tw-bubble-loading {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  color: var(--amber);
+}
+
+.tw-bubble-actions {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tw-bubble-email-btn {
+  background: transparent;
+  border: 1px solid rgba(232, 163, 61, 0.5);
+  color: var(--amber);
+  font-size: 12.5px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.tw-bubble-email-btn:hover {
+  background: rgba(232, 163, 61, 0.14);
+}
+
+.tw-bubble-sent {
+  font-size: 12.5px;
+  color: #7bc98d;
+}
+
+.tw-bubble-error {
+  font-size: 12px;
+  color: var(--coral);
+}
+
+/* ---------- Docked search bar ---------- */
+.tw-search-docked {
+  position: sticky;
+  bottom: 24px;
+  z-index: 3;
+  margin: 0 auto 20px;
+}
+
+/* ---------- Avatar ---------- */
+.tw-avatar {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--amber);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tw-bubble ul, .tw-bubble ol {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.tw-bubble li {
+  margin-bottom: 4px;
+}
+
+.tw-bubble strong {
+  color: var(--amber);
+  font-weight: 600;
+}
+
+.tw-bubble h1, .tw-bubble h2, .tw-bubble h3 {
+  font-family: "Fraunces", serif;
+  font-size: 15.5px;
+  margin: 10px 0 6px;
+  color: var(--cream);
+}
+
+.tw-bubble p {
+  margin: 0 0 8px;
+}
+
+.tw-bubble p:last-child {
+  margin-bottom: 0;
+}
+/* ===== Landing page (nav + destinations + plan-a-trip) ===== */
+
+.tw-landing-page {
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.tw-landing-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.tw-landing-nav {
+  display: flex;
+  gap: 28px;
+}
+
+.tw-landing-nav button {
+  background: none;
+  border: none;
+  color: #F3EFE6;
+  font-size: 22px;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.15s ease;
+}
+
+.tw-landing-nav button:hover {
+  opacity: 1;
+}
+
+.tw-plan-trip-cta {
+  background: #E8A33D;
+  color: #12213A;
+  border: none;
+  border-radius: 99px;
+  padding: 16px 34px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.tw-plan-trip-cta:hover {
+  transform: translateY(-1px);
+}
+
+.tw-hero-landing {
+  text-align: center;
+  padding: 80px 24px 60px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.tw-hero-sub {
+  color: rgba(243, 239, 230, 0.75);
+  font-size: 22px;
+  margin: 16px 0 28px;
+  line-height: 1.7;
+  max-width:850px;
+}
+
+.tw-hero-cta {
+  padding: 14px 32px;
+  font-size: 15px;
+}
+
+.tw-destinations-section,
+.tw-plan-trip-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.tw-section-title {
+  font-size: 32px;
+  color: #F3EFE6;
+  margin: 8px 0 32px;
+}
+
+.tw-destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .tw-destinations-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .tw-destinations-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tw-destination-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tw-destination-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.tw-destination-img {
+  height: 160px;
+  width: 100%;
+  background-color: rgba(232, 163, 61, 0.15);
+  background-image: linear-gradient(135deg, rgba(232, 163, 61, 0.25), rgba(18, 33, 58, 0.4));
+  background-size: cover;
+  background-position: center;
+}
+
+.tw-destination-copy {
+  padding: 16px 18px 20px;
+}
+
+.tw-destination-copy h3 {
+  color: #F3EFE6;
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+
+.tw-destination-copy p {
+  color: rgba(243, 239, 230, 0.7);
+  font-size: 13.5px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.tw-trip-form {
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.tw-trip-form-row {
+  display: flex;
+  gap: 18px;
+}
+
+@media (max-width: 600px) {
+  .tw-trip-form-row {
+    flex-direction: column;
+  }
+}
+
+.tw-trip-form-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tw-trip-form-field label {
+  color: rgba(243, 239, 230, 0.75);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.tw-trip-form-field input,
+.tw-trip-form-field textarea {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 11px 14px;
+  color: #F3EFE6;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.tw-trip-form-field input:focus,
+.tw-trip-form-field textarea:focus {
+  outline: none;
+  border-color: #E8A33D;
+}
+
+.tw-trip-submit {
+  margin-top: 8px;
+  align-self: flex-start;
+  padding: 13px 30px;
+  font-size: 15px;
+}
+.tw-hero-landing{
+    width:100%;
+    max-width:100%;
+    padding:30px 40px 80px;
+    display:flex;
+    justify-content:center;
+}
+
+.tw-hero-left{
+
+    flex:1;
+}
+
+.tw-hero-slider {
+    width: 95%;
+    max-width: 1600px;
+    height: 75vh;
+    min-height: 650px;
+
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 25px 70px rgba(0,0,0,.35);
+}
+
+.tw-hero-slider-img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:opacity .8s ease;
+}
+.tw-hero-banner{
+    position:relative;
+
+    width:90%;
+    max-width:1550px;
+    height:80vh;
+    min-height:700px;
+
+    border-radius:28px;
+    overflow:hidden;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    box-shadow:0 30px 80px rgba(0,0,0,.45);
+}
+.tw-hero-content{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    z-index:2;
+
+    padding:40px;
+}
+.tw-hero-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.35);
+}
+
+.tw-bubble:has(img) {
+  width: min(900px, 90vw);
+  max-width: min(900px, 90vw);
+}
+
+/* If a paragraph wraps a single image, let the paragraph itself
+   just behave like a plain flow container instead of card-sizing it —
+   the .tw-bubble img rule above already does the sizing work */
+.tw-bubble p:has(> img) {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.tw-chat-with-map {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+  gap: 0;
+}
+
+.tw-chat-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.tw-map-panel {
+  width: 40%;
+  min-width: 320px;
+  height: 100%;
+  flex-shrink: 0;
+  border-left: 1px solid rgba(255,255,255,0.1);
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.tw-map-empty {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(243,239,230,0.5);
+  font-size: 14px;
+  padding: 24px;
+  text-align: center;
+}
+.tw-auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.tw-login-btn {
+  background: transparent;
+  border: none;
+  color: #f3efe6;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tw-login-btn:hover {
+  color: #e8a33d;
+}
+
+.tw-trip-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.tw-guest-trip-btn {
+  padding: 14px 24px;
+  border-radius: 25px;
+  border: 1px solid #e8a33d;
+  background: transparent;
+  color: #e8a33d;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tw-guest-trip-btn:hover {
+  background: #e8a33d;
+  color: #12213a;
+}
+.tw-login-prompt-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 15, 25, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.tw-login-prompt {
+  position: relative;
+  width: 420px;
+  max-width: calc(100vw - 40px);
+  padding: 32px;
+  border-radius: 18px;
+  background: #f3efe6;
+  color: #12213a;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.tw-login-prompt h3 {
+  margin: 0 0 12px;
+  font-size: 24px;
+}
+
+.tw-login-prompt p {
+  margin: 0 0 24px;
+  line-height: 1.6;
+}
+
+.tw-login-prompt-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  color: #12213a;
+}
+
+/* =====================================================
+   TRAVEL PROFILE — TARGET UI (matches the provided design)
+   ===================================================== */
+.tw-plan-trip-section {
+  width: min(1110px, calc(100% - 48px));
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 58px 0 76px;
+}
+
+.tw-plan-trip-section > .tw-eyebrow {
+  margin-bottom: 18px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tw-plan-trip-section > .tw-section-title {
+  margin: 0 0 22px;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(38px, 4vw, 52px);
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.tw-plan-trip-section > .tw-hero-sub {
+  max-width: 1040px;
+  margin: 0 0 6px;
+  color: rgba(243, 239, 230, 0.78);
+  font-size: 21px;
+  line-height: 1.85;
+  text-align: left;
+}
+
+.tw-profile-form {
+  width: 100%;
+  max-width: none;
+  margin-top: 32px;
+  gap: 26px;
+}
+
+.tw-profile-grid {
+  display: grid;
+  gap: 26px 32px;
+}
+
+.tw-profile-grid-top {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.tw-profile-field {
+  min-width: 0;
+  gap: 9px;
+}
+
+.tw-profile-field label,
+.tw-preference-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f3efe6;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tw-profile-field label svg,
+.tw-preference-title svg {
+  color: #e8a33d;
+  flex-shrink: 0;
+}
+
+.tw-profile-field input,
+.tw-profile-field textarea,
+.tw-input-with-icon,
+.tw-number-control,
+.tw-date-input-wrap {
+  width: 100%;
+  min-height: 56px;
+  border: 1px solid rgba(243, 239, 230, 0.16);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.065);
+  color: #f3efe6;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  transition: border-color .18s ease, background .18s ease, box-shadow .18s ease;
+}
+
+.tw-profile-field input,
+.tw-profile-field textarea {
+  padding: 15px 20px;
+}
+
+.tw-profile-field input::placeholder,
+.tw-profile-field textarea::placeholder {
+  color: rgba(243, 239, 230, 0.45);
+}
+
+.tw-profile-field input:focus,
+.tw-profile-field textarea:focus,
+.tw-input-with-icon:focus-within,
+.tw-number-control:focus-within,
+.tw-date-input-wrap:focus-within {
+  outline: none;
+  border-color: rgba(232, 163, 61, .7);
+  background: rgba(255, 255, 255, .075);
+  box-shadow: 0 0 0 3px rgba(232, 163, 61, .08);
+}
+
+.tw-input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tw-input-with-icon input {
+  min-height: 54px;
+  border: 0;
+  box-shadow: none !important;
+  background: transparent;
+  padding-right: 48px;
+}
+
+.tw-field-chevron {
+  position: absolute;
+  right: 17px;
+  top: 50%;
+  transform: translateY(-58%);
+  color: rgba(243, 239, 230, .85);
+  font-size: 25px;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.tw-number-control {
+  display: grid;
+  grid-template-columns: 58px 1fr 58px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tw-number-control button {
+  height: 100%;
+  border: 0;
+  background: transparent;
+  color: #f3efe6;
+  font-size: 31px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: background .18s ease, color .18s ease;
+}
+
+.tw-number-control button:hover {
+  background: rgba(232, 163, 61, .12);
+  color: #e8a33d;
+}
+
+.tw-number-control span {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tw-date-field {
+  margin-top: -2px;
+}
+
+.tw-date-input-wrap {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tw-date-input-wrap input {
+  width: 100%;
+  min-height: 54px;
+  border: 0;
+  background: transparent;
+  box-shadow: none !important;
+  color: #f3efe6;
+}
+
+.tw-date-input-wrap input::-webkit-calendar-picker-indicator {
+  opacity: .9;
+  cursor: pointer;
+  filter: invert(1);
+}
+
+.tw-preference-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
+}
+
+.tw-preference-section {
+  min-width: 0;
+}
+
+.tw-preference-heading {
+  margin-bottom: 14px;
+}
+
+.tw-preference-heading p {
+  margin: 6px 0 0 36px;
+  color: rgba(243, 239, 230, .72);
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+
+.tw-choice-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.tw-budget-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.tw-travel-preference-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.tw-choice-card {
+  min-height: 78px;
+  border: 1px solid rgba(243, 239, 230, .16);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .065);
+  color: #f3efe6;
+  padding: 12px 9px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  transition: transform .16s ease, border-color .16s ease, background .16s ease, box-shadow .16s ease;
+}
+
+.tw-choice-card:hover {
+  transform: translateY(-1px);
+  border-color: rgba(232, 163, 61, .55);
+  background: rgba(255, 255, 255, .09);
+}
+
+.tw-choice-card.selected {
+  border-color: #e8a33d;
+  background: rgba(232, 163, 61, .07);
+  box-shadow: inset 0 0 0 1px rgba(232, 163, 61, .16);
+}
+
+.tw-budget-grid .tw-choice-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  text-align: center;
+}
+
+.tw-budget-grid .tw-choice-card strong {
+  font-size: 15px;
+}
+
+.tw-budget-grid .tw-choice-card small {
+  font-size: 12px;
+  color: rgba(243, 239, 230, .72);
+}
+
+.tw-budget-grid .tw-choice-card.selected strong,
+.tw-budget-grid .tw-choice-card.selected small {
+  color: #e8a33d;
+}
+
+.tw-preference-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.tw-preference-card svg {
+  color: #f3efe6;
+}
+
+.tw-preference-card strong {
+  font-size: 13.5px;
+}
+
+.tw-preference-card.selected svg,
+.tw-preference-card.selected strong {
+  color: #e8a33d;
+}
+
+.tw-travel-mode-heading {
+  margin-bottom: 12px;
+}
+
+.tw-profile-mode-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.tw-profile-mode-options .tw-travel-mode-btn {
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding: 13px 22px;
+  border: 1px solid rgba(243, 239, 230, .16);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .065);
+  color: #f3efe6;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: border-color .16s ease, background .16s ease, transform .16s ease;
+}
+
+.tw-profile-mode-options .tw-travel-mode-btn:hover {
+  transform: translateY(-1px);
+  border-color: rgba(232, 163, 61, .55);
+}
+
+.tw-profile-mode-options .tw-travel-mode-btn.selected {
+  border-color: #e8a33d;
+  background: rgba(232, 163, 61, .07);
+}
+
+.tw-profile-mode-options .tw-travel-mode-btn > svg {
+  flex-shrink: 0;
+}
+
+.tw-profile-mode-options .tw-travel-mode-btn.selected > svg,
+.tw-profile-mode-options .tw-travel-mode-btn.selected strong {
+  color: #e8a33d;
+}
+
+.tw-profile-mode-options .tw-travel-mode-btn span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tw-profile-mode-options .tw-travel-mode-btn strong {
+  font-size: 17px;
+}
+
+.tw-profile-mode-options .tw-travel-mode-btn small {
+  color: rgba(243, 239, 230, .66);
+  font-size: 13px;
+}
+
+.tw-profile-field textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.tw-profile-buttons {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 8px;
+}
+
+.tw-profile-buttons .tw-trip-submit,
+.tw-profile-buttons .tw-guest-trip-btn {
+  min-height: 56px;
+  border-radius: 999px;
+  padding: 0 34px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tw-profile-buttons .tw-trip-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  border: 0;
+  background: #e8a33d;
+  color: #12213a;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, .18);
+}
+
+.tw-profile-buttons .tw-trip-submit:hover {
+  transform: translateY(-1px);
+  background: #f0ad49;
+}
+
+.tw-button-arrow {
+  font-size: 26px;
+  line-height: 1;
+}
+
+.tw-profile-buttons .tw-guest-trip-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 1px solid #e8a33d;
+  background: transparent;
+  color: #e8a33d;
+}
+
+.tw-profile-buttons .tw-guest-trip-btn:hover {
+  background: rgba(232, 163, 61, .09);
+  color: #f3efe6;
+}
+
+@media (max-width: 1000px) {
+  .tw-preference-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .tw-plan-trip-section {
+    width: min(100% - 32px, 680px);
+    padding-top: 42px;
+  }
+
+  .tw-plan-trip-section > .tw-section-title {
+    font-size: 36px;
+  }
+
+  .tw-plan-trip-section > .tw-hero-sub {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .tw-profile-grid-top {
+    grid-template-columns: 1fr;
+  }
+
+  .tw-budget-grid,
+  .tw-travel-preference-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tw-profile-mode-options {
+    grid-template-columns: 1fr;
+  }
+
+  .tw-profile-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+  }
+
+  .tw-profile-buttons .tw-trip-submit,
+  .tw-profile-buttons .tw-guest-trip-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .tw-budget-grid,
+  .tw-travel-preference-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .tw-choice-card {
+    min-height: 72px;
+  }
+}
+
+/* =========================================================
+   LEFT SIDEBAR — dark theme (fixed: was hardcoded white bg /
+   black text, clashing with the rest of the app's dark palette)
+   ========================================================= */
+
+.tw-chat-page {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.tw-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+
+  background: #0f1c30;
+  color: #f3efe6;
+  border-right: 1px solid rgba(243, 239, 230, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  padding: 24px 14px 16px;
+  z-index: 5000;
+  box-sizing: border-box;
+}
+
+.tw-sidebar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  margin-bottom: 36px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  color: #f3efe6;
+}
+
+.tw-sidebar-logo-mark {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e8a33d;
+}
+
+.tw-sidebar-logo-mark svg {
+  width: 34px;
+  height: 34px;
+}
+
+.tw-sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+}
+
+.tw-sidebar-item {
+  width: 100%;
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 10px 13px;
+  border: none;
+  border-radius: 12px;
+  background: transparent;
+  color: #f3efe6;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.tw-sidebar-item:hover {
+  background: rgba(243, 239, 230, 0.08);
+}
+
+.tw-sidebar-item.active {
+  background: rgba(232, 163, 61, 0.12);
+  color: #e8a33d;
+  font-weight: 600;
+}
+
+.tw-sidebar-item svg {
+  flex-shrink: 0;
+}
+
+.tw-sidebar-badge {
+  margin-left: auto;
+  min-width: 23px;
+  height: 23px;
+  padding: 0 6px;
+  border-radius: 50%;
+  background: rgba(243, 239, 230, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #f3efe6;
+}
+
+.tw-sidebar-bottom {
+  margin-top: auto;
+  width: 100%;
+}
+
+.tw-new-chat-btn {
+  width: calc(100% - 0px);
+  height: 61px;
+  border: none;
+  border-radius: 32px;
+  background: #e8a33d;
+  color: #12213a;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 26px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.tw-new-chat-btn:hover {
+  background: #f0ad49;
+}
+
+.tw-new-chat-btn:active {
+  transform: scale(0.98);
+}
+
+.tw-sidebar-profile {
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 7px 7px 6px;
+  border-radius: 12px;
+}
+
+.tw-sidebar-profile:hover {
+  background: rgba(243, 239, 230, 0.06);
+}
+
+.tw-profile-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(232, 163, 61, 0.18);
+  color: #e8a33d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.tw-profile-name {
+  min-width: 0;
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  color: #f3efe6;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tw-profile-menu {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f3efe6;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.tw-profile-menu:hover {
+  background: rgba(243, 239, 230, 0.08);
+}
+
+
+/* =========================================================
+   MAIN CONTENT BESIDE SIDEBAR
+   ========================================================= */
+
+.tw-main-with-sidebar {
+  margin-left: 250px;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 250px);
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.tw-main-with-sidebar .tw-header {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+  flex-shrink: 0;
+}
+
+.tw-header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tw-header-pill {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  color: #f3efe6;
+  padding: 5px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tw-session-email {
+  color: rgba(243, 239, 230, 0.7);
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   CHAT + MAP
+   ========================================================= */
+
+.tw-main-with-sidebar .tw-chat-with-map {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+/* Chat side */
+
+.tw-main-with-sidebar .tw-chat-column {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Chat main — FIX: the base .tw-chat-main rule above sets
+   max-width: 760px and margin: 0 auto for the old single-column
+   layout. That was never overridden here, so inside the
+   sidebar+map layout the chat column was silently capped at
+   760px and centered instead of filling the available flex
+   space. max-width: none + margin: 0 fixes that. */
+
+.tw-main-with-sidebar .tw-chat-main {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  box-sizing: border-box;
+  max-width: none;
+  margin: 0;
+}
+
+/* Input */
+
+.tw-main-with-sidebar .tw-search-docked {
+  flex-shrink: 0;
+  position: relative;
+  bottom: auto;
+  left: auto;
+  transform: none;
+  margin: 15px auto 20px;
+  z-index: 20;
+}
+
+/* Map */
+
+.tw-main-with-sidebar .tw-chat-with-map > *:last-child {
+  flex: 0 0 42%;
+  min-width: 360px;
+  height: auto;
+  min-height: 0;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.tw-main-with-sidebar .tw-footer {
+  flex-shrink: 0;
+  height: 54px;
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1100px) {
+  .tw-sidebar {
+    width: 220px;
+  }
+
+  .tw-main-with-sidebar {
+    margin-left: 220px;
+    width: calc(100% - 220px);
+  }
+
+  .tw-sidebar-item {
+    font-size: 16px;
+  }
+
+  .tw-main-with-sidebar
+    .tw-chat-with-map
+    > *:last-child {
+    flex: 0 0 40%;
+    min-width: 300px;
+  }
+}
+
+
+@media (max-width: 850px) {
+  .tw-sidebar {
+    width: 75px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tw-sidebar-logo {
+    justify-content: center;
+    padding: 0;
+    font-size: 0;
+  }
+
+  .tw-sidebar-logo-mark {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tw-sidebar-item {
+    justify-content: center;
+    padding: 10px;
+    gap: 0;
+  }
+
+  .tw-sidebar-item span {
+    display: none;
+  }
+
+  .tw-sidebar-badge {
+    position: absolute;
+    margin-left: 35px;
+    margin-top: -30px;
+    min-width: 18px;
+    height: 18px;
+    font-size: 10px;
+  }
+
+  .tw-new-chat-btn {
+    font-size: 0;
+    width: 54px;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+
+  .tw-new-chat-btn::before {
+    content: "+";
+    font-size: 25px;
+  }
+
+  .tw-profile-name,
+  .tw-profile-menu {
+    display: none;
+  }
+
+  .tw-sidebar-profile {
+    justify-content: center;
+  }
+
+  .tw-main-with-sidebar {
+    margin-left: 75px;
+    width: calc(100% - 75px);
+  }
+}
+
+
+@media (max-width: 700px) {
+  .tw-main-with-sidebar
+    .tw-chat-with-map {
+    flex-direction: column;
+  }
+
+  .tw-main-with-sidebar
+    .tw-chat-with-map
+    > *:last-child {
+    flex: 0 0 300px;
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .tw-header-right
+    .tw-session-email {
+    display: none;
+  }
+}
+.tw-guest-email-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tw-guest-email-input {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(232, 163, 61, 0.4);
+  border-radius: 999px;
+  padding: 6px 14px;
+  color: #f3efe6;
+  font-size: 13px;
+  min-width: 200px;
+}
+
+.tw-guest-email-input:focus {
+  outline: none;
+  border-color: #e8a33d;
+}
+.tw-login-prompt-input {
+  background: #ffffff;
+  border: 1px solid rgba(18, 33, 58, 0.25);
+  border-radius: 999px;
+  padding: 12px 20px;
+  color: #12213a;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+.tw-login-prompt-input::placeholder {
+  color: rgba(18, 33, 58, 0.4);
+}
+
+.tw-login-prompt-input:focus {
+  outline: none;
+  border-color: #e8a33d;
+  box-shadow: 0 0 0 3px rgba(232, 163, 61, 0.15);
+}
+.tw-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.tw-confirm-modal {
+  position: relative;
+  width: 420px;
+  padding: 35px;
+  border-radius: 22px;
+  background: #f8f4eb;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.tw-confirm-modal h2 {
+  margin: 0 0 15px;
+  color: #16263d;
+  font-size: 26px;
+}
+
+.tw-confirm-modal p {
+  margin-bottom: 28px;
+  color: #26364c;
+  font-size: 16px;
+}
+
+.tw-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  cursor: pointer;
+  color: #16263d;
+}
+
+.tw-confirm-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.tw-confirm-yes,
+.tw-confirm-cancel {
+  min-width: 110px;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tw-confirm-yes {
+  border: none;
+  background: #efa52f;
+  color: #16263d;
+}
+
+.tw-confirm-cancel {
+  border: 1px solid #efa52f;
+  background: transparent;
+  color: #efa52f;
+}
+/* =========================
+   Toast Notification
+   ========================= */
+
+.tw-toast {
+  position: fixed;
+  top: 85px;
+  right: 30px;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  min-width: 320px;
+  max-width: 420px;
+
+  padding: 15px 18px;
+
+  background: #ffffff;
+  border-radius: 14px;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+
+  animation: toastSlideIn 0.3s ease-out;
+}
+
+.tw-toast-icon {
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #e8a33d;
+  color: #ffffff;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  flex-shrink: 0;
+}
+
+.tw-toast-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+
+.tw-toast-content strong {
+  font-size: 15px;
+  color: #12213a;
+}
+
+.tw-toast-content span {
+  font-size: 13px;
+  color: #667085;
+}
+
+.tw-toast-close {
+  border: none;
+  background: transparent;
+
+  font-size: 22px;
+  color: #777;
+
+  cursor: pointer;
+
+  padding: 2px 5px;
+}
+
+.tw-toast-close:hover {
+  color: #12213a;
+}
+
+@keyframes toastSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Make the detail page own its scroll, independent of parent sizing quirks */
+.explore-detail-page {
+  height: 100vh;
+  overflow-y: auto;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 60px;
+  box-sizing: border-box;
+}
+
+/* Stop the hero image spanning full ugly width if the page is wide */
+.explore-detail-page .place-detail-image {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* Fix the action buttons: don't stretch full width, align them naturally */
+.explore-detail-page .place-detail-actions-bottom {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.explore-detail-page .place-learn-more-btn,
+.explore-detail-page .place-plan-trip-btn {
+  width: auto;
+  min-width: 160px;
+  padding: 12px 28px;
+}
+/* =========================================================
+   CHAT IMAGES — 3 IMAGES IN ONE ROW (own row, below text)
+   ========================================================= */
+
+.tw-img-with-caption {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-img-with-caption img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 0;
+  display: block;
+}
+
+.tw-img-caption {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: rgba(243, 239, 230, 0.75);
+  text-align: center;
+}
+.chat-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
+  width: 100%;
+  margin-top: 12px;
+  align-items: flex-start;
+}
+
+/* .tw-img-with-caption already sets flex: 1 1 0 / min-width: 0 above,
+   so each image+caption block shares the row evenly once it's inside
+   .chat-images — no extra selectors needed here. */
+
+@media (max-width: 600px) {
+  .chat-images {
+    flex-wrap: wrap;
+  }
+
+  .chat-images .tw-img-with-caption {
+    flex: 1 1 calc(50% - 12px);
+  }
+}

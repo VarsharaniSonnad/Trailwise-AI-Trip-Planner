@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+google-generativeai
+python-dotenv
+requests
+mcp[cli]
+openai
+motor
+tenacity
+ddgs

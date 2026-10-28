@@ -1,0 +1,412 @@
+2026-09-18 09:22:18,206 | INFO | mcp_server.py | MCP SERVER | Starting server...
+2026-09-18 09:22:27,120 | INFO | main.py | Starting Trailwise Backend...
+2026-09-18 09:22:32,806 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 09:22:33,440 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 09:22:33,441 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 09:22:34,325 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 09:28:27,042 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-18 09:28:27,331 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-18 09:28:31,295 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 09:28:31,569 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 09:28:31,570 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 09:28:32,401 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 09:28:49,181 | INFO | main.py | Starting Trailwise Backend...
+2026-09-18 09:28:52,527 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 09:28:52,791 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 09:28:52,792 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 09:28:53,649 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 09:38:07,198 | INFO | main.py | Starting Trailwise Backend...
+2026-09-18 09:38:12,000 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 09:38:12,669 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 09:38:12,670 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 09:38:13,530 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 13:32:39,059 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-18 13:32:39,338 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-18 13:32:43,917 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 13:32:44,170 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 13:32:44,171 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 13:32:45,017 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 13:34:28,156 | INFO | main.py | Starting Trailwise Backend...
+2026-09-18 13:34:31,438 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 13:34:31,684 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 13:34:31,684 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 13:34:32,544 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 13:35:07,169 | INFO | main.py | ============================================================
+2026-09-18 13:35:07,169 | INFO | main.py | PLAN | called | chat_id='f2a7e5b6-a5a1-4579-afbf-2747e96ffc95' question='hampi'
+2026-09-18 13:35:07,170 | INFO | agent.py | ============================================================
+2026-09-18 13:35:07,171 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-18 13:35:07,171 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-18 13:35:07,172 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-18 13:35:07,173 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-18 13:35:13,173 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-18 13:35:13,174 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates_tool', 'get_place_images']
+2026-09-18 13:35:13,174 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Hampi attractions and travel conditions 2026-09-18","max_results":5}
+2026-09-18 13:35:13,175 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Hampi attractions and travel conditions 2026-09-18', 'max_results': 5})
+2026-09-18 13:35:13,175 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Hampi attractions and travel conditions 2026-09-18', 'max_results': 5}
+2026-09-18 13:35:13,463 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Hampi attractions and travel conditions 2026-09-18' max_results=5
+2026-09-18 13:35:13,471 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Hampi attractions and travel conditions 2026-09-18'
+2026-09-18 13:35:16,018 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Hampi attractions and travel conditions 2026-09-18' results=5
+2026-09-18 13:35:16,024 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-18 13:35:16,025 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-18 13:35:16,025 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Hampi"}
+2026-09-18 13:35:16,025 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Hampi'})
+2026-09-18 13:35:16,025 | INFO | agent.py | MCP CLIENT | calling tool | name=get_weather_forecast | arguments={'city': 'Hampi'}
+2026-09-18 13:35:16,294 | INFO | weather_tool.py | WEATHER_TOOL | called | city='Hampi'
+2026-09-18 13:35:16,296 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='Hampi'
+2026-09-18 13:35:16,753 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='Hampi'
+2026-09-18 13:35:16,768 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-18 13:35:16,768 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-18 13:35:16,769 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Hampi"}
+2026-09-18 13:35:16,769 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Hampi'})
+2026-09-18 13:35:16,769 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Hampi'}
+2026-09-18 13:35:17,045 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-18 13:35:17,047 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-18 13:35:17,719 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-18 13:35:17,725 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-18 13:35:17,725 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-18 13:35:17,726 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Hampi","max_results":3}
+2026-09-18 13:35:17,726 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Hampi', 'max_results': 3})
+2026-09-18 13:35:17,726 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Hampi', 'max_results': 3}
+2026-09-18 13:35:17,998 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Hampi | max_results=3
+2026-09-18 13:35:18,000 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hampi' max_results=3
+2026-09-18 13:35:18,003 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hampi'
+2026-09-18 13:35:18,772 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hampi' images_found=3
+2026-09-18 13:35:18,774 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Hampi', 'images': [{'url': 'https://images.pexels.com/photos/38605003/pexels-photo-38605003.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Historic stone temple ruins in Hampi showcasing ancient Indian architecture.', 'photographer': 'Tapas S', 'photographer_url': 'https://www.pexels.com/@tapas-s-1074352640'}, {'url': 'https://images.pexels.com/photos/35269731/pexels-photo-35269731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Explore the ancient architecture of a stone temple in Hampi, Karnataka, showcasing intricate carvings and historic ruins.', 'photographer': 'Tapas S', 'photographer_url': 'https://www.pexels.com/@tapas-s-1074352640'}, {'url': 'https://images.pexels.com/photos/37626184/pexels-photo-37626184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': "Explore the historical architecture of Hampi's ancient temples in Karnataka, India at sunset.", 'photographer': 'Roman Saienko', 'photographer_url': 'https://www.pexels.com/@roman-saienko-1867764487'}]}
+2026-09-18 13:35:18,781 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-18 13:35:18,782 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-18 13:35:18,782 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-18 13:35:18,784 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-18 13:35:23,671 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-18 13:35:23,671 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-18 13:35:23,676 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-18 13:35:23,676 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-18 13:35:24,037 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-18 13:35:24,037 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete/Hospet'
+2026-09-18 13:35:24,037 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete/Hospet'
+2026-09-18 13:35:25,187 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete/Hospet' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-18 13:35:25,187 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Last-mile basics'
+2026-09-18 13:35:25,188 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Last-mile basics'
+2026-09-18 13:35:26,414 | WARNING | place_tool.py | PLACE_TOOL | no coordinates found for 'Last-mile basics'
+2026-09-18 13:35:26,414 | INFO | agent.py | AGENT | finished successfully | places found: 2
+2026-09-18 13:35:29,396 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Hampi'
+2026-09-18 13:35:33,639 | INFO | main.py | PLAN | succeeded | destination='Hampi' origin='Hosapete' places=2
+2026-09-18 13:35:33,650 | INFO | main.py | DESTINATION_IMAGES | called | query='Hosapete/Hospet India travel'
+2026-09-18 13:35:33,650 | INFO | main.py | DESTINATION_IMAGES | called | query='Hampi India travel'
+2026-09-18 13:35:33,651 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hosapete/Hospet India travel' max_results=1
+2026-09-18 13:35:33,651 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hampi India travel' max_results=1
+2026-09-18 13:35:33,651 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hampi India travel'
+2026-09-18 13:35:33,652 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hosapete/Hospet India travel'
+2026-09-18 13:35:34,572 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hampi India travel' images_found=1
+2026-09-18 13:35:34,572 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Hampi India travel' images_found=1
+2026-09-18 13:35:34,812 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hosapete/Hospet India travel' images_found=1
+2026-09-18 13:35:34,812 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Hosapete/Hospet India travel' images_found=1
+2026-09-18 13:37:28,838 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-18 13:37:29,112 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-18 13:37:34,468 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 13:37:35,097 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 13:37:35,098 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 13:37:35,958 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 13:37:44,938 | INFO | main.py | ============================================================
+2026-09-18 13:37:44,939 | INFO | main.py | PLAN | called | chat_id='f2a7e5b6-a5a1-4579-afbf-2747e96ffc95' question='goa'
+2026-09-18 13:37:44,939 | INFO | agent.py | ============================================================
+2026-09-18 13:37:44,940 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-18 13:37:44,940 | DEBUG | agent.py | AGENT | history length received: 10
+2026-09-18 13:37:44,941 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-18 13:37:44,941 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-18 13:37:50,177 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-18 13:37:50,177 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates_tool', 'get_place_images']
+2026-09-18 13:37:50,178 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Goa attractions and travel conditions 2026-09-18","max_results":5}
+2026-09-18 13:37:50,178 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Goa attractions and travel conditions 2026-09-18', 'max_results': 5})
+2026-09-18 13:37:50,178 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Goa attractions and travel conditions 2026-09-18', 'max_results': 5}
+2026-09-18 13:37:50,446 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Goa attractions and travel conditions 2026-09-18' max_results=5
+2026-09-18 13:37:50,449 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Goa attractions and travel conditions 2026-09-18'
+2026-09-18 13:37:53,723 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Goa attractions and travel conditions 2026-09-18' results=5
+2026-09-18 13:37:53,727 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-18 13:37:53,728 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-18 13:37:53,728 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Goa"}
+2026-09-18 13:37:53,728 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Goa'})
+2026-09-18 13:37:53,728 | INFO | agent.py | MCP CLIENT | calling tool | name=get_weather_forecast | arguments={'city': 'Goa'}
+2026-09-18 13:37:53,996 | INFO | weather_tool.py | WEATHER_TOOL | called | city='Goa'
+2026-09-18 13:37:53,998 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='Goa'
+2026-09-18 13:37:54,439 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='Goa'
+2026-09-18 13:37:54,452 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-18 13:37:54,452 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-18 13:37:54,452 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Goa"}
+2026-09-18 13:37:54,453 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Goa'})
+2026-09-18 13:37:54,453 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Goa'}
+2026-09-18 13:37:54,718 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Goa'
+2026-09-18 13:37:54,720 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Goa'
+2026-09-18 13:37:55,869 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Goa' -> Goa, India (class=boundary)
+2026-09-18 13:37:55,874 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-18 13:37:55,874 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-18 13:37:55,875 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Goa","max_results":3}
+2026-09-18 13:37:55,875 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Goa', 'max_results': 3})
+2026-09-18 13:37:55,875 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Goa', 'max_results': 3}
+2026-09-18 13:37:56,143 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Goa | max_results=3
+2026-09-18 13:37:56,145 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa' max_results=3
+2026-09-18 13:37:56,149 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa'
+2026-09-18 13:37:56,943 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa' images_found=3
+2026-09-18 13:37:56,946 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Goa', 'images': [{'url': 'https://images.pexels.com/photos/28368719/pexels-photo-28368719.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A picturesque view of Mandrem Beach with lush greenery and blue sky in Goa, India.', 'photographer': 'Mohit Hambiria', 'photographer_url': 'https://www.pexels.com/@mohit-hambiria-92377455'}, {'url': 'https://images.pexels.com/photos/28355680/pexels-photo-28355680.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Bustling Baga Beach in Goa, India, with people enjoying a sunny day by the sea.', 'photographer': 'Mohit Hambiria', 'photographer_url': 'https://www.pexels.com/@mohit-hambiria-92377455'}, {'url': 'https://images.pexels.com/photos/11438923/pexels-photo-11438923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Vibrant street view in Panaji, India showcasing colorful colonial architecture and bustling traffic.', 'photographer': 'Samar Mourya', 'photographer_url': 'https://www.pexels.com/@samarmourya'}]}
+2026-09-18 13:37:56,953 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-18 13:37:56,954 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-18 13:37:56,954 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-18 13:37:56,956 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-18 13:38:02,472 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-18 13:38:02,472 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-18 13:38:02,475 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Goa'
+2026-09-18 13:38:02,476 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Goa'
+2026-09-18 13:38:02,836 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Goa' -> Goa, India (class=boundary)
+2026-09-18 13:38:02,836 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Madgaon'
+2026-09-18 13:38:02,836 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Madgaon'
+2026-09-18 13:38:03,415 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Madgaon' -> Madgaon, Keskal Tahsil, Kondagaon, Chhattisgarh, India (class=place)
+2026-09-18 13:38:03,416 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Thivim'
+2026-09-18 13:38:03,416 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Thivim'
+2026-09-18 13:38:04,417 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Thivim' -> Thivim, SH1, Nivol Vaddo, Assonora, Sircaim, Bardez, North Goa, Goa, 403502, India (class=railway)
+2026-09-18 13:38:04,418 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-18 13:38:06,067 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Goa'
+2026-09-18 13:38:10,708 | INFO | main.py | PLAN | succeeded | destination='Goa' origin='' places=3
+2026-09-18 13:38:10,721 | INFO | main.py | DESTINATION_IMAGES | called | query='Madgaon India travel'
+2026-09-18 13:38:10,722 | INFO | image_tool.py | IMAGE_TOOL | called | query='Madgaon India travel' max_results=1
+2026-09-18 13:38:10,723 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Madgaon India travel'
+2026-09-18 13:38:10,725 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-18 13:38:10,726 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-18 13:38:10,727 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-18 13:38:10,728 | INFO | main.py | DESTINATION_IMAGES | called | query='Thivim India travel'
+2026-09-18 13:38:10,731 | INFO | image_tool.py | IMAGE_TOOL | called | query='Thivim India travel' max_results=1
+2026-09-18 13:38:10,733 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Thivim India travel'
+2026-09-18 13:38:11,859 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-18 13:38:11,859 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-18 13:38:11,893 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Madgaon India travel' images_found=1
+2026-09-18 13:38:11,893 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Madgaon India travel' images_found=1
+2026-09-18 13:38:11,964 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Thivim India travel' images_found=1
+2026-09-18 13:38:11,965 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Thivim India travel' images_found=1
+2026-09-18 13:38:51,688 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-18 13:38:51,964 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-18 13:38:58,054 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 13:38:58,548 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 13:38:58,549 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 13:38:59,383 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 13:40:08,030 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-18 13:40:08,304 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-18 13:40:12,533 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 13:40:12,787 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 13:40:12,788 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 13:40:13,614 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 13:40:24,637 | INFO | main.py | ============================================================
+2026-09-18 13:40:24,638 | INFO | main.py | PLAN | called | chat_id='f2a7e5b6-a5a1-4579-afbf-2747e96ffc95' question='manali'
+2026-09-18 13:40:24,638 | INFO | agent.py | ============================================================
+2026-09-18 13:40:24,639 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-18 13:40:24,640 | DEBUG | agent.py | AGENT | history length received: 20
+2026-09-18 13:40:24,641 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-18 13:40:24,641 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-18 13:40:30,603 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-18 13:40:30,604 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates_tool', 'get_place_images']
+2026-09-18 13:40:30,604 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Manali attractions and travel conditions 2026-09-18","max_results":5}
+2026-09-18 13:40:30,605 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Manali attractions and travel conditions 2026-09-18', 'max_results': 5})
+2026-09-18 13:40:30,606 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Manali attractions and travel conditions 2026-09-18', 'max_results': 5}
+2026-09-18 13:40:30,881 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Manali attractions and travel conditions 2026-09-18' max_results=5
+2026-09-18 13:40:30,890 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Manali attractions and travel conditions 2026-09-18'
+2026-09-18 13:40:35,461 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Manali attractions and travel conditions 2026-09-18' results=5
+2026-09-18 13:40:35,469 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-18 13:40:35,472 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-18 13:40:35,472 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Manali"}
+2026-09-18 13:40:35,473 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Manali'})
+2026-09-18 13:40:35,473 | INFO | agent.py | MCP CLIENT | calling tool | name=get_weather_forecast | arguments={'city': 'Manali'}
+2026-09-18 13:40:35,742 | INFO | weather_tool.py | WEATHER_TOOL | called | city='Manali'
+2026-09-18 13:40:35,746 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='Manali'
+2026-09-18 13:40:36,527 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='Manali'
+2026-09-18 13:40:36,551 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-18 13:40:36,553 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-18 13:40:36,553 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Manali"}
+2026-09-18 13:40:36,554 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Manali'})
+2026-09-18 13:40:36,555 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Manali'}
+2026-09-18 13:40:36,832 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Manali'
+2026-09-18 13:40:36,837 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Manali'
+2026-09-18 13:40:38,023 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Manali' -> Manali, Kullu, Himachal Pradesh, 175131, India (class=place)
+2026-09-18 13:40:38,030 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-18 13:40:38,031 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-18 13:40:38,031 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Manali","max_results":3}
+2026-09-18 13:40:38,031 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Manali', 'max_results': 3})
+2026-09-18 13:40:38,031 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Manali', 'max_results': 3}
+2026-09-18 13:40:38,306 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Manali | max_results=3
+2026-09-18 13:40:38,312 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali' max_results=3
+2026-09-18 13:40:38,319 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali'
+2026-09-18 13:40:39,651 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali' images_found=3
+2026-09-18 13:40:39,654 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Manali', 'images': [{'url': 'https://images.pexels.com/photos/18359798/pexels-photo-18359798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Serene misty view of forested mountains in Manali, Himachal Pradesh, India.', 'photographer': 'Soubhagya Maharana', 'photographer_url': 'https://www.pexels.com/@soubhagya23'}, {'url': 'https://images.pexels.com/photos/29494184/pexels-photo-29494184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Beautiful mountain landscape with river in Manali, Himachal Pradesh.', 'photographer': 'Kunal Gautam', 'photographer_url': 'https://www.pexels.com/@kunal-gautam-216809665'}, {'url': 'https://images.pexels.com/photos/6496159/pexels-photo-6496159.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Stunning snow-covered mountains with settlements nestled in the valley below.', 'photographer': 'Nitesh Rana', 'photographer_url': 'https://www.pexels.com/@nitesh-rana-127148'}]}
+2026-09-18 13:40:39,665 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-18 13:40:39,665 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-18 13:40:39,665 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-18 13:40:39,669 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-18 13:40:44,535 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-18 13:40:44,535 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-18 13:40:44,540 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Manali'
+2026-09-18 13:40:44,541 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Manali'
+2026-09-18 13:40:45,203 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Manali' -> Manali, Kullu, Himachal Pradesh, 175131, India (class=place)
+2026-09-18 13:40:45,203 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Joginder Nagar'
+2026-09-18 13:40:45,204 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Joginder Nagar'
+2026-09-18 13:40:46,210 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Joginder Nagar' -> Joginder Nagar, Great Nicobar, Nicobar, Andaman and Nicobar Islands, India (class=place)
+2026-09-18 13:40:46,211 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Pathankot'
+2026-09-18 13:40:46,211 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Pathankot'
+2026-09-18 13:40:47,192 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Pathankot' -> Pathankot, Punjab, India (class=boundary)
+2026-09-18 13:40:47,193 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Last-mile basics'
+2026-09-18 13:40:47,193 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Last-mile basics'
+2026-09-18 13:40:47,557 | WARNING | place_tool.py | PLACE_TOOL | no coordinates found for 'Last-mile basics'
+2026-09-18 13:40:47,557 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-18 13:40:48,885 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Manali'
+2026-09-18 13:40:55,281 | INFO | main.py | PLAN | succeeded | destination='Manali' origin='' places=3
+2026-09-18 13:40:55,295 | INFO | main.py | DESTINATION_IMAGES | called | query='Joginder Nagar India travel'
+2026-09-18 13:40:55,296 | INFO | image_tool.py | IMAGE_TOOL | called | query='Joginder Nagar India travel' max_results=1
+2026-09-18 13:40:55,298 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Joginder Nagar India travel'
+2026-09-18 13:40:55,298 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-18 13:40:55,299 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-18 13:40:55,301 | INFO | main.py | DESTINATION_IMAGES | called | query='Pathankot India travel'
+2026-09-18 13:40:55,301 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-18 13:40:55,302 | INFO | image_tool.py | IMAGE_TOOL | called | query='Pathankot India travel' max_results=1
+2026-09-18 13:40:55,306 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Pathankot India travel'
+2026-09-18 13:40:56,350 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-18 13:40:56,353 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Joginder Nagar India travel' images_found=1
+2026-09-18 13:40:56,353 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-18 13:40:56,353 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Joginder Nagar India travel' images_found=1
+2026-09-18 13:40:56,372 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Pathankot India travel' images_found=1
+2026-09-18 13:40:56,372 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Pathankot India travel' images_found=1
+2026-09-18 13:41:31,931 | INFO | main.py | Starting Trailwise Backend...
+2026-09-18 13:41:35,270 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 13:41:35,544 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 13:41:35,544 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 13:41:36,404 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 13:41:45,491 | INFO | main.py | ============================================================
+2026-09-18 13:41:45,491 | INFO | main.py | PLAN | called | chat_id='3f270b72-38dd-48da-b71d-ed799bba9f4f' question='manali'
+2026-09-18 13:41:45,492 | INFO | agent.py | ============================================================
+2026-09-18 13:41:45,492 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-18 13:41:45,493 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-18 13:41:45,493 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-18 13:41:45,494 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-18 13:41:50,588 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-18 13:41:50,589 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates_tool', 'get_place_images']
+2026-09-18 13:41:50,589 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Manali travel attractions and conditions 2026 September","max_results":5}
+2026-09-18 13:41:50,590 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Manali travel attractions and conditions 2026 September', 'max_results': 5})
+2026-09-18 13:41:50,591 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Manali travel attractions and conditions 2026 September', 'max_results': 5}
+2026-09-18 13:41:50,860 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Manali travel attractions and conditions 2026 September' max_results=5
+2026-09-18 13:41:50,865 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Manali travel attractions and conditions 2026 September'
+2026-09-18 13:41:53,598 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Manali travel attractions and conditions 2026 September' results=5
+2026-09-18 13:41:53,609 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-18 13:41:53,612 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-18 13:41:53,613 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Manali"}
+2026-09-18 13:41:53,613 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Manali'})
+2026-09-18 13:41:53,614 | INFO | agent.py | MCP CLIENT | calling tool | name=get_weather_forecast | arguments={'city': 'Manali'}
+2026-09-18 13:41:53,883 | INFO | weather_tool.py | WEATHER_TOOL | called | city='Manali'
+2026-09-18 13:41:53,889 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='Manali'
+2026-09-18 13:41:54,674 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='Manali'
+2026-09-18 13:41:54,692 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-18 13:41:54,693 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-18 13:41:54,693 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Manali"}
+2026-09-18 13:41:54,694 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Manali'})
+2026-09-18 13:41:54,695 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Manali'}
+2026-09-18 13:41:54,977 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Manali'
+2026-09-18 13:41:54,980 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Manali'
+2026-09-18 13:41:55,717 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Manali' -> Manali, Kullu, Himachal Pradesh, 175131, India (class=place)
+2026-09-18 13:41:55,724 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-18 13:41:55,725 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-18 13:41:55,725 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Manali","max_results":3}
+2026-09-18 13:41:55,726 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Manali', 'max_results': 3})
+2026-09-18 13:41:55,726 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Manali', 'max_results': 3}
+2026-09-18 13:41:55,995 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Manali | max_results=3
+2026-09-18 13:41:55,998 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali' max_results=3
+2026-09-18 13:41:56,002 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali'
+2026-09-18 13:41:57,276 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali' images_found=3
+2026-09-18 13:41:57,279 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Manali', 'images': [{'url': 'https://images.pexels.com/photos/18359798/pexels-photo-18359798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Serene misty view of forested mountains in Manali, Himachal Pradesh, India.', 'photographer': 'Soubhagya Maharana', 'photographer_url': 'https://www.pexels.com/@soubhagya23'}, {'url': 'https://images.pexels.com/photos/29494184/pexels-photo-29494184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Beautiful mountain landscape with river in Manali, Himachal Pradesh.', 'photographer': 'Kunal Gautam', 'photographer_url': 'https://www.pexels.com/@kunal-gautam-216809665'}, {'url': 'https://images.pexels.com/photos/6496159/pexels-photo-6496159.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Stunning snow-covered mountains with settlements nestled in the valley below.', 'photographer': 'Nitesh Rana', 'photographer_url': 'https://www.pexels.com/@nitesh-rana-127148'}]}
+2026-09-18 13:41:57,290 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-18 13:41:57,291 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-18 13:41:57,293 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-18 13:41:57,298 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-18 13:42:00,975 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-18 13:42:00,975 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-18 13:42:00,981 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Manali'
+2026-09-18 13:42:00,981 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Manali'
+2026-09-18 13:42:01,711 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Manali' -> Manali, Kullu, Himachal Pradesh, 175131, India (class=place)
+2026-09-18 13:42:01,711 | INFO | agent.py | AGENT | finished successfully | places found: 1
+2026-09-18 13:42:02,723 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Manali'
+2026-09-18 13:42:06,514 | INFO | main.py | PLAN | succeeded | destination='Manali' origin='' places=1
+2026-09-18 13:42:06,525 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-18 13:42:06,525 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-18 13:42:06,526 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-18 13:42:07,806 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-18 13:42:07,807 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-18 13:47:31,578 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-18 13:47:31,850 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-18 13:47:37,147 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 13:47:37,408 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 13:47:37,409 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 13:47:38,239 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 13:58:07,311 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-18 13:58:07,603 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-18 13:58:12,204 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 13:58:12,493 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 13:58:12,493 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 13:58:13,334 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 14:02:40,089 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-18 14:02:40,379 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-18 14:02:44,876 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-18 14:02:45,147 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-18 14:02:45,148 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-18 14:02:46,268 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-18 14:25:49,098 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-18 14:25:49,100 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-18 14:25:49,100 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-18 14:25:49,101 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-18 14:25:49,101 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-18 14:25:49,102 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-18 14:25:49,102 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-18 14:25:49,103 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-18 14:25:49,103 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-18 14:25:49,104 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-18 14:25:49,104 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-18 14:25:49,105 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-18 14:25:49,108 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-18 14:25:49,112 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-18 14:25:49,125 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-18 14:25:49,125 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-18 14:25:49,133 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-18 14:25:49,134 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-18 14:25:50,736 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-18 14:25:50,737 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-18 14:25:50,741 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-18 14:25:50,742 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-18 14:25:50,744 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-18 14:25:50,779 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-18 14:25:50,784 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-18 14:25:50,785 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-18 14:25:50,785 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-18 14:25:50,795 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-18 14:25:50,796 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-18 14:25:50,797 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-18 14:25:50,798 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-18 14:25:50,799 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-18 14:25:50,801 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-18 14:25:50,831 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-18 14:25:50,831 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-18 14:25:50,838 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-18 14:25:50,839 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-18 14:25:50,839 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-18 14:25:50,876 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-18 14:25:50,877 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-18 14:25:50,883 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-18 14:25:50,884 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-18 14:25:50,885 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-18 14:25:51,052 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-18 14:25:51,053 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-18 14:25:51,058 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-18 14:25:51,059 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-18 14:25:51,060 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-18 14:25:52,343 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-18 14:25:52,346 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-18 14:25:52,347 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-18 14:25:52,351 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-18 14:25:52,350 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-18 14:25:52,355 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-18 14:25:52,427 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-18 14:25:52,428 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-18 14:25:52,647 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-18 14:25:52,649 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-18 14:25:52,949 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-18 14:25:52,950 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1

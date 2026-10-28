@@ -1,0 +1,738 @@
+/* ==================================================
+   MAIN MAP PANEL
+   ================================================== */
+
+.tw-map-panel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* ==================================================
+   MAP CONTAINER
+   ================================================== */
+
+.tw-map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
+
+/* ==================================================
+   LEAFLET MAP
+   ================================================== */
+
+.tw-map {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+
+/*
+   IMPORTANT:
+   Leaflet itself needs an explicit height.
+*/
+
+.tw-map-container .leaflet-container {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background: #d9d9d9;
+  font-family: "Inter", sans-serif;
+}
+
+
+/* ==================================================
+   LEAFLET CONTROLS
+   ================================================== */
+
+.tw-map-container .leaflet-control-container {
+  z-index: 1000;
+}
+
+.tw-map-container .leaflet-control-zoom {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.tw-map-container .leaflet-control-zoom a {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 22px;
+}
+
+
+/* ==================================================
+   FLOATING PLACE CARD
+   ==================================================
+
+   This card is NOT a Leaflet popup.
+
+   It sits directly ON TOP of the map.
+
+   ================================================== */
+
+.tw-hover-place-card {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  width: 370px;
+  max-width: calc(100% - 40px);
+
+  z-index: 2000;
+
+  background: #ffffff;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 10px 35px rgba(0, 0, 0, 0.25);
+
+  animation:
+    tw-place-card-appear
+    0.18s ease-out;
+}
+
+
+/* ==================================================
+   CARD ANIMATION
+   ================================================== */
+
+@keyframes tw-place-card-appear {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+/* ==================================================
+   PLACE CARD
+   ================================================== */
+
+.tw-popup-card {
+  width: 100%;
+  background: #ffffff;
+}
+
+
+/* ==================================================
+   PHOTO
+   ================================================== */
+
+.tw-popup-photo {
+  position: relative;
+
+  width: 100%;
+  height: 230px;
+
+  background: #f2efe9;
+
+  overflow: hidden;
+}
+
+
+.tw-popup-photo img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+
+/* ==================================================
+   NO PHOTO
+   ================================================== */
+
+.tw-popup-photo-empty {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #999999;
+
+  font-size: 14px;
+}
+
+
+/* ==================================================
+   PHOTO NAVIGATION
+   ================================================== */
+
+.tw-popup-photo-nav {
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 36px;
+  height: 36px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.9);
+
+  color: #333333;
+
+  font-size: 26px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 3;
+
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.2);
+
+  transition:
+    background 0.15s ease,
+    transform 0.15s ease;
+}
+
+
+.tw-popup-photo-nav:hover {
+  background: #ffffff;
+}
+
+
+.tw-popup-photo-nav:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+
+.tw-popup-photo-prev {
+  left: 10px;
+}
+
+
+.tw-popup-photo-next {
+  right: 10px;
+}
+
+
+/* ==================================================
+   PHOTO DOTS
+   ================================================== */
+
+.tw-popup-photo-dots {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 6px;
+
+  z-index: 3;
+}
+
+
+.tw-popup-dot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.6);
+
+  transition:
+    transform 0.15s ease,
+    background 0.15s ease;
+}
+
+
+.tw-popup-dot--active {
+  background: #ffffff;
+  transform: scale(1.15);
+}
+
+
+/* ==================================================
+   CARD BODY
+   ================================================== */
+
+.tw-popup-body {
+  padding: 16px 18px 18px;
+}
+
+
+/* ==================================================
+   ROLE
+   ================================================== */
+
+.tw-popup-role {
+  font-size: 10px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.06em;
+
+  color: #0f6b4c;
+
+  font-weight: 700;
+
+  margin-bottom: 5px;
+}
+
+
+/* ==================================================
+   NAME
+   ================================================== */
+
+.tw-popup-name {
+  font-size: 21px;
+
+  font-weight: 700;
+
+  line-height: 1.2;
+
+  color: #1f1c19;
+}
+
+
+/* ==================================================
+   ADDRESS
+   ================================================== */
+
+.tw-popup-address {
+  font-size: 13px;
+
+  color: #7a736a;
+
+  margin-top: 6px;
+
+  line-height: 1.4;
+}
+
+
+/* ==================================================
+   TRAVEL MODE
+   ================================================== */
+
+.tw-popup-mode {
+  font-size: 13px;
+
+  color: #1f1c19;
+
+  margin-top: 9px;
+}
+
+
+/* ==================================================
+   START / DESTINATION STATUS
+   ================================================== */
+
+.tw-selected-status {
+  display: flex;
+
+  gap: 7px;
+
+  margin-top: 10px;
+
+  flex-wrap: wrap;
+}
+
+
+.tw-start-badge,
+.tw-destination-badge {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 5px 9px;
+
+  border-radius: 20px;
+
+  font-size: 11px;
+
+  font-weight: 600;
+}
+
+
+.tw-start-badge {
+  background: #e8f5ee;
+  color: #0f6b4c;
+}
+
+
+.tw-destination-badge {
+  background: #fff1df;
+  color: #b56a00;
+}
+
+
+/* ==================================================
+   ACTION BUTTONS
+   ================================================== */
+
+.tw-place-actions {
+  display: flex;
+
+  gap: 8px;
+
+  margin-top: 14px;
+}
+
+
+.tw-start-button,
+.tw-destination-button {
+  flex: 1;
+
+  min-height: 40px;
+
+  border-radius: 9px;
+
+  cursor: pointer;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  transition:
+    background 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+
+/* ==================================================
+   START BUTTON
+   ================================================== */
+
+.tw-start-button {
+  border: 1px solid #0f6b4c;
+
+  background: #ffffff;
+
+  color: #0f6b4c;
+}
+
+
+.tw-start-button:hover {
+  background: #eaf6f0;
+}
+
+
+/* ==================================================
+   DESTINATION BUTTON
+   ================================================== */
+
+.tw-destination-button {
+  border: 1px solid #d68a16;
+
+  background: #ffffff;
+
+  color: #b56a00;
+}
+
+
+.tw-destination-button:hover {
+  background: #fff5e7;
+}
+
+
+/* ==================================================
+   SELECTED BUTTON
+   ================================================== */
+
+.tw-button-selected {
+  color: #ffffff !important;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+
+.tw-start-button.tw-button-selected {
+  background: #0f6b4c;
+
+  border-color: #0f6b4c;
+}
+
+
+.tw-destination-button.tw-button-selected {
+  background: #d68a16;
+
+  border-color: #d68a16;
+}
+
+
+/* ==================================================
+   PHOTO CREDIT
+   ================================================== */
+
+.tw-popup-credit {
+  font-size: 10px;
+
+  color: #a39c92;
+
+  margin-top: 11px;
+}
+
+
+.tw-popup-credit a {
+  color: #8c857c;
+
+  text-decoration: none;
+}
+
+
+.tw-popup-credit a:hover {
+  text-decoration: underline;
+}
+
+
+/* ==================================================
+   ROUTE STATUS
+   ================================================== */
+
+.tw-route-status {
+  position: absolute;
+
+  right: 20px;
+  bottom: 20px;
+
+  z-index: 1500;
+
+  width: 230px;
+
+  padding: 13px 15px;
+
+  background: rgba(255, 255, 255, 0.96);
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 5px 20px rgba(0, 0, 0, 0.16);
+
+  font-size: 12px;
+
+  color: #333333;
+}
+
+
+/* ==================================================
+   ROUTE STATUS TITLE
+   ================================================== */
+
+.tw-route-status-title {
+  font-size: 13px;
+
+  font-weight: 700;
+
+  margin-bottom: 8px;
+
+  color: #1f1c19;
+}
+
+
+/* ==================================================
+   ROUTE STATUS ROW
+   ================================================== */
+
+.tw-route-status-row {
+  margin-top: 5px;
+
+  line-height: 1.4;
+}
+
+
+/* ==================================================
+   ROUTE READY
+   ================================================== */
+
+.tw-route-ready {
+  margin-top: 9px;
+
+  padding-top: 8px;
+
+  border-top: 1px solid #e5e5e5;
+
+  color: #0f6b4c;
+
+  font-weight: 700;
+}
+
+
+/* ==================================================
+   MAP MARKER / POPUP SAFETY
+   ================================================== */
+
+.tw-map-container .leaflet-pane {
+  z-index: auto;
+}
+
+
+.tw-map-container .leaflet-map-pane {
+  z-index: 1;
+}
+
+
+.tw-map-container .leaflet-marker-pane {
+  z-index: 600;
+}
+
+
+.tw-map-container .leaflet-overlay-pane {
+  z-index: 400;
+}
+
+
+.tw-map-container .leaflet-shadow-pane {
+  z-index: 500;
+}
+
+
+.tw-map-container .leaflet-popup-pane {
+  z-index: 700;
+}
+
+
+/* ==================================================
+   MOBILE
+   ================================================== */
+
+@media (max-width: 700px) {
+
+  .tw-hover-place-card {
+    top: 12px;
+
+    left: 12px;
+
+    width: calc(100% - 24px);
+
+    max-width: none;
+  }
+
+
+  .tw-popup-photo {
+    height: 200px;
+  }
+
+
+  .tw-popup-name {
+    font-size: 18px;
+  }
+
+
+  .tw-place-actions {
+    flex-direction: column;
+  }
+
+
+  .tw-route-status {
+    right: 12px;
+
+    bottom: 12px;
+
+    width: 200px;
+  }
+
+
+  .tw-map-container .leaflet-control-zoom {
+    margin-top: 10px;
+
+    margin-left: 10px;
+  }
+
+
+  .tw-map-container .leaflet-control-zoom a {
+    width: 34px;
+
+    height: 34px;
+
+    line-height: 34px;
+  }
+}
+
+
+/* ==================================================
+   SMALL MOBILE
+   ================================================== */
+
+@media (max-width: 450px) {
+
+  .tw-hover-place-card {
+    top: 8px;
+
+    left: 8px;
+
+    width: calc(100% - 16px);
+  }
+
+
+  .tw-popup-photo {
+    height: 180px;
+  }
+
+
+  .tw-popup-body {
+    padding: 14px 15px 16px;
+  }
+
+
+  .tw-route-status {
+    right: 8px;
+
+    bottom: 8px;
+
+    width: 180px;
+
+    padding: 11px 12px;
+  }
+}
+
+
+/* ==================================================
+   REDUCED MOTION
+   ================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .tw-hover-place-card {
+    animation: none;
+  }
+
+
+  .tw-popup-photo-nav,
+  .tw-popup-dot,
+  .tw-start-button,
+  .tw-destination-button {
+    transition: none;
+  }
+}

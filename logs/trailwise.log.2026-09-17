@@ -1,0 +1,1317 @@
+2026-09-17 09:17:53,210 | INFO | mcp_server.py | MCP SERVER | Starting server...
+2026-09-17 09:18:01,417 | INFO | main.py | Starting Trailwise Backend...
+2026-09-17 09:18:06,186 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 09:18:06,187 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 09:18:06,191 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 09:18:06,192 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 09:18:06,193 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 09:18:06,194 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 09:18:06,196 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 09:18:06,196 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 09:18:06,197 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 09:18:06,198 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 09:18:06,199 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 09:18:06,200 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 09:18:06,207 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 09:18:06,208 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 09:18:06,210 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 09:18:06,214 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 09:18:06,216 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 09:18:06,217 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 09:18:07,445 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:18:07,447 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:18:07,448 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:18:07,451 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:18:07,458 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:18:07,461 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:18:07,466 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:18:07,469 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:18:07,480 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 09:18:07,482 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 09:18:07,485 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 09:18:07,486 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 09:18:07,486 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 09:18:07,485 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 09:18:07,487 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 09:18:07,488 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 09:18:07,489 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 09:18:07,494 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 09:18:07,496 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 09:18:07,502 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 09:18:08,052 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:18:08,056 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:18:08,070 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 09:18:08,072 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 09:18:08,074 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 09:18:08,298 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:18:08,301 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:18:08,307 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 09:18:08,307 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 09:18:08,308 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 09:18:08,703 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:18:08,704 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:18:08,712 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:18:08,715 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:18:08,715 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:18:08,718 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:18:08,722 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:18:08,723 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:18:09,492 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:18:09,492 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:18:10,084 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:18:10,085 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:18:48,780 | INFO | main.py | ============================================================
+2026-09-17 09:18:48,780 | INFO | main.py | PLAN | called | chat_id='1f73424f-cbec-4cdb-9d39-d26252f81907' question='hampi'
+2026-09-17 09:18:48,781 | INFO | agent.py | ============================================================
+2026-09-17 09:18:48,783 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 09:18:48,789 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-17 09:18:48,791 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 09:18:48,792 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 09:18:55,451 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 09:18:55,452 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates_tool', 'get_place_images']
+2026-09-17 09:18:55,452 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Hampi sightseeing and travel conditions 2026 September","max_results":5}
+2026-09-17 09:18:55,453 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Hampi sightseeing and travel conditions 2026 September', 'max_results': 5})
+2026-09-17 09:18:55,453 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:18:55,719 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:18:55,719 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:18:56,535 | INFO | agent.py | MCP CLIENT | session initialized | tool=web_search
+2026-09-17 09:18:56,535 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Hampi sightseeing and travel conditions 2026 September', 'max_results': 5}
+2026-09-17 09:18:56,803 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Hampi sightseeing and travel conditions 2026 September' max_results=5
+2026-09-17 09:18:56,807 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Hampi sightseeing and travel conditions 2026 September'
+2026-09-17 09:18:59,047 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Hampi sightseeing and travel conditions 2026 September' results=5
+2026-09-17 09:18:59,311 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-17 09:18:59,311 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-17 09:18:59,312 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Hampi"}
+2026-09-17 09:18:59,312 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Hampi'})
+2026-09-17 09:18:59,312 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:18:59,596 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:18:59,597 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:19:00,401 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_weather_forecast
+2026-09-17 09:19:00,401 | INFO | agent.py | MCP CLIENT | calling tool | name=get_weather_forecast | arguments={'city': 'Hampi'}
+2026-09-17 09:19:00,662 | INFO | weather_tool.py | WEATHER_TOOL | called | city='Hampi'
+2026-09-17 09:19:00,664 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='Hampi'
+2026-09-17 09:19:01,170 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='Hampi'
+2026-09-17 09:19:01,450 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-17 09:19:01,451 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-17 09:19:01,451 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Hampi"}
+2026-09-17 09:19:01,452 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Hampi'})
+2026-09-17 09:19:01,452 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:19:02,242 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:19:02,244 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:19:03,088 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_place_coordinates_tool
+2026-09-17 09:19:03,093 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Hampi'}
+2026-09-17 09:19:03,378 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-17 09:19:03,386 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-17 09:19:04,820 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-17 09:19:05,110 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-17 09:19:05,111 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-17 09:19:05,111 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Hampi","max_results":3}
+2026-09-17 09:19:05,113 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Hampi', 'max_results': 3})
+2026-09-17 09:19:05,114 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:19:05,829 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:19:05,832 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:19:06,672 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_place_images
+2026-09-17 09:19:06,673 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Hampi', 'max_results': 3}
+2026-09-17 09:19:06,958 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Hampi | max_results=3
+2026-09-17 09:19:06,963 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hampi' max_results=3
+2026-09-17 09:19:06,973 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hampi'
+2026-09-17 09:19:07,934 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hampi' images_found=3
+2026-09-17 09:19:07,937 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Hampi', 'images': [{'url': 'https://images.pexels.com/photos/38605003/pexels-photo-38605003.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Historic stone temple ruins in Hampi showcasing ancient Indian architecture.', 'photographer': 'Tapas S', 'photographer_url': 'https://www.pexels.com/@tapas-s-1074352640'}, {'url': 'https://images.pexels.com/photos/35269731/pexels-photo-35269731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Explore the ancient architecture of a stone temple in Hampi, Karnataka, showcasing intricate carvings and historic ruins.', 'photographer': 'Tapas S', 'photographer_url': 'https://www.pexels.com/@tapas-s-1074352640'}, {'url': 'https://images.pexels.com/photos/37626184/pexels-photo-37626184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': "Explore the historical architecture of Hampi's ancient temples in Karnataka, India at sunset.", 'photographer': 'Roman Saienko', 'photographer_url': 'https://www.pexels.com/@roman-saienko-1867764487'}]}
+2026-09-17 09:19:08,286 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-17 09:19:08,293 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-17 09:19:08,298 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-17 09:19:08,303 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-17 09:19:12,636 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-17 09:19:12,636 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-17 09:19:12,642 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-17 09:19:12,642 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-17 09:19:12,970 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-17 09:19:12,970 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 09:19:12,971 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 09:19:13,957 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 09:19:13,958 | INFO | agent.py | AGENT | finished successfully | places found: 2
+2026-09-17 09:19:16,279 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Hampi'
+2026-09-17 09:19:18,831 | INFO | main.py | PLAN | succeeded | destination='Hampi' origin='' places=2
+2026-09-17 09:19:18,841 | INFO | main.py | DESTINATION_IMAGES | called | query='Hampi India travel'
+2026-09-17 09:19:18,841 | INFO | main.py | DESTINATION_IMAGES | called | query='Hosapete India travel'
+2026-09-17 09:19:18,841 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hampi India travel' max_results=1
+2026-09-17 09:19:18,841 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hosapete India travel' max_results=1
+2026-09-17 09:19:18,842 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hampi India travel'
+2026-09-17 09:19:18,842 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hosapete India travel'
+2026-09-17 09:19:19,558 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hampi India travel' images_found=1
+2026-09-17 09:19:19,559 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Hampi India travel' images_found=1
+2026-09-17 09:19:19,603 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hosapete India travel' images_found=1
+2026-09-17 09:19:19,604 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Hosapete India travel' images_found=1
+2026-09-17 09:25:29,755 | INFO | main.py | ============================================================
+2026-09-17 09:25:29,756 | INFO | main.py | PLAN | called | chat_id='1f73424f-cbec-4cdb-9d39-d26252f81907' question='on 20th sept i will travel from raichur'
+2026-09-17 09:25:29,756 | INFO | agent.py | ============================================================
+2026-09-17 09:25:29,757 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 09:25:29,757 | DEBUG | agent.py | AGENT | history length received: 10
+2026-09-17 09:25:29,757 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 09:25:29,758 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 09:25:31,794 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 09:25:31,794 | INFO | agent.py | AGENT | round 1 | model requested 2 tool(s): ['get_train_schedule', 'get_bus_schedule']
+2026-09-17 09:25:31,795 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Hosapete","date":"2026-09-20"}
+2026-09-17 09:25:31,795 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-20'})
+2026-09-17 09:25:31,796 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:25:32,347 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:25:32,348 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:25:33,181 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_train_schedule
+2026-09-17 09:25:33,182 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-20'}
+2026-09-17 09:25:33,470 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Hosapete on 2026-09-20
+2026-09-17 09:25:33,473 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Hosapete on 2026-09-20
+2026-09-17 09:25:33,478 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 09:25:33,485 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 09:25:33,488 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 09:25:34,411 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 09:25:34,415 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 09:25:35,347 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 09:25:35,350 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 09:25:35,352 | INFO | place_tool.py | STATION_TOOL | resolving 'Hosapete'
+2026-09-17 09:25:35,357 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 09:25:35,360 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 09:25:36,415 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 09:25:36,420 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Hosapete'
+2026-09-17 09:25:37,314 | INFO | place_tool.py | STATION_TOOL | resolved | 'Hosapete' -> Hospet Jn (HPT)
+2026-09-17 09:25:37,318 | INFO | train_tool.py | TRAIN_TOOL | destination resolved | Hosapete -> HPT
+2026-09-17 09:25:37,323 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=RC | to=HPT | params={'date': '2026-09-20'}
+2026-09-17 09:25:38,164 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-17 09:25:38,167 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'RC', 'name': 'Raichur'}, 'to': {'code': 'HPT', 'name': 'Hospet Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-17T09:25:37+05:30', 'traceId': '493f8420-ea44-4320-a3d7-4acdd42443ed', 'source': 'database', 'executionTime': 34}}
+2026-09-17 09:25:38,176 | INFO | train_tool.py | TRAIN_TOOL | no trains found | RC -> HPT on 2026-09-20
+2026-09-17 09:25:38,180 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'RC', 'to': 'HPT', 'date': '2026-09-20', 'trains': []}
+2026-09-17 09:25:38,464 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 09:25:38,468 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 09:25:38,469 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 09:25:38,470 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 09:25:38,471 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:25:39,012 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:25:39,013 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:25:39,832 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_bus_schedule
+2026-09-17 09:25:39,832 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 09:25:40,386 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 09:25:40,387 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 09:25:40,388 | INFO | agent.py | AGENT | round 1 | all 2 tool call(s) completed
+2026-09-17 09:25:40,390 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-17 09:25:41,929 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-17 09:25:41,929 | INFO | agent.py | AGENT | round 2 | model requested 1 tool(s): ['get_bus_schedule']
+2026-09-17 09:25:41,929 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 09:25:41,930 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 09:25:41,931 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:25:42,499 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:25:42,500 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:25:43,318 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_bus_schedule
+2026-09-17 09:25:43,319 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 09:25:43,875 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 09:25:43,878 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 09:25:43,879 | INFO | agent.py | AGENT | round 2 | all 1 tool call(s) completed
+2026-09-17 09:25:43,880 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-17 09:25:45,253 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-17 09:25:45,257 | INFO | agent.py | AGENT | round 3 | model requested 1 tool(s): ['get_bus_schedule']
+2026-09-17 09:25:45,258 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 09:25:45,258 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 09:25:45,259 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:25:45,798 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:25:45,798 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:25:46,624 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_bus_schedule
+2026-09-17 09:25:46,625 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 09:25:47,179 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 09:25:47,180 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 09:25:47,182 | INFO | agent.py | AGENT | round 3 | all 1 tool call(s) completed
+2026-09-17 09:25:47,183 | INFO | agent.py | AGENT | round 3 | sending tool results back to OpenAI
+2026-09-17 09:25:48,673 | INFO | agent.py | AGENT | round 3 | OpenAI responded
+2026-09-17 09:25:48,673 | INFO | agent.py | AGENT | round 4 | model requested 1 tool(s): ['get_bus_schedule']
+2026-09-17 09:25:48,673 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 09:25:48,674 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 09:25:48,675 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:25:49,248 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:25:49,249 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:25:50,080 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_bus_schedule
+2026-09-17 09:25:50,082 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 09:25:50,632 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 09:25:50,632 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 09:25:50,633 | INFO | agent.py | AGENT | round 4 | all 1 tool call(s) completed
+2026-09-17 09:25:50,636 | INFO | agent.py | AGENT | round 4 | sending tool results back to OpenAI
+2026-09-17 09:25:52,363 | INFO | agent.py | AGENT | round 4 | OpenAI responded
+2026-09-17 09:25:52,365 | INFO | agent.py | AGENT | round 5 | model requested 1 tool(s): ['get_bus_schedule']
+2026-09-17 09:25:52,365 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 09:25:52,366 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 09:25:52,366 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:25:53,019 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:25:53,020 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:25:53,848 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_bus_schedule
+2026-09-17 09:25:53,849 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 09:25:54,385 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 09:25:54,389 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 09:25:54,391 | INFO | agent.py | AGENT | round 5 | all 1 tool call(s) completed
+2026-09-17 09:25:54,393 | INFO | agent.py | AGENT | round 5 | sending tool results back to OpenAI
+2026-09-17 09:25:57,239 | INFO | agent.py | AGENT | round 5 | OpenAI responded
+2026-09-17 09:25:57,240 | INFO | agent.py | AGENT | round 6 | model requested 1 tool(s): ['get_train_schedule']
+2026-09-17 09:25:57,240 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Hosapete","date":"2026-09-21"}
+2026-09-17 09:25:57,241 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-21'})
+2026-09-17 09:25:57,241 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:25:57,807 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:25:57,808 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:25:58,638 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_train_schedule
+2026-09-17 09:25:58,639 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-21'}
+2026-09-17 09:25:58,911 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Hosapete on 2026-09-21
+2026-09-17 09:25:58,918 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Hosapete on 2026-09-21
+2026-09-17 09:25:58,921 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 09:25:58,926 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 09:25:58,931 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 09:25:59,589 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 09:25:59,592 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 09:26:00,600 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 09:26:00,604 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 09:26:00,612 | INFO | place_tool.py | STATION_TOOL | resolving 'Hosapete'
+2026-09-17 09:26:00,616 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 09:26:00,622 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 09:26:01,299 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 09:26:01,304 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Hosapete'
+2026-09-17 09:26:02,276 | INFO | place_tool.py | STATION_TOOL | resolved | 'Hosapete' -> Hospet Jn (HPT)
+2026-09-17 09:26:02,279 | INFO | train_tool.py | TRAIN_TOOL | destination resolved | Hosapete -> HPT
+2026-09-17 09:26:02,287 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=RC | to=HPT | params={'date': '2026-09-21'}
+2026-09-17 09:26:03,313 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-17 09:26:03,316 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'RC', 'name': 'Raichur'}, 'to': {'code': 'HPT', 'name': 'Hospet Jn'}, 'trains': [{'train': {'number': '17073', 'name': 'Belagavi Express', 'type': 'Mail/Express', 'runDays': ['mon'], 'runningDaysBitmap': 1}, 'from': {'code': 'RC', 'name': 'Raichur', 'city': 'Raichur', 'departure': '21:40', 'day': 1, 'sequence': 46}, 'to': {'code': 'HPT', 'name': 'Hospet Jn', 'city': 'Hosapete', 'arrival': '03:55', 'day': 2, 'sequence': 79}, 'distance': 236.8, 'duration': 375, 'totalHaltsBetween': 6}], 'count': 1}, 'meta': {'timestamp': '2026-09-17T09:26:02+05:30', 'traceId': '55098683-50f1-4d43-baa3-515545d79147', 'source': 'database', 'executionTime': 67}}
+2026-09-17 09:26:03,326 | INFO | train_tool.py | TRAIN_TOOL | succeeded | RC -> HPT on 2026-09-21 | 1 train(s) found
+2026-09-17 09:26:03,332 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'RC', 'to': 'HPT', 'date': '2026-09-21', 'trains': [{'train_number': '17073', 'train_name': 'Belagavi Express', 'train_type': 'Mail/Express', 'departure_time': '21:40', 'arrival_time': '03:55', 'duration_minutes': 375, 'distance_km': 236.8}]}
+2026-09-17 09:26:03,626 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 09:26:03,627 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 09:26:03,628 | INFO | agent.py | AGENT | round 6 | all 1 tool call(s) completed
+2026-09-17 09:26:03,629 | INFO | agent.py | AGENT | round 6 | sending tool results back to OpenAI
+2026-09-17 09:26:05,138 | INFO | agent.py | AGENT | round 6 | OpenAI responded
+2026-09-17 09:26:05,139 | INFO | agent.py | AGENT | round 7 | model requested 1 tool(s): ['get_bus_schedule']
+2026-09-17 09:26:05,140 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 09:26:05,140 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 09:26:05,141 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:26:05,694 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:26:05,696 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:26:06,541 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_bus_schedule
+2026-09-17 09:26:06,542 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 09:26:07,087 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 09:26:07,090 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 09:26:07,093 | INFO | agent.py | AGENT | round 7 | all 1 tool call(s) completed
+2026-09-17 09:26:07,093 | INFO | agent.py | AGENT | round 7 | sending tool results back to OpenAI
+2026-09-17 09:26:08,913 | INFO | agent.py | AGENT | round 7 | OpenAI responded
+2026-09-17 09:26:08,914 | INFO | agent.py | AGENT | round 8 | model requested 1 tool(s): ['get_place_coordinates_tool']
+2026-09-17 09:26:08,914 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Raichur"}
+2026-09-17 09:26:08,915 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Raichur'})
+2026-09-17 09:26:08,915 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:26:09,469 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:26:09,470 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:26:10,296 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_place_coordinates_tool
+2026-09-17 09:26:10,297 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Raichur'}
+2026-09-17 09:26:10,575 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 09:26:10,580 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 09:26:11,303 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 09:26:11,588 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-17 09:26:11,588 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-17 09:26:11,588 | INFO | agent.py | AGENT | round 8 | all 1 tool call(s) completed
+2026-09-17 09:26:11,592 | INFO | agent.py | AGENT | round 8 | sending tool results back to OpenAI
+2026-09-17 09:26:13,113 | INFO | agent.py | AGENT | round 8 | OpenAI responded
+2026-09-17 09:26:13,113 | INFO | agent.py | AGENT | round 9 | model requested 1 tool(s): ['get_place_coordinates_tool']
+2026-09-17 09:26:13,114 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Hosapete"}
+2026-09-17 09:26:13,114 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Hosapete'})
+2026-09-17 09:26:13,115 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:26:13,663 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:26:13,664 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:26:14,504 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_place_coordinates_tool
+2026-09-17 09:26:14,504 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Hosapete'}
+2026-09-17 09:26:14,797 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 09:26:14,807 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 09:26:15,534 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 09:26:15,812 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-17 09:26:15,813 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-17 09:26:15,815 | INFO | agent.py | AGENT | round 9 | all 1 tool call(s) completed
+2026-09-17 09:26:15,816 | INFO | agent.py | AGENT | round 9 | sending tool results back to OpenAI
+2026-09-17 09:26:18,540 | INFO | agent.py | AGENT | round 9 | OpenAI responded
+2026-09-17 09:26:18,540 | INFO | agent.py | AGENT | round 10 | no more tool calls requested — finishing
+2026-09-17 09:26:18,541 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 09:26:18,541 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 09:26:19,277 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 09:26:19,277 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-17 09:26:19,278 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-17 09:26:20,178 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-17 09:26:20,178 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 09:26:20,180 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 09:26:20,854 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 09:26:20,855 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-17 09:26:22,225 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Hampi'
+2026-09-17 09:26:28,524 | INFO | main.py | PLAN | succeeded | destination='Hampi' origin='Raichur' places=3
+2026-09-17 09:26:28,536 | INFO | main.py | DESTINATION_IMAGES | called | query='Raichur India travel'
+2026-09-17 09:26:28,537 | INFO | image_tool.py | IMAGE_TOOL | called | query='Raichur India travel' max_results=1
+2026-09-17 09:26:28,539 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Raichur India travel'
+2026-09-17 09:26:29,268 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Raichur India travel' images_found=1
+2026-09-17 09:26:29,269 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Raichur India travel' images_found=1
+2026-09-17 09:30:59,256 | INFO | main.py | ============================================================
+2026-09-17 09:30:59,258 | INFO | main.py | PLAN | called | chat_id='1f73424f-cbec-4cdb-9d39-d26252f81907' question='check for 19 sept'
+2026-09-17 09:30:59,258 | INFO | agent.py | ============================================================
+2026-09-17 09:30:59,259 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 09:30:59,260 | DEBUG | agent.py | AGENT | history length received: 33
+2026-09-17 09:30:59,261 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 09:30:59,262 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 09:31:03,301 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 09:31:03,303 | INFO | agent.py | AGENT | round 1 | model requested 1 tool(s): ['get_train_schedule']
+2026-09-17 09:31:03,303 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Hosapete","date":"2026-09-19"}
+2026-09-17 09:31:03,304 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-19'})
+2026-09-17 09:31:03,305 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:31:03,885 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:31:03,886 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:31:04,715 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_train_schedule
+2026-09-17 09:31:04,715 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-19'}
+2026-09-17 09:31:04,994 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Hosapete on 2026-09-19
+2026-09-17 09:31:04,998 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Hosapete on 2026-09-19
+2026-09-17 09:31:05,003 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 09:31:05,008 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 09:31:05,013 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 09:31:05,819 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 09:31:05,823 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 09:31:06,813 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 09:31:06,816 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 09:31:06,819 | INFO | place_tool.py | STATION_TOOL | resolving 'Hosapete'
+2026-09-17 09:31:06,826 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 09:31:06,834 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 09:31:07,510 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 09:31:07,514 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Hosapete'
+2026-09-17 09:31:08,349 | INFO | place_tool.py | STATION_TOOL | resolved | 'Hosapete' -> Hospet Jn (HPT)
+2026-09-17 09:31:08,359 | INFO | train_tool.py | TRAIN_TOOL | destination resolved | Hosapete -> HPT
+2026-09-17 09:31:08,364 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=RC | to=HPT | params={'date': '2026-09-19'}
+2026-09-17 09:31:09,230 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-17 09:31:09,234 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'RC', 'name': 'Raichur'}, 'to': {'code': 'HPT', 'name': 'Hospet Jn'}, 'trains': [{'train': {'number': '17075', 'name': 'Belagavi Express', 'type': 'Mail/Express', 'runDays': ['sat'], 'runningDaysBitmap': 32}, 'from': {'code': 'RC', 'name': 'Raichur', 'city': 'Raichur', 'departure': '21:40', 'day': 1, 'sequence': 47}, 'to': {'code': 'HPT', 'name': 'Hospet Jn', 'city': 'Hosapete', 'arrival': '03:55', 'day': 2, 'sequence': 80}, 'distance': 236.8, 'duration': 375, 'totalHaltsBetween': 6}], 'count': 1}, 'meta': {'timestamp': '2026-09-17T09:31:08+05:30', 'traceId': '19944f6d-40d9-4120-b324-655402b84f2f', 'source': 'database', 'executionTime': 22}}
+2026-09-17 09:31:09,247 | INFO | train_tool.py | TRAIN_TOOL | succeeded | RC -> HPT on 2026-09-19 | 1 train(s) found
+2026-09-17 09:31:09,251 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'RC', 'to': 'HPT', 'date': '2026-09-19', 'trains': [{'train_number': '17075', 'train_name': 'Belagavi Express', 'train_type': 'Mail/Express', 'departure_time': '21:40', 'arrival_time': '03:55', 'duration_minutes': 375, 'distance_km': 236.8}]}
+2026-09-17 09:31:09,523 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 09:31:09,524 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 09:31:09,524 | INFO | agent.py | AGENT | round 1 | all 1 tool call(s) completed
+2026-09-17 09:31:09,528 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-17 09:31:12,182 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-17 09:31:12,183 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-17 09:31:12,188 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 09:31:12,189 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 09:31:12,873 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 09:31:12,873 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 09:31:12,874 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 09:31:13,605 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 09:31:13,606 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-17 09:31:13,607 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-17 09:31:14,351 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-17 09:31:14,352 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-17 09:31:15,721 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Hampi'
+2026-09-17 09:31:21,159 | INFO | main.py | PLAN | succeeded | destination='Hampi' origin='Raichur' places=3
+2026-09-17 09:33:39,690 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 09:33:39,691 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 09:33:39,692 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 09:33:39,692 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 09:33:39,693 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 09:33:39,693 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 09:33:39,694 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 09:33:39,694 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 09:33:39,695 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 09:33:39,695 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 09:33:39,696 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 09:33:39,696 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 09:33:39,696 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 09:33:39,697 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 09:33:39,697 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 09:33:39,699 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 09:33:39,708 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 09:33:39,720 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 09:33:40,906 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:33:40,907 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:33:40,915 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 09:33:40,920 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:33:40,920 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 09:33:40,921 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:33:40,922 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 09:33:40,931 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 09:33:40,932 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 09:33:40,933 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 09:33:40,954 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:33:40,954 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:33:40,961 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 09:33:40,961 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 09:33:40,962 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 09:33:40,982 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:33:40,986 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:33:40,993 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:33:40,998 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:33:40,999 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:33:41,001 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:33:41,012 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 09:33:41,013 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 09:33:41,013 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 09:33:41,015 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 09:33:41,017 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 09:33:41,018 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 09:33:41,019 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 09:33:41,025 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 09:33:41,029 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 09:33:42,231 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:33:42,233 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:33:42,236 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:33:42,237 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:33:42,248 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:33:42,249 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:33:42,284 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:33:42,285 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:33:42,294 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:33:42,295 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:33:42,302 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:33:42,303 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:38:35,367 | INFO | main.py | Starting Trailwise Backend...
+2026-09-17 09:38:52,881 | INFO | mcp_server.py | MCP SERVER | Starting server...
+2026-09-17 09:39:03,533 | INFO | main.py | ============================================================
+2026-09-17 09:39:03,534 | INFO | main.py | PLAN | called | chat_id='3ab3b50b-3301-4426-af98-1f7d8d03d806' question='hampi'
+2026-09-17 09:39:03,535 | INFO | agent.py | ============================================================
+2026-09-17 09:39:03,535 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 09:39:03,536 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-17 09:39:03,536 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 09:39:03,537 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 09:39:07,721 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 09:39:07,722 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates_tool', 'get_place_images']
+2026-09-17 09:39:07,722 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Hampi attractions and travel conditions","max_results":5}
+2026-09-17 09:39:07,722 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Hampi attractions and travel conditions', 'max_results': 5})
+2026-09-17 09:39:07,723 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:39:08,006 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:39:08,007 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:39:08,840 | INFO | agent.py | MCP CLIENT | session initialized | tool=web_search
+2026-09-17 09:39:08,840 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Hampi attractions and travel conditions', 'max_results': 5}
+2026-09-17 09:39:09,111 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Hampi attractions and travel conditions' max_results=5
+2026-09-17 09:39:09,114 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Hampi attractions and travel conditions'
+2026-09-17 09:39:11,364 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Hampi attractions and travel conditions' results=5
+2026-09-17 09:39:11,636 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-17 09:39:11,637 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-17 09:39:11,637 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Hampi"}
+2026-09-17 09:39:11,637 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Hampi'})
+2026-09-17 09:39:11,638 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:39:11,904 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:39:11,904 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:39:12,749 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_weather_forecast
+2026-09-17 09:39:12,750 | INFO | agent.py | MCP CLIENT | calling tool | name=get_weather_forecast | arguments={'city': 'Hampi'}
+2026-09-17 09:39:13,025 | INFO | weather_tool.py | WEATHER_TOOL | called | city='Hampi'
+2026-09-17 09:39:13,027 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='Hampi'
+2026-09-17 09:39:13,452 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='Hampi'
+2026-09-17 09:39:13,733 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-17 09:39:13,734 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-17 09:39:13,734 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Hampi"}
+2026-09-17 09:39:13,734 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Hampi'})
+2026-09-17 09:39:13,734 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:39:14,008 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:39:14,008 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:39:14,830 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_place_coordinates_tool
+2026-09-17 09:39:14,831 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Hampi'}
+2026-09-17 09:39:15,102 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-17 09:39:15,104 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-17 09:39:15,545 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-17 09:39:15,825 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-17 09:39:15,825 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-17 09:39:15,825 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Hampi","max_results":3}
+2026-09-17 09:39:15,826 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Hampi', 'max_results': 3})
+2026-09-17 09:39:15,826 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 09:39:16,097 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 09:39:16,097 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 09:39:16,934 | INFO | agent.py | MCP CLIENT | session initialized | tool=get_place_images
+2026-09-17 09:39:16,934 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Hampi', 'max_results': 3}
+2026-09-17 09:39:17,202 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Hampi | max_results=3
+2026-09-17 09:39:17,205 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hampi' max_results=3
+2026-09-17 09:39:17,210 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hampi'
+2026-09-17 09:39:17,634 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hampi' images_found=3
+2026-09-17 09:39:17,637 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Hampi', 'images': [{'url': 'https://images.pexels.com/photos/38605003/pexels-photo-38605003.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Historic stone temple ruins in Hampi showcasing ancient Indian architecture.', 'photographer': 'Tapas S', 'photographer_url': 'https://www.pexels.com/@tapas-s-1074352640'}, {'url': 'https://images.pexels.com/photos/35269731/pexels-photo-35269731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Explore the ancient architecture of a stone temple in Hampi, Karnataka, showcasing intricate carvings and historic ruins.', 'photographer': 'Tapas S', 'photographer_url': 'https://www.pexels.com/@tapas-s-1074352640'}, {'url': 'https://images.pexels.com/photos/37626184/pexels-photo-37626184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': "Explore the historical architecture of Hampi's ancient temples in Karnataka, India at sunset.", 'photographer': 'Roman Saienko', 'photographer_url': 'https://www.pexels.com/@roman-saienko-1867764487'}]}
+2026-09-17 09:39:17,924 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-17 09:39:17,925 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-17 09:39:17,925 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-17 09:39:17,927 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-17 09:39:22,109 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-17 09:39:22,109 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-17 09:39:22,113 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-17 09:39:22,114 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-17 09:39:22,474 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-17 09:39:22,474 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 09:39:22,475 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 09:39:22,812 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 09:39:22,812 | INFO | agent.py | AGENT | finished successfully | places found: 2
+2026-09-17 09:39:23,866 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Hampi'
+2026-09-17 09:39:26,667 | INFO | main.py | PLAN | succeeded | destination='Hampi' origin='' places=2
+2026-09-17 09:39:26,680 | INFO | main.py | DESTINATION_IMAGES | called | query='Hampi India travel'
+2026-09-17 09:39:26,681 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hampi India travel' max_results=1
+2026-09-17 09:39:26,682 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hampi India travel'
+2026-09-17 09:39:26,683 | INFO | main.py | DESTINATION_IMAGES | called | query='Hosapete India travel'
+2026-09-17 09:39:26,685 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hosapete India travel' max_results=1
+2026-09-17 09:39:26,687 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hosapete India travel'
+2026-09-17 09:39:27,152 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hampi India travel' images_found=1
+2026-09-17 09:39:27,153 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Hampi India travel' images_found=1
+2026-09-17 09:39:27,158 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hosapete India travel' images_found=1
+2026-09-17 09:39:27,159 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Hosapete India travel' images_found=1
+2026-09-17 09:39:40,310 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 09:39:40,311 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 09:39:40,311 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 09:39:40,312 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 09:39:40,312 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 09:39:40,312 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 09:39:40,313 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 09:39:40,313 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 09:39:40,314 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 09:39:40,314 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 09:39:40,315 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 09:39:40,316 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 09:39:40,319 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 09:39:40,319 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 09:39:40,321 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 09:39:40,322 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 09:39:40,323 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 09:39:40,324 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 09:39:41,503 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:39:41,506 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:39:41,510 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:39:41,512 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:39:41,517 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:39:41,518 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:39:41,520 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:39:41,524 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:39:41,526 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:39:41,528 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:39:41,533 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:39:41,534 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 09:39:41,536 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:39:41,538 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 09:39:41,547 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 09:39:41,553 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 09:39:41,558 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 09:39:41,561 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 09:39:41,567 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 09:39:41,571 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 09:39:41,572 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 09:39:41,573 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 09:39:41,574 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 09:39:41,576 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 09:39:41,582 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 09:39:41,583 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 09:39:41,584 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 09:39:41,585 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 09:39:41,585 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 09:39:41,586 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 09:39:42,765 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:39:42,768 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:39:42,770 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:39:42,776 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:39:42,780 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:39:42,782 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:39:42,777 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:39:42,781 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:39:42,790 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:39:42,796 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:39:42,807 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:39:42,808 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:40:19,969 | INFO | main.py | Starting Trailwise Backend...
+2026-09-17 09:40:23,942 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 09:40:23,942 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 09:40:23,944 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 09:40:23,944 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 09:40:23,945 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 09:40:23,947 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 09:40:23,946 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 09:40:23,946 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 09:40:23,948 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 09:40:23,947 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 09:40:23,949 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 09:40:23,949 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 09:40:23,949 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 09:40:23,950 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 09:40:23,951 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 09:40:23,951 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 09:40:23,957 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 09:40:23,963 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 09:40:25,263 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:40:25,263 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:40:25,272 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 09:40:25,275 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:40:25,277 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:40:25,279 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 09:40:25,283 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:40:25,287 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:40:25,290 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:40:25,295 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:40:25,295 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:40:25,296 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 09:40:25,296 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:40:25,297 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:40:25,300 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:40:25,327 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 09:40:25,331 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 09:40:25,332 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 09:40:25,333 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 09:40:25,334 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 09:40:25,335 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 09:40:25,334 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 09:40:25,336 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 09:40:25,337 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 09:40:25,339 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 09:40:25,341 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 09:40:25,342 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 09:40:25,343 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 09:40:25,345 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 09:40:25,351 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 09:40:26,447 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:40:26,447 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 09:40:26,453 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:40:26,455 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:40:26,455 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 09:40:26,457 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 09:40:26,460 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:40:26,464 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 09:40:26,466 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:40:26,467 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 09:40:26,468 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 09:40:26,469 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 10:03:20,065 | INFO | main.py | Starting Trailwise Backend...
+2026-09-17 10:03:24,079 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 10:03:24,080 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 10:03:24,081 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 10:03:24,082 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 10:03:24,083 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 10:03:24,082 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 10:03:24,084 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 10:03:24,084 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 10:03:24,085 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 10:03:24,084 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 10:03:24,086 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 10:03:24,086 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 10:03:24,086 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 10:03:24,087 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 10:03:24,089 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 10:03:24,090 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 10:03:24,090 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 10:03:24,091 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 10:03:25,349 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 10:03:25,349 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 10:03:25,355 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 10:03:25,355 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 10:03:25,356 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 10:03:25,395 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 10:03:25,398 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 10:03:25,400 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 10:03:25,403 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 10:03:25,412 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 10:03:25,416 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 10:03:25,416 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 10:03:25,424 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 10:03:25,426 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 10:03:25,430 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 10:03:25,430 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 10:03:25,435 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 10:03:25,436 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 10:03:25,449 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 10:03:25,453 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 10:03:25,455 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 10:03:25,455 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 10:03:25,454 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 10:03:25,456 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 10:03:25,457 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 10:03:25,458 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 10:03:25,458 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 10:03:25,461 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 10:03:25,462 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 10:03:25,463 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 10:03:26,532 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 10:03:26,532 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 10:03:26,600 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 10:03:26,600 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 10:03:26,625 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 10:03:26,626 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 10:03:26,629 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 10:03:26,630 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 10:03:26,641 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 10:03:26,645 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 10:03:26,648 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 10:03:26,652 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 10:03:49,993 | INFO | main.py | ============================================================
+2026-09-17 10:03:49,993 | INFO | main.py | PLAN | called | chat_id='c73a6c2a-97dc-4ba8-a4bb-80c36ed5f5e1' question='hi'
+2026-09-17 10:03:49,994 | INFO | agent.py | ============================================================
+2026-09-17 10:03:49,994 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 10:03:49,995 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-17 10:03:49,996 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 10:03:49,998 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 10:03:54,547 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 10:03:54,547 | INFO | agent.py | AGENT | round 1 | no more tool calls requested — finishing
+2026-09-17 10:03:54,551 | INFO | agent.py | AGENT | finished successfully | places found: 0
+2026-09-17 10:03:56,325 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Trip'
+2026-09-17 10:03:57,992 | INFO | main.py | PLAN | succeeded | destination='Trip' origin='' places=0
+2026-09-17 11:57:24,804 | INFO | main.py | Starting Trailwise Backend...
+2026-09-17 12:00:37,486 | INFO | main.py | Starting Trailwise Backend...
+2026-09-17 12:15:51,426 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 12:15:51,630 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 12:15:51,630 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 12:16:18,592 | INFO | main.py | Starting Trailwise Backend...
+2026-09-17 12:16:21,333 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 12:16:21,527 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 12:16:21,528 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 12:16:29,770 | INFO | mcp_server.py | MCP SERVER | Starting server...
+2026-09-17 12:18:32,056 | INFO | main.py | Starting Trailwise Backend...
+2026-09-17 12:18:34,604 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-17 12:18:34,796 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-17 12:18:34,797 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-17 12:18:35,616 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-17 12:18:35,903 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 12:18:35,904 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 12:18:35,905 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 12:18:35,905 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 12:18:35,906 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 12:18:35,906 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 12:18:35,907 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 12:18:35,908 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 12:18:35,909 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 12:18:35,910 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 12:18:35,911 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 12:18:35,912 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 12:18:35,913 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 12:18:35,913 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 12:18:35,914 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 12:18:35,920 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 12:18:35,923 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 12:18:35,929 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 12:18:36,754 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 12:18:36,757 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 12:18:36,762 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 12:18:36,763 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 12:18:36,768 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 12:18:36,770 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 12:18:36,772 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 12:18:36,774 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 12:18:36,774 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-17 12:18:36,776 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 12:18:36,778 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 12:18:36,780 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 12:18:36,780 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-17 12:18:36,783 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-17 12:18:36,783 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 12:18:36,785 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-17 12:18:36,787 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-17 12:18:36,789 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-17 12:18:36,793 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-17 12:18:36,795 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-17 12:18:36,796 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-17 12:18:36,800 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-17 12:18:36,801 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-17 12:18:36,802 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-17 12:18:36,802 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-17 12:18:36,806 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-17 12:18:36,806 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-17 12:18:36,807 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-17 12:18:36,809 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-17 12:18:36,809 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-17 12:18:37,535 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 12:18:37,535 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-17 12:18:37,537 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 12:18:37,538 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-17 12:18:37,548 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 12:18:37,550 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-17 12:18:37,550 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-17 12:18:37,553 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-17 12:18:37,556 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-17 12:18:37,560 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-17 12:18:37,568 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 12:18:37,569 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-17 12:19:17,098 | INFO | main.py | ============================================================
+2026-09-17 12:19:17,099 | INFO | main.py | PLAN | called | chat_id='dbe4feea-7532-4ee1-8ca9-d1ffc9ea2c0f' question='hampi'
+2026-09-17 12:19:17,099 | INFO | agent.py | ============================================================
+2026-09-17 12:19:17,100 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 12:19:17,100 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-17 12:19:17,102 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 12:19:17,105 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 12:19:21,425 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 12:19:21,425 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates_tool', 'get_place_images']
+2026-09-17 12:19:21,425 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Hampi attractions and travel conditions","max_results":5}
+2026-09-17 12:19:21,426 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Hampi attractions and travel conditions', 'max_results': 5})
+2026-09-17 12:19:21,426 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Hampi attractions and travel conditions', 'max_results': 5}
+2026-09-17 12:19:21,709 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Hampi attractions and travel conditions' max_results=5
+2026-09-17 12:19:21,717 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Hampi attractions and travel conditions'
+2026-09-17 12:19:25,915 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Hampi attractions and travel conditions' results=5
+2026-09-17 12:19:25,920 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-17 12:19:25,920 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-17 12:19:25,920 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Hampi"}
+2026-09-17 12:19:25,920 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Hampi'})
+2026-09-17 12:19:25,920 | INFO | agent.py | MCP CLIENT | calling tool | name=get_weather_forecast | arguments={'city': 'Hampi'}
+2026-09-17 12:19:26,213 | INFO | weather_tool.py | WEATHER_TOOL | called | city='Hampi'
+2026-09-17 12:19:26,218 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='Hampi'
+2026-09-17 12:19:26,729 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='Hampi'
+2026-09-17 12:19:26,746 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-17 12:19:26,747 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-17 12:19:26,747 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Hampi"}
+2026-09-17 12:19:26,748 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Hampi'})
+2026-09-17 12:19:26,748 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Hampi'}
+2026-09-17 12:19:27,013 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-17 12:19:27,019 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-17 12:19:28,261 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-17 12:19:28,267 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-17 12:19:28,267 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-17 12:19:28,268 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Hampi","max_results":3}
+2026-09-17 12:19:28,268 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Hampi', 'max_results': 3})
+2026-09-17 12:19:28,268 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Hampi', 'max_results': 3}
+2026-09-17 12:19:28,546 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Hampi | max_results=3
+2026-09-17 12:19:28,551 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hampi' max_results=3
+2026-09-17 12:19:28,559 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hampi'
+2026-09-17 12:19:29,034 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hampi' images_found=3
+2026-09-17 12:19:29,037 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Hampi', 'images': [{'url': 'https://images.pexels.com/photos/38605003/pexels-photo-38605003.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Historic stone temple ruins in Hampi showcasing ancient Indian architecture.', 'photographer': 'Tapas S', 'photographer_url': 'https://www.pexels.com/@tapas-s-1074352640'}, {'url': 'https://images.pexels.com/photos/35269731/pexels-photo-35269731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Explore the ancient architecture of a stone temple in Hampi, Karnataka, showcasing intricate carvings and historic ruins.', 'photographer': 'Tapas S', 'photographer_url': 'https://www.pexels.com/@tapas-s-1074352640'}, {'url': 'https://images.pexels.com/photos/37626184/pexels-photo-37626184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': "Explore the historical architecture of Hampi's ancient temples in Karnataka, India at sunset.", 'photographer': 'Roman Saienko', 'photographer_url': 'https://www.pexels.com/@roman-saienko-1867764487'}]}
+2026-09-17 12:19:29,047 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-17 12:19:29,047 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-17 12:19:29,047 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-17 12:19:29,050 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-17 12:19:33,530 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-17 12:19:33,531 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-17 12:19:33,535 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-17 12:19:33,535 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-17 12:19:34,055 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-17 12:19:34,056 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 12:19:34,057 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 12:19:34,793 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 12:19:34,793 | INFO | agent.py | AGENT | finished successfully | places found: 2
+2026-09-17 12:19:38,023 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Hampi'
+2026-09-17 12:19:41,202 | INFO | main.py | PLAN | succeeded | destination='Hampi' origin='' places=2
+2026-09-17 12:19:41,213 | INFO | main.py | DESTINATION_IMAGES | called | query='Hampi India travel'
+2026-09-17 12:19:41,214 | INFO | main.py | DESTINATION_IMAGES | called | query='Hosapete India travel'
+2026-09-17 12:19:41,215 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hampi India travel' max_results=1
+2026-09-17 12:19:41,215 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hampi India travel'
+2026-09-17 12:19:41,216 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hosapete India travel' max_results=1
+2026-09-17 12:19:41,216 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hosapete India travel'
+2026-09-17 12:19:41,895 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hosapete India travel' images_found=1
+2026-09-17 12:19:41,895 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Hosapete India travel' images_found=1
+2026-09-17 12:19:41,913 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hampi India travel' images_found=1
+2026-09-17 12:19:41,914 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Hampi India travel' images_found=1
+2026-09-17 12:20:16,603 | INFO | main.py | ============================================================
+2026-09-17 12:20:16,603 | INFO | main.py | PLAN | called | chat_id='dbe4feea-7532-4ee1-8ca9-d1ffc9ea2c0f' question='start city is raichur on 20 sept'
+2026-09-17 12:20:16,604 | INFO | agent.py | ============================================================
+2026-09-17 12:20:16,604 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 12:20:16,604 | DEBUG | agent.py | AGENT | history length received: 10
+2026-09-17 12:20:16,605 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 12:20:16,605 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 12:20:18,871 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 12:20:18,872 | INFO | agent.py | AGENT | round 1 | model requested 2 tool(s): ['get_train_schedule', 'get_bus_schedule']
+2026-09-17 12:20:18,872 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Hosapete","date":"2026-09-20"}
+2026-09-17 12:20:18,873 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-20'})
+2026-09-17 12:20:18,874 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-20'}
+2026-09-17 12:20:19,149 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Hosapete on 2026-09-20
+2026-09-17 12:20:19,156 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Hosapete on 2026-09-20
+2026-09-17 12:20:19,159 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 12:20:19,162 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:20:19,167 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:20:20,361 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:20:20,365 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 12:20:21,512 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 12:20:21,515 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 12:20:21,521 | INFO | place_tool.py | STATION_TOOL | resolving 'Hosapete'
+2026-09-17 12:20:21,526 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 12:20:21,531 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 12:20:21,928 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 12:20:21,932 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Hosapete'
+2026-09-17 12:20:22,526 | INFO | place_tool.py | STATION_TOOL | resolved | 'Hosapete' -> Hospet Jn (HPT)
+2026-09-17 12:20:22,529 | INFO | train_tool.py | TRAIN_TOOL | destination resolved | Hosapete -> HPT
+2026-09-17 12:20:22,531 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=RC | to=HPT | params={'date': '2026-09-20'}
+2026-09-17 12:20:23,276 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-17 12:20:23,279 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'RC', 'name': 'Raichur'}, 'to': {'code': 'HPT', 'name': 'Hospet Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-17T12:20:22+05:30', 'traceId': 'e63ab1eb-18a8-4da3-b8d8-0e650c90f6a3', 'source': 'database', 'executionTime': 62}}
+2026-09-17 12:20:23,286 | INFO | train_tool.py | TRAIN_TOOL | no trains found | RC -> HPT on 2026-09-20
+2026-09-17 12:20:23,290 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'RC', 'to': 'HPT', 'date': '2026-09-20', 'trains': []}
+2026-09-17 12:20:23,296 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:20:23,299 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:20:23,299 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 12:20:23,300 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 12:20:23,300 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 12:20:23,581 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 12:20:23,585 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 12:20:23,586 | INFO | agent.py | AGENT | round 1 | all 2 tool call(s) completed
+2026-09-17 12:20:23,587 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-17 12:20:25,340 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-17 12:20:25,341 | INFO | agent.py | AGENT | round 2 | model requested 1 tool(s): ['get_bus_schedule']
+2026-09-17 12:20:25,342 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 12:20:25,342 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 12:20:25,343 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 12:20:25,608 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 12:20:25,609 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 12:20:25,609 | INFO | agent.py | AGENT | round 2 | all 1 tool call(s) completed
+2026-09-17 12:20:25,609 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-17 12:20:27,423 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-17 12:20:27,424 | INFO | agent.py | AGENT | round 3 | model requested 1 tool(s): ['get_bus_schedule']
+2026-09-17 12:20:27,425 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 12:20:27,425 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 12:20:27,426 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 12:20:27,694 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 12:20:27,696 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 12:20:27,696 | INFO | agent.py | AGENT | round 3 | all 1 tool call(s) completed
+2026-09-17 12:20:27,696 | INFO | agent.py | AGENT | round 3 | sending tool results back to OpenAI
+2026-09-17 12:20:31,124 | INFO | agent.py | AGENT | round 3 | OpenAI responded
+2026-09-17 12:20:31,125 | INFO | agent.py | AGENT | round 4 | model requested 1 tool(s): ['get_bus_schedule']
+2026-09-17 12:20:31,125 | DEBUG | agent.py | AGENT | calling tool: get_bus_schedule args={"route":"Raichur","stop":"Hosapete"}
+2026-09-17 12:20:31,126 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_bus_schedule({'route': 'Raichur', 'stop': 'Hosapete'})
+2026-09-17 12:20:31,126 | INFO | agent.py | MCP CLIENT | calling tool | name=get_bus_schedule | arguments={'route': 'Raichur', 'stop': 'Hosapete'}
+2026-09-17 12:20:31,398 | DEBUG | agent.py | AGENT | MCP tool 'get_bus_schedule' completed successfully
+2026-09-17 12:20:31,400 | DEBUG | agent.py | AGENT | tool get_bus_schedule completed successfully
+2026-09-17 12:20:31,400 | INFO | agent.py | AGENT | round 4 | all 1 tool call(s) completed
+2026-09-17 12:20:31,400 | INFO | agent.py | AGENT | round 4 | sending tool results back to OpenAI
+2026-09-17 12:20:34,355 | INFO | agent.py | AGENT | round 4 | OpenAI responded
+2026-09-17 12:20:34,356 | INFO | agent.py | AGENT | round 5 | no more tool calls requested — finishing
+2026-09-17 12:20:34,357 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:20:34,357 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:20:35,313 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:20:35,313 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 12:20:35,314 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 12:20:36,291 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 12:20:36,292 | INFO | agent.py | AGENT | finished successfully | places found: 2
+2026-09-17 12:20:37,310 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Hosapete'
+2026-09-17 12:20:42,063 | INFO | main.py | PLAN | succeeded | destination='Hosapete' origin='Raichur' places=2
+2026-09-17 12:20:42,072 | INFO | main.py | DESTINATION_IMAGES | called | query='Raichur India travel'
+2026-09-17 12:20:42,072 | INFO | image_tool.py | IMAGE_TOOL | called | query='Raichur India travel' max_results=1
+2026-09-17 12:20:42,073 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Raichur India travel'
+2026-09-17 12:20:42,752 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Raichur India travel' images_found=1
+2026-09-17 12:20:42,753 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Raichur India travel' images_found=1
+2026-09-17 12:21:20,552 | INFO | main.py | ============================================================
+2026-09-17 12:21:20,553 | INFO | main.py | PLAN | called | chat_id='dbe4feea-7532-4ee1-8ca9-d1ffc9ea2c0f' question='yes'
+2026-09-17 12:21:20,553 | INFO | agent.py | ============================================================
+2026-09-17 12:21:20,553 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 12:21:20,554 | DEBUG | agent.py | AGENT | history length received: 23
+2026-09-17 12:21:20,554 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 12:21:20,555 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 12:21:23,122 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 12:21:23,122 | INFO | agent.py | AGENT | round 1 | model requested 1 tool(s): ['get_train_schedule']
+2026-09-17 12:21:23,123 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Hosapete","date":"any"}
+2026-09-17 12:21:23,123 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Hosapete', 'date': 'any'})
+2026-09-17 12:21:23,124 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Hosapete', 'date': 'any'}
+2026-09-17 12:21:23,415 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Hosapete on any
+2026-09-17 12:21:23,420 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Hosapete on any
+2026-09-17 12:21:23,423 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 12:21:23,427 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:21:23,430 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:21:23,864 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:21:23,867 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 12:21:24,577 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 12:21:24,581 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 12:21:24,585 | INFO | place_tool.py | STATION_TOOL | resolving 'Hosapete'
+2026-09-17 12:21:24,589 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 12:21:24,593 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 12:21:25,035 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 12:21:25,038 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Hosapete'
+2026-09-17 12:21:26,113 | INFO | place_tool.py | STATION_TOOL | resolved | 'Hosapete' -> Hospet Jn (HPT)
+2026-09-17 12:21:26,118 | INFO | train_tool.py | TRAIN_TOOL | destination resolved | Hosapete -> HPT
+2026-09-17 12:21:26,123 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=RC | to=HPT | params={'date': 'any'}
+2026-09-17 12:21:26,758 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 400
+2026-09-17 12:21:26,764 | ERROR | train_tool.py | TRAIN_TOOL | HTTP error 400 | Raichur -> Hosapete on any | 400 Client Error: Bad Request for url: https://api.railradar.in/v1/trains/between/RC/HPT?date=any
+2026-09-17 12:21:26,770 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': 'RailRadar returned an error (status 400): 400 Client Error: Bad Request for url: https://api.railradar.in/v1/trains/between/RC/HPT?date=any'}
+2026-09-17 12:21:26,780 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:21:26,780 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:21:26,781 | INFO | agent.py | AGENT | round 1 | all 1 tool call(s) completed
+2026-09-17 12:21:26,781 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-17 12:21:29,949 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-17 12:21:29,950 | INFO | agent.py | AGENT | round 2 | model requested 3 tool(s): ['get_train_schedule', 'get_train_schedule', 'get_train_schedule']
+2026-09-17 12:21:29,951 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Bangalore","date":"2026-09-20"}
+2026-09-17 12:21:29,951 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Bangalore', 'date': '2026-09-20'})
+2026-09-17 12:21:29,952 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Bangalore', 'date': '2026-09-20'}
+2026-09-17 12:21:30,224 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Bangalore on 2026-09-20
+2026-09-17 12:21:30,226 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Bangalore on 2026-09-20
+2026-09-17 12:21:30,229 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 12:21:30,231 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:21:30,232 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:21:30,687 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:21:30,691 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 12:21:31,384 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 12:21:31,388 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 12:21:31,392 | INFO | place_tool.py | STATION_TOOL | resolving 'Bangalore'
+2026-09-17 12:21:31,396 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Bangalore'
+2026-09-17 12:21:31,404 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Bangalore'
+2026-09-17 12:21:32,653 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Bangalore' -> Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India (class=boundary)
+2026-09-17 12:21:32,657 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Bangalore'
+2026-09-17 12:21:33,360 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': "Could not confidently identify a railway station for 'Bangalore'"}
+2026-09-17 12:21:33,366 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:21:33,368 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:21:33,368 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Hubli","date":"2026-09-20"}
+2026-09-17 12:21:33,369 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Hubli', 'date': '2026-09-20'})
+2026-09-17 12:21:33,370 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Hubli', 'date': '2026-09-20'}
+2026-09-17 12:21:33,633 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Hubli on 2026-09-20
+2026-09-17 12:21:33,640 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Hubli on 2026-09-20
+2026-09-17 12:21:33,644 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 12:21:33,647 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:21:33,653 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:21:34,032 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:21:34,036 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 12:21:34,573 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 12:21:34,576 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 12:21:34,578 | INFO | place_tool.py | STATION_TOOL | resolving 'Hubli'
+2026-09-17 12:21:34,579 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hubli'
+2026-09-17 12:21:34,581 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hubli'
+2026-09-17 12:21:35,680 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hubli' -> Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India (class=place)
+2026-09-17 12:21:35,683 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Hubli'
+2026-09-17 12:21:36,315 | INFO | place_tool.py | STATION_TOOL | resolved | 'Hubli' -> FCI Siding Hubli (FIH)
+2026-09-17 12:21:36,319 | INFO | train_tool.py | TRAIN_TOOL | destination resolved | Hubli -> FIH
+2026-09-17 12:21:36,320 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=RC | to=FIH | params={'date': '2026-09-20'}
+2026-09-17 12:21:36,823 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-17 12:21:36,826 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'RC', 'name': 'Raichur'}, 'to': {'code': 'FIH', 'name': 'FCI Siding Hubli'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-17T12:21:36+05:30', 'traceId': 'c1ed11c7-5bdd-4dd7-9c71-349dc6a1970d', 'source': 'database', 'executionTime': 4}}
+2026-09-17 12:21:36,830 | INFO | train_tool.py | TRAIN_TOOL | no trains found | RC -> FIH on 2026-09-20
+2026-09-17 12:21:36,833 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'RC', 'to': 'FIH', 'date': '2026-09-20', 'trains': []}
+2026-09-17 12:21:36,838 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:21:36,838 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:21:36,838 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Ballari","date":"2026-09-20"}
+2026-09-17 12:21:36,838 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Ballari', 'date': '2026-09-20'})
+2026-09-17 12:21:36,838 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Ballari', 'date': '2026-09-20'}
+2026-09-17 12:21:37,107 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Ballari on 2026-09-20
+2026-09-17 12:21:37,109 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Ballari on 2026-09-20
+2026-09-17 12:21:37,114 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 12:21:37,116 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:21:37,123 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:21:37,460 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:21:37,464 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 12:21:37,982 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 12:21:37,986 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 12:21:37,988 | INFO | place_tool.py | STATION_TOOL | resolving 'Ballari'
+2026-09-17 12:21:37,990 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Ballari'
+2026-09-17 12:21:37,992 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Ballari'
+2026-09-17 12:21:38,522 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Ballari' -> Ballari, Karnataka, India (class=boundary)
+2026-09-17 12:21:38,525 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Ballari'
+2026-09-17 12:21:39,398 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': "Could not confidently identify a railway station for 'Ballari'"}
+2026-09-17 12:21:39,403 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:21:39,403 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:21:39,403 | INFO | agent.py | AGENT | round 2 | all 3 tool call(s) completed
+2026-09-17 12:21:39,403 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-17 12:21:41,192 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-17 12:21:41,193 | INFO | agent.py | AGENT | round 3 | model requested 1 tool(s): ['get_train_schedule']
+2026-09-17 12:21:41,193 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Hubballi","date":"2026-09-20"}
+2026-09-17 12:21:41,193 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Hubballi', 'date': '2026-09-20'})
+2026-09-17 12:21:41,194 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Hubballi', 'date': '2026-09-20'}
+2026-09-17 12:21:41,462 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Hubballi on 2026-09-20
+2026-09-17 12:21:41,464 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Hubballi on 2026-09-20
+2026-09-17 12:21:41,465 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 12:21:41,468 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:21:41,470 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:21:41,794 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:21:41,796 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 12:21:42,654 | ERROR | place_tool.py | STATION_TOOL | request failed | 429 Client Error: Too Many Requests for url: https://api.railradar.in/v1/lookup/search/stations?q=Raichur&limit=10
+2026-09-17 12:21:42,658 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': 'Station lookup failed: 429 Client Error: Too Many Requests for url: https://api.railradar.in/v1/lookup/search/stations?q=Raichur&limit=10'}
+2026-09-17 12:21:42,662 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:21:42,663 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:21:42,663 | INFO | agent.py | AGENT | round 3 | all 1 tool call(s) completed
+2026-09-17 12:21:42,663 | INFO | agent.py | AGENT | round 3 | sending tool results back to OpenAI
+2026-09-17 12:21:45,074 | INFO | agent.py | AGENT | round 3 | OpenAI responded
+2026-09-17 12:21:45,075 | INFO | agent.py | AGENT | round 4 | no more tool calls requested — finishing
+2026-09-17 12:21:45,075 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:21:45,076 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:21:45,388 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:21:45,388 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hubli'
+2026-09-17 12:21:45,389 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hubli'
+2026-09-17 12:21:45,685 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hubli' -> Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India (class=place)
+2026-09-17 12:21:45,686 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Ballari'
+2026-09-17 12:21:45,686 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Ballari'
+2026-09-17 12:21:45,965 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Ballari' -> Ballari, Karnataka, India (class=boundary)
+2026-09-17 12:21:45,965 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 12:21:45,966 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 12:21:46,285 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 12:21:46,286 | INFO | agent.py | AGENT | finished successfully | places found: 4
+2026-09-17 12:21:47,257 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Hosapete'
+2026-09-17 12:21:53,914 | INFO | main.py | PLAN | succeeded | destination='Hosapete' origin='Raichur' places=4
+2026-09-17 12:21:53,924 | INFO | main.py | DESTINATION_IMAGES | called | query='Ballari India travel'
+2026-09-17 12:21:53,924 | INFO | image_tool.py | IMAGE_TOOL | called | query='Ballari India travel' max_results=1
+2026-09-17 12:21:53,926 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Ballari India travel'
+2026-09-17 12:21:53,926 | INFO | main.py | DESTINATION_IMAGES | called | query='Hubli India travel'
+2026-09-17 12:21:53,927 | INFO | image_tool.py | IMAGE_TOOL | called | query='Hubli India travel' max_results=1
+2026-09-17 12:21:53,928 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Hubli India travel'
+2026-09-17 12:21:54,316 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Hubli India travel' images_found=1
+2026-09-17 12:21:54,316 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Hubli India travel' images_found=1
+2026-09-17 12:21:55,103 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Ballari India travel' images_found=1
+2026-09-17 12:21:55,104 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Ballari India travel' images_found=1
+2026-09-17 12:22:31,983 | INFO | main.py | ============================================================
+2026-09-17 12:22:31,984 | INFO | main.py | PLAN | called | chat_id='dbe4feea-7532-4ee1-8ca9-d1ffc9ea2c0f' question='find train option from kalaburagi to new delhi'
+2026-09-17 12:22:31,985 | INFO | agent.py | ============================================================
+2026-09-17 12:22:31,985 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 12:22:31,986 | DEBUG | agent.py | AGENT | history length received: 36
+2026-09-17 12:22:31,986 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 12:22:31,986 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 12:22:35,035 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 12:22:35,036 | INFO | agent.py | AGENT | round 1 | model requested 6 tool(s): ['get_train_schedule', 'get_place_coordinates_tool', 'get_place_coordinates_tool', 'get_place_images', 'get_weather_forecast', 'web_search']
+2026-09-17 12:22:35,037 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Kalaburagi","destination":"New Delhi","date":"2026-09-20"}
+2026-09-17 12:22:35,038 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Kalaburagi', 'destination': 'New Delhi', 'date': '2026-09-20'})
+2026-09-17 12:22:35,038 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Kalaburagi', 'destination': 'New Delhi', 'date': '2026-09-20'}
+2026-09-17 12:22:35,309 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Kalaburagi -> New Delhi on 2026-09-20
+2026-09-17 12:22:35,313 | INFO | train_tool.py | TRAIN_TOOL | called | Kalaburagi -> New Delhi on 2026-09-20
+2026-09-17 12:22:35,331 | INFO | place_tool.py | STATION_TOOL | resolving 'Kalaburagi'
+2026-09-17 12:22:35,335 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kalaburagi'
+2026-09-17 12:22:35,339 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kalaburagi'
+2026-09-17 12:22:36,117 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kalaburagi' -> Kalaburagi, Karnataka, India (class=boundary)
+2026-09-17 12:22:36,121 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Kalaburagi'
+2026-09-17 12:22:36,828 | INFO | place_tool.py | STATION_TOOL | resolved | 'Kalaburagi' -> Kalaburagi (KLBG)
+2026-09-17 12:22:36,832 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Kalaburagi -> KLBG
+2026-09-17 12:22:36,837 | INFO | place_tool.py | STATION_TOOL | resolving 'New Delhi'
+2026-09-17 12:22:36,841 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'New Delhi'
+2026-09-17 12:22:36,844 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'New Delhi'
+2026-09-17 12:22:37,833 | DEBUG | place_tool.py | PLACE_TOOL | matched 'New Delhi' -> New Delhi, Delhi, India (class=boundary)
+2026-09-17 12:22:37,838 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'New Delhi'
+2026-09-17 12:22:38,500 | INFO | place_tool.py | STATION_TOOL | resolved | 'New Delhi' -> New Delhi (NDLS)
+2026-09-17 12:22:38,504 | INFO | train_tool.py | TRAIN_TOOL | destination resolved | New Delhi -> NDLS
+2026-09-17 12:22:38,515 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=KLBG | to=NDLS | params={'date': '2026-09-20'}
+2026-09-17 12:22:39,080 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-17 12:22:39,083 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'KLBG', 'name': 'Kalaburagi'}, 'to': {'code': 'NDLS', 'name': 'New Delhi'}, 'trains': [{'train': {'number': '12627', 'name': 'Karnataka Express', 'type': 'Superfast Express', 'runDays': ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'], 'runningDaysBitmap': 127}, 'from': {'code': 'KLBG', 'name': 'Kalaburagi', 'city': 'Kalaburagi', 'departure': '05:20', 'day': 2, 'sequence': 71}, 'to': {'code': 'NDLS', 'name': 'New Delhi', 'city': 'Delhi', 'arrival': '09:00', 'day': 3, 'sequence': 303}, 'distance': 1827.5, 'duration': 1660, 'totalHaltsBetween': 19}], 'count': 1}, 'meta': {'timestamp': '2026-09-17T12:22:38+05:30', 'traceId': '70f790ca-2e4c-45c7-bb85-5c52cf00628f', 'source': 'database', 'executionTime': 30}}
+2026-09-17 12:22:39,090 | INFO | train_tool.py | TRAIN_TOOL | succeeded | KLBG -> NDLS on 2026-09-20 | 1 train(s) found
+2026-09-17 12:22:39,093 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'KLBG', 'to': 'NDLS', 'date': '2026-09-20', 'trains': [{'train_number': '12627', 'train_name': 'Karnataka Express', 'train_type': 'Superfast Express', 'departure_time': '05:20', 'arrival_time': '09:00', 'duration_minutes': 1660, 'distance_km': 1827.5}]}
+2026-09-17 12:22:39,098 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:22:39,099 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:22:39,099 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Kalaburagi"}
+2026-09-17 12:22:39,099 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Kalaburagi'})
+2026-09-17 12:22:39,099 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Kalaburagi'}
+2026-09-17 12:22:39,368 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kalaburagi'
+2026-09-17 12:22:39,370 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kalaburagi'
+2026-09-17 12:22:39,721 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kalaburagi' -> Kalaburagi, Karnataka, India (class=boundary)
+2026-09-17 12:22:39,726 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-17 12:22:39,726 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-17 12:22:39,726 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"New Delhi"}
+2026-09-17 12:22:39,726 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'New Delhi'})
+2026-09-17 12:22:39,726 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'New Delhi'}
+2026-09-17 12:22:39,999 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'New Delhi'
+2026-09-17 12:22:40,003 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'New Delhi'
+2026-09-17 12:22:40,366 | DEBUG | place_tool.py | PLACE_TOOL | matched 'New Delhi' -> New Delhi, Delhi, India (class=boundary)
+2026-09-17 12:22:40,371 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-17 12:22:40,371 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-17 12:22:40,373 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"New Delhi","max_results":3}
+2026-09-17 12:22:40,373 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'New Delhi', 'max_results': 3})
+2026-09-17 12:22:40,374 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'New Delhi', 'max_results': 3}
+2026-09-17 12:22:40,642 | DEBUG | mcp_server.py | MCP | get_place_images START | query=New Delhi | max_results=3
+2026-09-17 12:22:40,644 | INFO | image_tool.py | IMAGE_TOOL | called | query='New Delhi' max_results=3
+2026-09-17 12:22:40,647 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='New Delhi'
+2026-09-17 12:22:41,370 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='New Delhi' images_found=3
+2026-09-17 12:22:41,373 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'New Delhi', 'images': [{'url': 'https://images.pexels.com/photos/23885155/pexels-photo-23885155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': "Beautiful view of Safdarjung's Tomb and garden, showcasing Mughal architecture under a clear blue sky.", 'photographer': 'Sudeep Kumar', 'photographer_url': 'https://www.pexels.com/@sudeep-kumar-173738022'}, {'url': 'https://images.pexels.com/photos/7107597/pexels-photo-7107597.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Stunning view of Safdarjung Tomb in New Delhi, India, captured at sunset with clear skies and lush greenery.', 'photographer': 'Arya Suraj', 'photographer_url': 'https://www.pexels.com/@aryasuraj'}, {'url': 'https://images.pexels.com/photos/28678222/pexels-photo-28678222.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A vibrant aerial cityscape of Delhi, showcasing the bustling streets and diverse architecture under warm daylight.', 'photographer': 'Mohit Hambiria', 'photographer_url': 'https://www.pexels.com/@mohit-hambiria-92377455'}]}
+2026-09-17 12:22:41,380 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-17 12:22:41,380 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-17 12:22:41,380 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"New Delhi"}
+2026-09-17 12:22:41,381 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'New Delhi'})
+2026-09-17 12:22:41,381 | INFO | agent.py | MCP CLIENT | calling tool | name=get_weather_forecast | arguments={'city': 'New Delhi'}
+2026-09-17 12:22:41,644 | INFO | weather_tool.py | WEATHER_TOOL | called | city='New Delhi'
+2026-09-17 12:22:41,646 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='New Delhi'
+2026-09-17 12:22:42,042 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='New Delhi'
+2026-09-17 12:22:42,054 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-17 12:22:42,054 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-17 12:22:42,054 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"New Delhi attractions and travel conditions","max_results":5}
+2026-09-17 12:22:42,055 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'New Delhi attractions and travel conditions', 'max_results': 5})
+2026-09-17 12:22:42,055 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'New Delhi attractions and travel conditions', 'max_results': 5}
+2026-09-17 12:22:42,321 | INFO | web_search_tool.py | WEB_SEARCH | called | query='New Delhi attractions and travel conditions' max_results=5
+2026-09-17 12:22:42,323 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='New Delhi attractions and travel conditions'
+2026-09-17 12:22:45,270 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='New Delhi attractions and travel conditions' results=5
+2026-09-17 12:22:45,275 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-17 12:22:45,276 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-17 12:22:45,276 | INFO | agent.py | AGENT | round 1 | all 6 tool call(s) completed
+2026-09-17 12:22:45,276 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-17 12:22:50,862 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-17 12:22:50,864 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-17 12:22:50,864 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kalaburagi'
+2026-09-17 12:22:50,865 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kalaburagi'
+2026-09-17 12:22:51,860 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kalaburagi' -> Kalaburagi, Karnataka, India (class=boundary)
+2026-09-17 12:22:51,860 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'New Delhi'
+2026-09-17 12:22:51,861 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'New Delhi'
+2026-09-17 12:22:52,468 | DEBUG | place_tool.py | PLACE_TOOL | matched 'New Delhi' -> New Delhi, Delhi, India (class=boundary)
+2026-09-17 12:22:52,468 | INFO | agent.py | AGENT | finished successfully | places found: 2
+2026-09-17 12:22:53,784 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'New Delhi'
+2026-09-17 12:23:00,027 | INFO | main.py | PLAN | succeeded | destination='New Delhi' origin='Kalaburagi' places=2
+2026-09-17 12:23:00,035 | INFO | main.py | DESTINATION_IMAGES | called | query='Kalaburagi India travel'
+2026-09-17 12:23:00,036 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kalaburagi India travel' max_results=1
+2026-09-17 12:23:00,038 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kalaburagi India travel'
+2026-09-17 12:23:00,039 | INFO | main.py | DESTINATION_IMAGES | called | query='New Delhi India travel'
+2026-09-17 12:23:00,041 | INFO | image_tool.py | IMAGE_TOOL | called | query='New Delhi India travel' max_results=1
+2026-09-17 12:23:00,041 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='New Delhi India travel'
+2026-09-17 12:23:00,939 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='New Delhi India travel' images_found=1
+2026-09-17 12:23:00,940 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='New Delhi India travel' images_found=1
+2026-09-17 12:23:01,025 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kalaburagi India travel' images_found=1
+2026-09-17 12:23:01,025 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kalaburagi India travel' images_found=1
+2026-09-17 12:23:40,134 | INFO | main.py | ============================================================
+2026-09-17 12:23:40,134 | INFO | main.py | PLAN | called | chat_id='dbe4feea-7532-4ee1-8ca9-d1ffc9ea2c0f' question='check train option to hampi on 19 sept'
+2026-09-17 12:23:40,135 | INFO | agent.py | ============================================================
+2026-09-17 12:23:40,135 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-17 12:23:40,135 | DEBUG | agent.py | AGENT | history length received: 50
+2026-09-17 12:23:40,136 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-17 12:23:40,136 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-17 12:23:42,981 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-17 12:23:42,981 | INFO | agent.py | AGENT | round 1 | model requested 3 tool(s): ['get_train_schedule', 'get_train_schedule', 'get_train_schedule']
+2026-09-17 12:23:42,982 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Hosapete","date":"2026-09-19"}
+2026-09-17 12:23:42,982 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-19'})
+2026-09-17 12:23:42,983 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Hosapete', 'date': '2026-09-19'}
+2026-09-17 12:23:43,250 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Hosapete on 2026-09-19
+2026-09-17 12:23:43,259 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Hosapete on 2026-09-19
+2026-09-17 12:23:43,262 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 12:23:43,265 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:23:43,273 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:23:43,848 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:23:43,852 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 12:23:45,009 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 12:23:45,013 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 12:23:45,015 | INFO | place_tool.py | STATION_TOOL | resolving 'Hosapete'
+2026-09-17 12:23:45,020 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 12:23:45,022 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 12:23:45,512 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 12:23:45,516 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Hosapete'
+2026-09-17 12:23:46,131 | INFO | place_tool.py | STATION_TOOL | resolved | 'Hosapete' -> Hospet Jn (HPT)
+2026-09-17 12:23:46,135 | INFO | train_tool.py | TRAIN_TOOL | destination resolved | Hosapete -> HPT
+2026-09-17 12:23:46,140 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=RC | to=HPT | params={'date': '2026-09-19'}
+2026-09-17 12:23:46,809 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-17 12:23:46,813 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'RC', 'name': 'Raichur'}, 'to': {'code': 'HPT', 'name': 'Hospet Jn'}, 'trains': [{'train': {'number': '17075', 'name': 'Belagavi Express', 'type': 'Mail/Express', 'runDays': ['sat'], 'runningDaysBitmap': 32}, 'from': {'code': 'RC', 'name': 'Raichur', 'city': 'Raichur', 'departure': '21:40', 'day': 1, 'sequence': 47}, 'to': {'code': 'HPT', 'name': 'Hospet Jn', 'city': 'Hosapete', 'arrival': '03:55', 'day': 2, 'sequence': 80}, 'distance': 236.8, 'duration': 375, 'totalHaltsBetween': 6}], 'count': 1}, 'meta': {'timestamp': '2026-09-17T12:23:46+05:30', 'traceId': 'f02715ef-ed44-4b41-b003-d98bfa5a8392', 'source': 'database', 'executionTime': 29}}
+2026-09-17 12:23:46,825 | INFO | train_tool.py | TRAIN_TOOL | succeeded | RC -> HPT on 2026-09-19 | 1 train(s) found
+2026-09-17 12:23:46,829 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'RC', 'to': 'HPT', 'date': '2026-09-19', 'trains': [{'train_number': '17075', 'train_name': 'Belagavi Express', 'train_type': 'Mail/Express', 'departure_time': '21:40', 'arrival_time': '03:55', 'duration_minutes': 375, 'distance_km': 236.8}]}
+2026-09-17 12:23:46,839 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:23:46,840 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:23:46,841 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Ballari","date":"2026-09-19"}
+2026-09-17 12:23:46,841 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Ballari', 'date': '2026-09-19'})
+2026-09-17 12:23:46,842 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Ballari', 'date': '2026-09-19'}
+2026-09-17 12:23:47,111 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Ballari on 2026-09-19
+2026-09-17 12:23:47,117 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Ballari on 2026-09-19
+2026-09-17 12:23:47,120 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 12:23:47,122 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:23:47,125 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:23:47,656 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:23:47,665 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 12:23:48,387 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 12:23:48,390 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 12:23:48,392 | INFO | place_tool.py | STATION_TOOL | resolving 'Ballari'
+2026-09-17 12:23:48,395 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Ballari'
+2026-09-17 12:23:48,398 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Ballari'
+2026-09-17 12:23:49,376 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Ballari' -> Ballari, Karnataka, India (class=boundary)
+2026-09-17 12:23:49,378 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Ballari'
+2026-09-17 12:23:50,139 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': "Could not confidently identify a railway station for 'Ballari'"}
+2026-09-17 12:23:50,143 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:23:50,143 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:23:50,144 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"Raichur","destination":"Hubballi","date":"2026-09-19"}
+2026-09-17 12:23:50,144 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'Raichur', 'destination': 'Hubballi', 'date': '2026-09-19'})
+2026-09-17 12:23:50,144 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'Raichur', 'destination': 'Hubballi', 'date': '2026-09-19'}
+2026-09-17 12:23:50,406 | DEBUG | mcp_server.py | MCP | get_train_schedule START | Raichur -> Hubballi on 2026-09-19
+2026-09-17 12:23:50,408 | INFO | train_tool.py | TRAIN_TOOL | called | Raichur -> Hubballi on 2026-09-19
+2026-09-17 12:23:50,411 | INFO | place_tool.py | STATION_TOOL | resolving 'Raichur'
+2026-09-17 12:23:50,413 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:23:50,414 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:23:50,971 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:23:50,975 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Raichur'
+2026-09-17 12:23:51,756 | INFO | place_tool.py | STATION_TOOL | resolved | 'Raichur' -> Raichur (RC)
+2026-09-17 12:23:51,760 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | Raichur -> RC
+2026-09-17 12:23:51,763 | INFO | place_tool.py | STATION_TOOL | resolving 'Hubballi'
+2026-09-17 12:23:51,766 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hubballi'
+2026-09-17 12:23:51,768 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hubballi'
+2026-09-17 12:23:53,148 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hubballi' -> Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India (class=place)
+2026-09-17 12:23:53,151 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Hubballi'
+2026-09-17 12:23:53,724 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': "Could not confidently identify a railway station for 'Hubballi'"}
+2026-09-17 12:23:53,729 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-17 12:23:53,730 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-17 12:23:53,730 | INFO | agent.py | AGENT | round 1 | all 3 tool call(s) completed
+2026-09-17 12:23:53,731 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-17 12:23:56,364 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-17 12:23:56,365 | INFO | agent.py | AGENT | round 2 | model requested 1 tool(s): ['get_place_coordinates_tool']
+2026-09-17 12:23:56,366 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Hosapete"}
+2026-09-17 12:23:56,382 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Hosapete'})
+2026-09-17 12:23:56,384 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Hosapete'}
+2026-09-17 12:23:56,664 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 12:23:56,669 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 12:23:57,161 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 12:23:57,168 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-17 12:23:57,169 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-17 12:23:57,170 | INFO | agent.py | AGENT | round 2 | all 1 tool call(s) completed
+2026-09-17 12:23:57,170 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-17 12:24:00,369 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-17 12:24:00,370 | INFO | agent.py | AGENT | round 3 | no more tool calls requested — finishing
+2026-09-17 12:24:00,371 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Raichur'
+2026-09-17 12:24:00,371 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Raichur'
+2026-09-17 12:24:00,868 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Raichur' -> Raichur, Karnataka, India (class=boundary)
+2026-09-17 12:24:00,868 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hosapete'
+2026-09-17 12:24:00,869 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hosapete'
+2026-09-17 12:24:01,371 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hosapete' -> Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India (class=place)
+2026-09-17 12:24:01,372 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Hampi'
+2026-09-17 12:24:01,372 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Hampi'
+2026-09-17 12:24:02,803 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Hampi' -> Hampi, Hosapete taluk, Vijayanagara, Karnataka, 583239, India (class=place)
+2026-09-17 12:24:02,804 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-17 12:24:04,180 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Hampi'
+2026-09-17 12:24:11,398 | INFO | main.py | PLAN | succeeded | destination='Hampi' origin='Raichur' places=3

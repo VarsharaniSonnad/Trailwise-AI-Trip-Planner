@@ -1,0 +1,102 @@
+USER
+
+  │
+
+  ▼
+
+REACT FRONTEND
+
+  │
+
+  │ POST /plan
+
+  ▼
+
+FASTAPI
+
+  │
+
+  ▼
+
+AI AGENT
+
+  │
+
+  │ decides which tool
+
+  ▼
+
+MCP CLIENT
+
+  │
+
+  │ localhost:8001/mcp
+
+  ▼
+
+MCP SERVER
+
+  │
+
+  ├── Weather
+
+  ├── Web Search
+
+  ├── Train
+
+  ├── Bus
+
+  ├── Images
+
+  ├── Coordinates
+
+  └── Email
+
+       │
+
+       ▼
+
+   Actual APIs / Python functions
+
+       │
+
+       ▼
+
+   MCP SERVER
+
+       │
+
+       ▼
+
+   MCP CLIENT
+
+       │
+
+       ▼
+
+     AGENT
+
+       │
+
+       ▼
+
+   FINAL ANSWER
+
+       │
+
+       ▼
+
+    FASTAPI
+
+       │
+
+       ▼
+
+    REACT
+
+       │
+
+       ▼
+
+     USER
+ 

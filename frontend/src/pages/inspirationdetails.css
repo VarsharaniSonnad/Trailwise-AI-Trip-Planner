@@ -1,0 +1,163 @@
+.insp-detail-page {
+  color: #f3efe6;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.insp-detail-hero {
+  height: 380px;
+  background-size: cover;
+  background-position: center;
+  background-color: #1a2a3d;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px 40px;
+}
+
+.insp-detail-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6));
+}
+
+.insp-detail-back {
+  position: relative;
+  z-index: 2;
+  align-self: flex-start;
+  background: rgba(18,33,58,0.7);
+  border: none;
+  color: #f3efe6;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-bottom: auto;
+}
+
+.insp-detail-hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.insp-detail-hero-content h1 {
+  font-family: "Fraunces", serif;
+  font-size: 48px;
+  margin: 0 0 8px;
+}
+
+.insp-detail-meta {
+  color: rgba(243,239,230,0.8);
+}
+
+.insp-detail-tabs {
+  display: flex;
+  gap: 24px;
+  padding: 20px 40px 0;
+  border-bottom: 1px solid rgba(243,239,230,0.1);
+}
+
+.insp-detail-tabs button {
+  background: none;
+  border: none;
+  color: rgba(243,239,230,0.6);
+  padding: 0 0 14px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.insp-detail-tabs button.active {
+  color: #e8a33d;
+  border-bottom: 2px solid #e8a33d;
+}
+
+.insp-detail-body {
+  padding: 30px 40px;
+}
+
+.insp-detail-body:has(.insp-detail-map-wrapper) {
+  padding: 0;
+}
+
+.insp-detail-description {
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(243,239,230,0.85);
+  margin-bottom: 30px;
+}
+
+.insp-detail-places {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.insp-place-card {
+  background: rgba(243,239,230,0.05);
+  border: 1px solid rgba(243,239,230,0.1);
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.insp-place-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(232, 163, 61, 0.4);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.3);
+}
+
+.insp-place-img {
+  height: 130px;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(232,163,61,0.12);
+}
+
+.insp-place-info {
+  padding: 12px 14px;
+}
+
+.insp-place-info h3 {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+
+.insp-place-info p {
+  margin: 0;
+  font-size: 13px;
+  color: rgba(243,239,230,0.6);
+}
+
+.insp-detail-map-wrapper {
+  height: calc(100vh - 280px);
+  min-height: 500px;
+  width: 100%;
+}
+.insp-detail-map-wrapper {
+  height: calc(100vh - 280px);
+  min-height: 500px;
+  width: 100%;
+}
+
+.insp-detail-map-wrapper .tw-map-panel,
+.insp-detail-map-wrapper .tw-map-container {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+}
+.insp-detail-plan-btn {
+  margin-top: 16px;
+  background: #e8a33d;
+  color: #12213a;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.insp-detail-plan-btn:hover {
+  background: #f0ad49;
+}

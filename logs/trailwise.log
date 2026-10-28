@@ -1,0 +1,653 @@
+2026-09-25 09:21:10,806 | INFO | mcp_server.py | MCP SERVER | Starting server...
+2026-09-25 09:21:19,820 | INFO | main.py | Starting Trailwise Backend...
+2026-09-25 09:21:23,580 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-25 09:21:24,375 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-25 09:21:24,376 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-25 09:21:25,236 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-25 09:22:22,574 | INFO | main.py | ============================================================
+2026-09-25 09:22:22,575 | INFO | main.py | PLAN | called | chat_id='30149f48-d4be-42ab-b382-8961a1b208fb' question='kedarnath'
+2026-09-25 09:22:22,576 | INFO | agent.py | ============================================================
+2026-09-25 09:22:22,577 | INFO | agent.py | AGENT | started | question='kedarnath'
+2026-09-25 09:22:22,578 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-25 09:22:28,625 | INFO | agent.py | AGENT | selected mode: EXPLORE
+2026-09-25 09:22:28,627 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-25 09:22:28,627 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-25 09:22:30,584 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-25 09:22:30,585 | INFO | agent.py | AGENT | round 1 | model requested 3 tool(s): ['web_search', 'get_place_images', 'get_place_coordinates_tool']
+2026-09-25 09:22:30,586 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Kedarnath","max_results":5}
+2026-09-25 09:22:30,587 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Kedarnath', 'max_results': 5})
+2026-09-25 09:22:30,588 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Kedarnath', 'max_results': 5}
+2026-09-25 09:22:30,861 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Kedarnath' max_results=5
+2026-09-25 09:22:30,873 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Kedarnath'
+2026-09-25 09:22:34,143 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Kedarnath' results=5
+2026-09-25 09:22:34,164 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:22:34,166 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:22:34,167 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Kedarnath","max_results":3}
+2026-09-25 09:22:34,167 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Kedarnath', 'max_results': 3})
+2026-09-25 09:22:34,168 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Kedarnath', 'max_results': 3}
+2026-09-25 09:22:34,460 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Kedarnath | max_results=3
+2026-09-25 09:22:34,469 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kedarnath' max_results=3
+2026-09-25 09:22:34,480 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kedarnath'
+2026-09-25 09:22:36,504 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kedarnath' images_found=3
+2026-09-25 09:22:36,515 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Kedarnath', 'images': [{'url': 'https://images.pexels.com/photos/16152405/pexels-photo-16152405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A crowd of pilgrims at Kedarnath Temple with snowcapped Himalayan peaks in the background.', 'photographer': 'Abhra Ghosh', 'photographer_url': 'https://www.pexels.com/@abhra-ghosh-362148807'}, {'url': 'https://images.pexels.com/photos/19010050/pexels-photo-19010050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Scenic view of majestic mountains and stream in Kedarnath, India, under a clear blue sky.', 'photographer': 'Soubhagya Maharana', 'photographer_url': 'https://www.pexels.com/@soubhagya23'}, {'url': 'https://images.pexels.com/photos/15031440/pexels-photo-15031440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Crowd gathers at Kedarnath Temple with Himalayas backdrop, showcasing religious significance and stunning landscape.', 'photographer': 'Alok Kumar', 'photographer_url': 'https://www.pexels.com/@alok-kumar-273007'}]}
+2026-09-25 09:22:36,545 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-25 09:22:36,549 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-25 09:22:36,550 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Kedarnath"}
+2026-09-25 09:22:36,551 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Kedarnath'})
+2026-09-25 09:22:36,553 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Kedarnath'}
+2026-09-25 09:22:36,837 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kedarnath'
+2026-09-25 09:22:36,848 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kedarnath'
+2026-09-25 09:22:38,710 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kedarnath' -> Kedarnath, Ukhimath, Rudraprayag, Uttarakhand, India (class=place)
+2026-09-25 09:22:38,717 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-25 09:22:38,718 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-25 09:22:38,720 | INFO | agent.py | AGENT | round 1 | all 3 tool call(s) completed
+2026-09-25 09:22:38,722 | INFO | agent.py | AGENT | coordinate result | place=Kedarnath lat=30.7338877 lng=79.0669073
+2026-09-25 09:22:38,732 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-25 09:22:43,407 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-25 09:22:43,407 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-25 09:22:43,426 | INFO | agent.py | AGENT | finished successfully | places found: 1
+2026-09-25 09:22:44,899 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Kedarnath'
+2026-09-25 09:22:48,301 | INFO | main.py | PLAN | succeeded | destination='Kedarnath' origin='' places=1
+2026-09-25 09:22:48,316 | INFO | main.py | DESTINATION_IMAGES | called | query='Kedarnath India travel'
+2026-09-25 09:22:48,317 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kedarnath India travel' max_results=1
+2026-09-25 09:22:48,319 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kedarnath India travel'
+2026-09-25 09:22:49,867 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kedarnath India travel' images_found=1
+2026-09-25 09:22:49,868 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kedarnath India travel' images_found=1
+2026-09-25 09:23:21,322 | INFO | main.py | ============================================================
+2026-09-25 09:23:21,323 | INFO | main.py | PLAN | called | chat_id='30149f48-d4be-42ab-b382-8961a1b208fb' question='i want to cover panch kedar also'
+2026-09-25 09:23:21,324 | INFO | agent.py | ============================================================
+2026-09-25 09:23:21,325 | INFO | agent.py | AGENT | started | question='i want to cover panch kedar also'
+2026-09-25 09:23:21,326 | DEBUG | agent.py | AGENT | history length received: 8
+2026-09-25 09:23:22,201 | INFO | agent.py | AGENT | selected mode: EXPLORE
+2026-09-25 09:23:22,202 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-25 09:23:22,204 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-25 09:23:24,354 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-25 09:23:24,354 | INFO | agent.py | AGENT | round 1 | model requested 5 tool(s): ['get_place_coordinates_tool', 'get_place_coordinates_tool', 'get_place_coordinates_tool', 'get_place_coordinates_tool', 'get_place_coordinates_tool']
+2026-09-25 09:23:24,355 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Kedarnath"}
+2026-09-25 09:23:24,355 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Kedarnath'})
+2026-09-25 09:23:24,356 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Kedarnath'}
+2026-09-25 09:23:24,626 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kedarnath'
+2026-09-25 09:23:24,629 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kedarnath'
+2026-09-25 09:23:25,242 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kedarnath' -> Kedarnath, Ukhimath, Rudraprayag, Uttarakhand, India (class=place)
+2026-09-25 09:23:25,249 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-25 09:23:25,250 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-25 09:23:25,250 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Tungnath"}
+2026-09-25 09:23:25,251 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Tungnath'})
+2026-09-25 09:23:25,251 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Tungnath'}
+2026-09-25 09:23:25,519 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Tungnath'
+2026-09-25 09:23:25,521 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Tungnath'
+2026-09-25 09:23:26,850 | WARNING | place_tool.py | PLACE_TOOL | no coordinates found for 'Tungnath'
+2026-09-25 09:23:26,856 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-25 09:23:26,856 | WARNING | agent.py | AGENT | tool get_place_coordinates_tool returned error: Could not find coordinates for 'Tungnath'
+2026-09-25 09:23:26,857 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Rudranath"}
+2026-09-25 09:23:26,857 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Rudranath'})
+2026-09-25 09:23:26,857 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Rudranath'}
+2026-09-25 09:23:27,137 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Rudranath'
+2026-09-25 09:23:27,141 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Rudranath'
+2026-09-25 09:23:28,608 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Rudranath' -> Rudranath, Dumak to Rudranath, Chamoli Tehsil, Chamoli, Uttarakhand, India (class=amenity)
+2026-09-25 09:23:28,615 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-25 09:23:28,616 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-25 09:23:28,617 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Madhyamaheshwar"}
+2026-09-25 09:23:28,618 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Madhyamaheshwar'})
+2026-09-25 09:23:28,619 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Madhyamaheshwar'}
+2026-09-25 09:23:28,889 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Madhyamaheshwar'
+2026-09-25 09:23:28,891 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Madhyamaheshwar'
+2026-09-25 09:23:30,571 | WARNING | place_tool.py | PLACE_TOOL | no coordinates found for 'Madhyamaheshwar'
+2026-09-25 09:23:30,578 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-25 09:23:30,579 | WARNING | agent.py | AGENT | tool get_place_coordinates_tool returned error: Could not find coordinates for 'Madhyamaheshwar'
+2026-09-25 09:23:30,579 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates_tool args={"place_name":"Kalpeshwar"}
+2026-09-25 09:23:30,579 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates_tool({'place_name': 'Kalpeshwar'})
+2026-09-25 09:23:30,580 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_coordinates_tool | arguments={'place_name': 'Kalpeshwar'}
+2026-09-25 09:23:30,854 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kalpeshwar'
+2026-09-25 09:23:30,857 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kalpeshwar'
+2026-09-25 09:23:32,118 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kalpeshwar' -> Kalpeshwar, Urgam, Joshimath Tehsil, Chamoli, Uttarakhand, India (class=place)
+2026-09-25 09:23:32,127 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates_tool' completed successfully
+2026-09-25 09:23:32,127 | DEBUG | agent.py | AGENT | tool get_place_coordinates_tool completed successfully
+2026-09-25 09:23:32,127 | INFO | agent.py | AGENT | round 1 | all 5 tool call(s) completed
+2026-09-25 09:23:32,128 | INFO | agent.py | AGENT | coordinate result | place=Kedarnath lat=30.7338877 lng=79.0669073
+2026-09-25 09:23:32,129 | INFO | agent.py | AGENT | coordinate result | place=Tungnath lat=None lng=None
+2026-09-25 09:23:32,129 | INFO | agent.py | AGENT | coordinate result | place=Rudranath lat=30.518629 lng=79.318177
+2026-09-25 09:23:32,130 | INFO | agent.py | AGENT | coordinate result | place=Madhyamaheshwar lat=None lng=None
+2026-09-25 09:23:32,130 | INFO | agent.py | AGENT | coordinate result | place=Kalpeshwar lat=30.5489227 lng=79.4547646
+2026-09-25 09:23:32,131 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-25 09:23:34,128 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-25 09:23:34,129 | INFO | agent.py | AGENT | round 2 | model requested 5 tool(s): ['web_search', 'web_search', 'get_place_images', 'get_place_images', 'get_place_images']
+2026-09-25 09:23:34,130 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Tungnath","max_results":5}
+2026-09-25 09:23:34,130 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Tungnath', 'max_results': 5})
+2026-09-25 09:23:34,130 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Tungnath', 'max_results': 5}
+2026-09-25 09:23:34,397 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Tungnath' max_results=5
+2026-09-25 09:23:34,400 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Tungnath'
+2026-09-25 09:23:37,819 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Tungnath' results=5
+2026-09-25 09:23:37,833 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:23:37,835 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:23:37,835 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Madhyamaheshwar","max_results":5}
+2026-09-25 09:23:37,837 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Madhyamaheshwar', 'max_results': 5})
+2026-09-25 09:23:37,838 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Madhyamaheshwar', 'max_results': 5}
+2026-09-25 09:23:38,107 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Madhyamaheshwar' max_results=5
+2026-09-25 09:23:38,110 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Madhyamaheshwar'
+2026-09-25 09:23:42,575 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Madhyamaheshwar' results=5
+2026-09-25 09:23:42,582 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:23:42,583 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:23:42,583 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Kedarnath","max_results":3}
+2026-09-25 09:23:42,584 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Kedarnath', 'max_results': 3})
+2026-09-25 09:23:42,584 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Kedarnath', 'max_results': 3}
+2026-09-25 09:23:42,860 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Kedarnath | max_results=3
+2026-09-25 09:23:42,863 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kedarnath' max_results=3
+2026-09-25 09:23:42,866 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kedarnath'
+2026-09-25 09:23:43,903 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kedarnath' images_found=3
+2026-09-25 09:23:43,907 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Kedarnath', 'images': [{'url': 'https://images.pexels.com/photos/16152405/pexels-photo-16152405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A crowd of pilgrims at Kedarnath Temple with snowcapped Himalayan peaks in the background.', 'photographer': 'Abhra Ghosh', 'photographer_url': 'https://www.pexels.com/@abhra-ghosh-362148807'}, {'url': 'https://images.pexels.com/photos/19010050/pexels-photo-19010050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Scenic view of majestic mountains and stream in Kedarnath, India, under a clear blue sky.', 'photographer': 'Soubhagya Maharana', 'photographer_url': 'https://www.pexels.com/@soubhagya23'}, {'url': 'https://images.pexels.com/photos/15031440/pexels-photo-15031440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Crowd gathers at Kedarnath Temple with Himalayas backdrop, showcasing religious significance and stunning landscape.', 'photographer': 'Alok Kumar', 'photographer_url': 'https://www.pexels.com/@alok-kumar-273007'}]}
+2026-09-25 09:23:43,922 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-25 09:23:43,922 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-25 09:23:43,922 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Rudranath","max_results":3}
+2026-09-25 09:23:43,923 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Rudranath', 'max_results': 3})
+2026-09-25 09:23:43,923 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Rudranath', 'max_results': 3}
+2026-09-25 09:23:44,201 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Rudranath | max_results=3
+2026-09-25 09:23:44,205 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rudranath' max_results=3
+2026-09-25 09:23:44,209 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rudranath'
+2026-09-25 09:23:45,234 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rudranath' images_found=3
+2026-09-25 09:23:45,238 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Rudranath', 'images': [{'url': 'https://images.pexels.com/photos/32454784/pexels-photo-32454784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Lush mountain path with sheep grazing under a cloudy sky.', 'photographer': 'Aman Gairola', 'photographer_url': 'https://www.pexels.com/@amangairola'}, {'url': 'https://images.pexels.com/photos/14118775/pexels-photo-14118775.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A misty mountain peak surrounded by fog and lush vegetation, showcasing stunning natural beauty.', 'photographer': 'Tanmoy Pal', 'photographer_url': 'https://www.pexels.com/@tanmoy-pal-3640736'}, {'url': 'https://images.pexels.com/photos/7828713/pexels-photo-7828713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Breathtaking view of a misty green hillside with lush vegetation and swirling fog.', 'photographer': 'Thakur Aniket Singh', 'photographer_url': 'https://www.pexels.com/@thakur-aniket-singh-40368387'}]}
+2026-09-25 09:23:45,248 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-25 09:23:45,249 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-25 09:23:45,250 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Kalpeshwar","max_results":3}
+2026-09-25 09:23:45,251 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Kalpeshwar', 'max_results': 3})
+2026-09-25 09:23:45,251 | INFO | agent.py | MCP CLIENT | calling tool | name=get_place_images | arguments={'query': 'Kalpeshwar', 'max_results': 3}
+2026-09-25 09:23:45,528 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Kalpeshwar | max_results=3
+2026-09-25 09:23:45,530 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kalpeshwar' max_results=3
+2026-09-25 09:23:45,534 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kalpeshwar'
+2026-09-25 09:23:46,563 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kalpeshwar' images_found=3
+2026-09-25 09:23:46,567 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Kalpeshwar', 'images': [{'url': 'https://images.pexels.com/photos/34180992/pexels-photo-34180992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Stone Nandi bull statue at a temple entrance in Ambajogai, Maharashtra, India.', 'photographer': 'Ulhas Kendre', 'photographer_url': 'https://www.pexels.com/@ulhas-kendre-2149270980'}, {'url': 'https://images.pexels.com/photos/39507429/pexels-photo-39507429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Aerial shot of vibrant green fields surrounding a small temple near Pune, India.', 'photographer': 'Sushant Lokhande', 'photographer_url': 'https://www.pexels.com/@sushant-lokhande-2158405446'}, {'url': 'https://images.pexels.com/photos/11370871/pexels-photo-11370871.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Ancient Hindu temple with reflection in water, located in Sangamner, India.', 'photographer': 'Sumit Vikhe', 'photographer_url': 'https://www.pexels.com/@sumit-vikhe-190129780'}]}
+2026-09-25 09:23:46,581 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-25 09:23:46,581 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-25 09:23:46,582 | INFO | agent.py | AGENT | round 2 | all 5 tool call(s) completed
+2026-09-25 09:23:46,584 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-25 09:23:50,556 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-25 09:23:50,556 | INFO | agent.py | AGENT | round 3 | no more tool calls requested — finishing
+2026-09-25 09:23:50,557 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Tungnath'
+2026-09-25 09:23:50,557 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Tungnath'
+2026-09-25 09:23:51,165 | WARNING | place_tool.py | PLACE_TOOL | no coordinates found for 'Tungnath'
+2026-09-25 09:23:51,165 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Madhyamaheshwar'
+2026-09-25 09:23:51,166 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Madhyamaheshwar'
+2026-09-25 09:23:51,718 | WARNING | place_tool.py | PLACE_TOOL | no coordinates found for 'Madhyamaheshwar'
+2026-09-25 09:23:51,719 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-25 09:23:52,585 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Panch Kedar'
+2026-09-25 09:23:58,905 | INFO | main.py | PLAN | succeeded | destination='Panch Kedar' origin='' places=3
+2026-09-25 09:23:58,922 | INFO | main.py | DESTINATION_IMAGES | called | query='Rudranath India travel'
+2026-09-25 09:23:58,924 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rudranath India travel' max_results=1
+2026-09-25 09:23:58,926 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rudranath India travel'
+2026-09-25 09:23:58,926 | INFO | main.py | DESTINATION_IMAGES | called | query='Kalpeshwar India travel'
+2026-09-25 09:23:58,932 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kalpeshwar India travel' max_results=1
+2026-09-25 09:23:58,935 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kalpeshwar India travel'
+2026-09-25 09:24:00,849 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rudranath India travel' images_found=1
+2026-09-25 09:24:00,850 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rudranath India travel' images_found=1
+2026-09-25 09:24:00,917 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kalpeshwar India travel' images_found=1
+2026-09-25 09:24:00,919 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kalpeshwar India travel' images_found=1
+2026-09-25 09:25:33,020 | INFO | main.py | ============================================================
+2026-09-25 09:25:33,021 | INFO | main.py | PLAN | called | chat_id='30149f48-d4be-42ab-b382-8961a1b208fb' question='plan route my start city is banglore and my travel date is oct 2'
+2026-09-25 09:25:33,022 | INFO | agent.py | ============================================================
+2026-09-25 09:25:33,022 | INFO | agent.py | AGENT | started | question='plan route my start city is banglore and my travel date is oct 2'
+2026-09-25 09:25:33,023 | DEBUG | agent.py | AGENT | history length received: 30
+2026-09-25 09:25:34,403 | INFO | agent.py | AGENT | selected mode: ROUTE
+2026-09-25 09:25:34,404 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-25 09:25:34,404 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-25 09:25:36,489 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-25 09:25:36,490 | INFO | agent.py | AGENT | round 1 | model requested 3 tool(s): ['web_search', 'web_search', 'web_search']
+2026-09-25 09:25:36,490 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Bangalore railway stations","max_results":5}
+2026-09-25 09:25:36,491 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Bangalore railway stations', 'max_results': 5})
+2026-09-25 09:25:36,493 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Bangalore railway stations', 'max_results': 5}
+2026-09-25 09:25:36,782 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Bangalore railway stations' max_results=5
+2026-09-25 09:25:36,793 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Bangalore railway stations'
+2026-09-25 09:25:39,566 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Bangalore railway stations' results=5
+2026-09-25 09:25:39,586 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:25:39,587 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:25:39,588 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Rudraprayag railway stations","max_results":5}
+2026-09-25 09:25:39,590 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Rudraprayag railway stations', 'max_results': 5})
+2026-09-25 09:25:39,590 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Rudraprayag railway stations', 'max_results': 5}
+2026-09-25 09:25:39,876 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Rudraprayag railway stations' max_results=5
+2026-09-25 09:25:39,882 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Rudraprayag railway stations'
+2026-09-25 09:25:42,512 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Rudraprayag railway stations' results=5
+2026-09-25 09:25:42,520 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:25:42,521 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:25:42,521 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Joshimath railway stations","max_results":5}
+2026-09-25 09:25:42,522 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Joshimath railway stations', 'max_results': 5})
+2026-09-25 09:25:42,522 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Joshimath railway stations', 'max_results': 5}
+2026-09-25 09:25:42,797 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Joshimath railway stations' max_results=5
+2026-09-25 09:25:42,801 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Joshimath railway stations'
+2026-09-25 09:25:44,555 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Joshimath railway stations' results=5
+2026-09-25 09:25:44,561 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:25:44,562 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:25:44,562 | INFO | agent.py | AGENT | round 1 | all 3 tool call(s) completed
+2026-09-25 09:25:44,562 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-25 09:25:47,758 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-25 09:25:47,758 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-25 09:25:47,758 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kedarnath'
+2026-09-25 09:25:47,759 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kedarnath'
+2026-09-25 09:25:48,444 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kedarnath' -> Kedarnath, Ukhimath, Rudraprayag, Uttarakhand, India (class=place)
+2026-09-25 09:25:48,444 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Madhyamaheshwar'
+2026-09-25 09:25:48,445 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Madhyamaheshwar'
+2026-09-25 09:25:49,026 | WARNING | place_tool.py | PLACE_TOOL | no coordinates found for 'Madhyamaheshwar'
+2026-09-25 09:25:49,026 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Rudranath'
+2026-09-25 09:25:49,027 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Rudranath'
+2026-09-25 09:25:49,600 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Rudranath' -> Rudranath, Dumak to Rudranath, Chamoli Tehsil, Chamoli, Uttarakhand, India (class=amenity)
+2026-09-25 09:25:49,601 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Tungnath'
+2026-09-25 09:25:49,601 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Tungnath'
+2026-09-25 09:25:50,189 | WARNING | place_tool.py | PLACE_TOOL | no coordinates found for 'Tungnath'
+2026-09-25 09:25:50,190 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kalpeshwar'
+2026-09-25 09:25:50,190 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kalpeshwar'
+2026-09-25 09:25:50,771 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kalpeshwar' -> Kalpeshwar, Urgam, Joshimath Tehsil, Chamoli, Uttarakhand, India (class=place)
+2026-09-25 09:25:50,772 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-25 09:25:51,846 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Kedarnath'
+2026-09-25 09:25:59,479 | INFO | main.py | PLAN | succeeded | destination='Kedarnath' origin='Banglore' places=3
+2026-09-25 09:27:15,086 | INFO | main.py | ============================================================
+2026-09-25 09:27:15,086 | INFO | main.py | PLAN | called | chat_id='30149f48-d4be-42ab-b382-8961a1b208fb' question='yes find train options'
+2026-09-25 09:27:15,087 | INFO | agent.py | ============================================================
+2026-09-25 09:27:15,088 | INFO | agent.py | AGENT | started | question='yes find train options'
+2026-09-25 09:27:15,088 | DEBUG | agent.py | AGENT | history length received: 38
+2026-09-25 09:27:16,586 | INFO | agent.py | AGENT | selected mode: ROUTE
+2026-09-25 09:27:16,587 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-25 09:27:16,587 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-25 09:27:18,432 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-25 09:27:18,433 | INFO | agent.py | AGENT | round 1 | model requested 2 tool(s): ['web_search', 'web_search']
+2026-09-25 09:27:18,435 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Haridwar railway stations","max_results":3}
+2026-09-25 09:27:18,436 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Haridwar railway stations', 'max_results': 3})
+2026-09-25 09:27:18,437 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Haridwar railway stations', 'max_results': 3}
+2026-09-25 09:27:18,731 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Haridwar railway stations' max_results=5
+2026-09-25 09:27:18,739 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Haridwar railway stations'
+2026-09-25 09:27:21,256 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Haridwar railway stations' results=5
+2026-09-25 09:27:21,270 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:27:21,270 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:27:21,271 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Dehradun railway stations","max_results":3}
+2026-09-25 09:27:21,272 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Dehradun railway stations', 'max_results': 3})
+2026-09-25 09:27:21,273 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Dehradun railway stations', 'max_results': 3}
+2026-09-25 09:27:21,559 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Dehradun railway stations' max_results=5
+2026-09-25 09:27:21,569 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Dehradun railway stations'
+2026-09-25 09:27:24,762 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Dehradun railway stations' results=5
+2026-09-25 09:27:24,768 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:27:24,769 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:27:24,769 | INFO | agent.py | AGENT | round 1 | all 2 tool call(s) completed
+2026-09-25 09:27:24,770 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-25 09:27:26,623 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-25 09:27:26,623 | INFO | agent.py | AGENT | round 2 | model requested 2 tool(s): ['get_train_schedule', 'get_train_schedule']
+2026-09-25 09:27:26,624 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC","destination":"HW","date":"2026-10-02"}
+2026-09-25 09:27:26,624 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC', 'destination': 'HW', 'date': '2026-10-02'})
+2026-09-25 09:27:26,625 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC', 'destination': 'HW', 'date': '2026-10-02'}
+2026-09-25 09:27:26,907 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC -> HW on 2026-10-02
+2026-09-25 09:27:26,909 | INFO | train_tool.py | TRAIN_TOOL | called | SBC -> HW on 2026-10-02
+2026-09-25 09:27:26,914 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=HW | params={'date': '2026-10-02'}
+2026-09-25 09:27:28,156 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:27:28,160 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'HW', 'name': 'Haridwar Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:27:27+05:30', 'traceId': '9d358141-70c2-4c07-8db6-2ee76e4cd6a3', 'source': 'database', 'executionTime': 30}}
+2026-09-25 09:27:28,169 | INFO | train_tool.py | TRAIN_TOOL | no trains found | SBC -> HW on 2026-10-02
+2026-09-25 09:27:28,175 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=HW | params={}
+2026-09-25 09:27:29,367 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:27:29,371 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'HW', 'name': 'Haridwar Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:27:28+05:30', 'traceId': '25ef852a-0ae0-4875-b776-605ec4e10cfd', 'source': 'database', 'executionTime': 25}}
+2026-09-25 09:27:29,382 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'SBC', 'to': 'HW', 'date': '2026-10-02', 'trains': []}
+2026-09-25 09:27:29,390 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:27:29,391 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-25 09:27:29,391 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC","destination":"DDN","date":"2026-10-02"}
+2026-09-25 09:27:29,391 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC', 'destination': 'DDN', 'date': '2026-10-02'})
+2026-09-25 09:27:29,392 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC', 'destination': 'DDN', 'date': '2026-10-02'}
+2026-09-25 09:27:29,663 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC -> DDN on 2026-10-02
+2026-09-25 09:27:29,666 | INFO | train_tool.py | TRAIN_TOOL | called | SBC -> DDN on 2026-10-02
+2026-09-25 09:27:29,670 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=DDN | params={'date': '2026-10-02'}
+2026-09-25 09:27:30,873 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:27:30,876 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'DDN', 'name': 'Dehradoon'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:27:30+05:30', 'traceId': 'ecd33848-a4b7-4666-96b9-8093973b12ae', 'source': 'database', 'executionTime': 15}}
+2026-09-25 09:27:30,883 | INFO | train_tool.py | TRAIN_TOOL | no trains found | SBC -> DDN on 2026-10-02
+2026-09-25 09:27:30,887 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=DDN | params={}
+2026-09-25 09:27:32,018 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:27:32,022 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'DDN', 'name': 'Dehradoon'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:27:31+05:30', 'traceId': 'cbd1e3c2-8cca-46ad-98ca-f7bf8c233e66', 'source': 'database', 'executionTime': 8}}
+2026-09-25 09:27:32,029 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'SBC', 'to': 'DDN', 'date': '2026-10-02', 'trains': []}
+2026-09-25 09:27:32,038 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:27:32,039 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-25 09:27:32,039 | INFO | agent.py | AGENT | round 2 | all 2 tool call(s) completed
+2026-09-25 09:27:32,040 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-25 09:27:33,906 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-25 09:27:33,906 | INFO | agent.py | AGENT | round 3 | no more tool calls requested — finishing
+2026-09-25 09:27:33,906 | INFO | agent.py | AGENT | finished successfully | places found: 0
+2026-09-25 09:27:34,915 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Haridwar'
+2026-09-25 09:27:40,756 | INFO | main.py | PLAN | succeeded | destination='Haridwar' origin='Bangalore City' places=0
+2026-09-25 09:33:54,465 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-25 09:33:54,740 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-25 09:34:01,784 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-25 09:34:02,446 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-25 09:34:02,447 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-25 09:34:03,333 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-25 09:34:03,856 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-25 09:34:04,136 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-25 09:34:09,596 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-25 09:34:09,866 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-25 09:34:09,866 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-25 09:34:10,693 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-25 09:34:16,551 | INFO | agent.py | MCP CLIENT | shutting down
+2026-09-25 09:34:16,823 | INFO | agent.py | MCP CLIENT | disconnected
+2026-09-25 09:34:21,699 | INFO | agent.py | MCP CLIENT | connecting | url=http://localhost:8001/mcp
+2026-09-25 09:34:21,974 | INFO | agent.py | MCP CLIENT | transport connected
+2026-09-25 09:34:21,974 | INFO | agent.py | MCP CLIENT | initializing session
+2026-09-25 09:34:22,811 | INFO | agent.py | MCP CLIENT | connected successfully | tools=9
+2026-09-25 09:34:28,095 | INFO | train_tool.py | TRAIN_TOOL | called | BANGALORE,YPR -> HW on 2026-10-02
+2026-09-25 09:34:28,101 | WARNING | train_tool.py | TRAIN_TOOL | invalid station code | ['BANGALORE']
+2026-09-25 09:34:28,104 | INFO | train_tool.py | TRAIN_TOOL | called | SBC,YPR,SMVB,KJM,BNC -> HW,RKSH on 2026-10-02
+2026-09-25 09:34:28,105 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=HW | params={'date': '2026-10-02'}
+2026-09-25 09:34:28,979 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:34:28,981 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'HW', 'name': 'Haridwar Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:34:28+05:30', 'traceId': 'ad14a95f-c64e-46d6-9ef0-cfc5fd00fa67', 'source': 'database', 'executionTime': 27}}
+2026-09-25 09:34:28,988 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=RKSH | params={'date': '2026-10-02'}
+2026-09-25 09:34:29,944 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:34:29,945 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'RKSH', 'name': 'Rishikesh'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:34:29+05:30', 'traceId': '019b2b91-2c60-459f-a412-ff5babb78dfc', 'source': 'database', 'executionTime': 9}}
+2026-09-25 09:34:29,949 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=YPR | to=HW | params={'date': '2026-10-02'}
+2026-09-25 09:34:30,835 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:34:30,837 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'YPR', 'name': 'Yesvantpur Jn'}, 'to': {'code': 'HW', 'name': 'Haridwar Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:34:30+05:30', 'traceId': 'd21d975b-e91b-4344-a75b-041b0a5471bc', 'source': 'database', 'executionTime': 36}}
+2026-09-25 09:34:30,843 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=YPR | to=RKSH | params={'date': '2026-10-02'}
+2026-09-25 09:34:31,813 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:34:31,815 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'YPR', 'name': 'Yesvantpur Jn'}, 'to': {'code': 'RKSH', 'name': 'Rishikesh'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:34:31+05:30', 'traceId': '4472fb67-52f7-4652-98f0-4f97ef5519ba', 'source': 'database', 'executionTime': 9}}
+2026-09-25 09:34:31,821 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SMVB | to=HW | params={'date': '2026-10-02'}
+2026-09-25 09:34:32,758 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:34:32,760 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SMVB', 'name': 'SMVT Bengaluru'}, 'to': {'code': 'HW', 'name': 'Haridwar Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:34:32+05:30', 'traceId': 'fbcccfe6-0d41-4c9f-a1ef-55d05d45028a', 'source': 'database', 'executionTime': 32}}
+2026-09-25 09:34:32,766 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SMVB | to=RKSH | params={'date': '2026-10-02'}
+2026-09-25 09:34:33,712 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:34:33,715 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SMVB', 'name': 'SMVT Bengaluru'}, 'to': {'code': 'RKSH', 'name': 'Rishikesh'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:34:33+05:30', 'traceId': 'c6528839-8b3d-4f5a-9f37-bb4395398751', 'source': 'database', 'executionTime': 6}}
+2026-09-25 09:34:33,721 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=KJM | to=HW | params={'date': '2026-10-02'}
+2026-09-25 09:34:34,551 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:34:34,554 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'KJM', 'name': 'Krishnarajapurm'}, 'to': {'code': 'HW', 'name': 'Haridwar Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:34:33+05:30', 'traceId': 'acdea6a3-67d7-4c3a-ae8a-71255a514980', 'source': 'database', 'executionTime': 35}}
+2026-09-25 09:34:34,559 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=KJM | to=RKSH | params={'date': '2026-10-02'}
+2026-09-25 09:34:35,574 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:34:35,576 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'KJM', 'name': 'Krishnarajapurm'}, 'to': {'code': 'RKSH', 'name': 'Rishikesh'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:34:34+05:30', 'traceId': 'ed1597e6-f65d-48e6-908d-f9ef0000ed5e', 'source': 'database', 'executionTime': 4}}
+2026-09-25 09:34:35,582 | INFO | train_tool.py | TRAIN_TOOL | no trains found | SBC->HW,SBC->RKSH,YPR->HW,YPR->RKSH,SMVB->HW,SMVB->RKSH,KJM->HW,KJM->RKSH on 2026-10-02
+2026-09-25 09:34:35,584 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=HW | params={}
+2026-09-25 09:34:36,599 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:34:36,601 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'HW', 'name': 'Haridwar Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:34:35+05:30', 'traceId': 'd12d925a-441f-4196-8280-dd543ed09f71', 'source': 'database', 'executionTime': 41}}
+2026-09-25 09:35:38,607 | INFO | train_tool.py | TRAIN_TOOL | called | SBC,YPR,SMVB,KJM,BNC -> NDLS on 2026-10-02
+2026-09-25 09:35:38,610 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=NDLS | params={'date': '2026-10-02'}
+2026-09-25 09:35:39,580 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:35:39,584 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'NDLS', 'name': 'New Delhi'}, 'trains': [{'train': {'number': '12627', 'name': 'Karnataka Express', 'type': 'Superfast Express', 'runDays': ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'], 'runningDaysBitmap': 127}, 'from': {'code': 'SBC', 'name': 'KSR Bengaluru', 'city': 'Bengaluru', 'departure': '19:20', 'day': 1, 'sequence': 1}, 'to': {'code': 'NDLS', 'name': 'New Delhi', 'city': 'Delhi', 'arrival': '09:00', 'day': 3, 'sequence': 303}, 'distance': 2392.2, 'duration': 2260, 'totalHaltsBetween': 33}], 'count': 1}, 'meta': {'timestamp': '2026-09-25T09:35:38+05:30', 'traceId': '8b58d274-6db3-411d-8e12-2105038053be', 'source': 'database', 'executionTime': 26}}
+2026-09-25 09:35:39,595 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=YPR | to=NDLS | params={'date': '2026-10-02'}
+2026-09-25 09:35:40,703 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:35:40,708 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'YPR', 'name': 'Yesvantpur Jn'}, 'to': {'code': 'NDLS', 'name': 'New Delhi'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:35:39+05:30', 'traceId': 'cafcd3e0-d740-4d06-9479-8e13374209f6', 'source': 'database', 'executionTime': 42}}
+2026-09-25 09:35:40,715 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SMVB | to=NDLS | params={'date': '2026-10-02'}
+2026-09-25 09:35:41,721 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:35:41,724 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SMVB', 'name': 'SMVT Bengaluru'}, 'to': {'code': 'NDLS', 'name': 'New Delhi'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:35:41+05:30', 'traceId': 'cbec79f5-311b-4de2-9e6d-7bd06ff4e2aa', 'source': 'database', 'executionTime': 50}}
+2026-09-25 09:35:41,730 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=KJM | to=NDLS | params={'date': '2026-10-02'}
+2026-09-25 09:35:42,709 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:35:42,711 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'KJM', 'name': 'Krishnarajapurm'}, 'to': {'code': 'NDLS', 'name': 'New Delhi'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:35:42+05:30', 'traceId': '2a5c459e-7ddd-4b48-b55b-c2504553e815', 'source': 'database', 'executionTime': 35}}
+2026-09-25 09:35:42,718 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=BNC | to=NDLS | params={'date': '2026-10-02'}
+2026-09-25 09:35:43,774 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:35:43,776 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'BNC', 'name': 'Bengaluru Cantt'}, 'to': {'code': 'NDLS', 'name': 'New Delhi'}, 'trains': [{'train': {'number': '12627', 'name': 'Karnataka Express', 'type': 'Superfast Express', 'runDays': ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'], 'runningDaysBitmap': 127}, 'from': {'code': 'BNC', 'name': 'Bengaluru Cantt', 'city': 'Bengaluru', 'departure': '19:32', 'day': 1, 'sequence': 2}, 'to': {'code': 'NDLS', 'name': 'New Delhi', 'city': 'Delhi', 'arrival': '09:00', 'day': 3, 'sequence': 303}, 'distance': 2388, 'duration': 2248, 'totalHaltsBetween': 32}], 'count': 1}, 'meta': {'timestamp': '2026-09-25T09:35:43+05:30', 'traceId': 'bcf7c177-a319-4047-a5be-2e7baff9bfc2', 'source': 'database', 'executionTime': 57}}
+2026-09-25 09:35:43,788 | INFO | train_tool.py | TRAIN_TOOL | succeeded | SBC->NDLS,YPR->NDLS,SMVB->NDLS,KJM->NDLS,BNC->NDLS on 2026-10-02 | 1 train(s) found
+2026-09-25 09:36:09,147 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-25 09:36:09,148 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-25 09:36:09,149 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-25 09:36:09,149 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-25 09:36:09,150 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-25 09:36:09,152 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-25 09:36:09,152 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-25 09:36:09,155 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-25 09:36:09,155 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-25 09:36:09,156 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-25 09:36:09,158 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-25 09:36:09,157 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-25 09:36:09,160 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-25 09:36:09,161 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-25 09:36:09,162 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-25 09:36:09,173 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-25 09:36:09,176 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-25 09:36:09,184 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-25 09:36:10,811 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-25 09:36:10,811 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-25 09:36:10,817 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-25 09:36:10,817 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-25 09:36:10,823 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-25 09:36:10,845 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-25 09:36:10,846 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-25 09:36:10,856 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-25 09:36:10,858 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-25 09:36:10,858 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-25 09:36:10,859 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-25 09:36:10,860 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-25 09:36:10,866 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-25 09:36:10,867 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-25 09:36:10,868 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-25 09:36:10,888 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-25 09:36:10,889 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-25 09:36:10,898 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-25 09:36:10,898 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-25 09:36:10,899 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-25 09:36:10,938 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-25 09:36:10,938 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-25 09:36:10,945 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-25 09:36:10,945 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-25 09:36:10,946 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-25 09:36:10,971 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-25 09:36:10,972 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-25 09:36:10,979 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-25 09:36:10,979 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-25 09:36:10,980 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-25 09:36:12,349 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-25 09:36:12,351 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-25 09:36:12,351 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-25 09:36:12,352 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-25 09:36:12,399 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-25 09:36:12,402 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-25 09:36:12,404 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-25 09:36:12,406 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-25 09:36:12,408 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-25 09:36:12,412 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-25 09:36:12,653 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-25 09:36:12,655 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-25 09:36:25,338 | INFO | main.py | ============================================================
+2026-09-25 09:36:25,339 | INFO | main.py | PLAN | called | chat_id='30149f48-d4be-42ab-b382-8961a1b208fb' question='check once again travel option'
+2026-09-25 09:36:25,339 | INFO | agent.py | ============================================================
+2026-09-25 09:36:25,340 | INFO | agent.py | AGENT | started | question='check once again travel option'
+2026-09-25 09:36:25,340 | DEBUG | agent.py | AGENT | history length received: 48
+2026-09-25 09:36:28,767 | INFO | agent.py | AGENT | selected mode: ROUTE
+2026-09-25 09:36:28,769 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-25 09:36:28,769 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_email', 'web_search', 'get_place_images', 'get_train_schedule', 'get_bus_schedule', 'get_place_coordinates_tool']
+2026-09-25 09:36:30,779 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-25 09:36:30,780 | INFO | agent.py | AGENT | round 1 | model requested 2 tool(s): ['web_search', 'web_search']
+2026-09-25 09:36:30,781 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Bangalore to Haridwar train stations","max_results":5}
+2026-09-25 09:36:30,781 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Bangalore to Haridwar train stations', 'max_results': 5})
+2026-09-25 09:36:30,781 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Bangalore to Haridwar train stations', 'max_results': 5}
+2026-09-25 09:36:31,058 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Bangalore to Haridwar train stations' max_results=5
+2026-09-25 09:36:31,059 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Bangalore to Haridwar train stations'
+2026-09-25 09:36:35,453 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Bangalore to Haridwar train stations' results=5
+2026-09-25 09:36:35,458 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:36:35,458 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:36:35,459 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Bangalore to Dehradun train stations","max_results":5}
+2026-09-25 09:36:35,459 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Bangalore to Dehradun train stations', 'max_results': 5})
+2026-09-25 09:36:35,459 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Bangalore to Dehradun train stations', 'max_results': 5}
+2026-09-25 09:36:35,727 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Bangalore to Dehradun train stations' max_results=5
+2026-09-25 09:36:35,728 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Bangalore to Dehradun train stations'
+2026-09-25 09:36:37,820 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Bangalore to Dehradun train stations' results=5
+2026-09-25 09:36:37,826 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:36:37,827 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:36:37,827 | INFO | agent.py | AGENT | round 1 | all 2 tool call(s) completed
+2026-09-25 09:36:37,829 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-25 09:36:39,702 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-25 09:36:39,702 | INFO | agent.py | AGENT | round 2 | model requested 2 tool(s): ['get_train_schedule', 'get_train_schedule']
+2026-09-25 09:36:39,703 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC,YPR,BNC,KJM","destination":"HW","date":"2026-10-02"}
+2026-09-25 09:36:39,703 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC,YPR,BNC,KJM', 'destination': 'HW', 'date': '2026-10-02'})
+2026-09-25 09:36:39,703 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC,YPR,BNC,KJM', 'destination': 'HW', 'date': '2026-10-02'}
+2026-09-25 09:36:39,971 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC,YPR,BNC,KJM -> HW on 2026-10-02
+2026-09-25 09:36:39,973 | INFO | train_tool.py | TRAIN_TOOL | called | SBC,YPR,BNC,KJM -> HW on 2026-10-02
+2026-09-25 09:36:39,976 | WARNING | train_tool.py | TRAIN_TOOL | invalid station code | ['SBC,YPR,BNC,KJM']
+2026-09-25 09:36:39,978 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': 'SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.'}
+2026-09-25 09:36:39,984 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:36:39,984 | WARNING | agent.py | AGENT | tool get_train_schedule returned error: SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.
+2026-09-25 09:36:39,985 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC,YPR,BNC,KJM","destination":"DDN","date":"2026-10-02"}
+2026-09-25 09:36:39,985 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC,YPR,BNC,KJM', 'destination': 'DDN', 'date': '2026-10-02'})
+2026-09-25 09:36:39,985 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC,YPR,BNC,KJM', 'destination': 'DDN', 'date': '2026-10-02'}
+2026-09-25 09:36:40,248 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC,YPR,BNC,KJM -> DDN on 2026-10-02
+2026-09-25 09:36:40,250 | INFO | train_tool.py | TRAIN_TOOL | called | SBC,YPR,BNC,KJM -> DDN on 2026-10-02
+2026-09-25 09:36:40,254 | WARNING | train_tool.py | TRAIN_TOOL | invalid station code | ['SBC,YPR,BNC,KJM']
+2026-09-25 09:36:40,256 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': 'SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.'}
+2026-09-25 09:36:40,261 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:36:40,262 | WARNING | agent.py | AGENT | tool get_train_schedule returned error: SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.
+2026-09-25 09:36:40,262 | INFO | agent.py | AGENT | round 2 | all 2 tool call(s) completed
+2026-09-25 09:36:40,262 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-25 09:36:42,311 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-25 09:36:42,312 | INFO | agent.py | AGENT | round 3 | model requested 3 tool(s): ['web_search', 'web_search', 'web_search']
+2026-09-25 09:36:42,312 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Bangalore railway stations","max_results":5}
+2026-09-25 09:36:42,312 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Bangalore railway stations', 'max_results': 5})
+2026-09-25 09:36:42,313 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Bangalore railway stations', 'max_results': 5}
+2026-09-25 09:36:42,576 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Bangalore railway stations' max_results=5
+2026-09-25 09:36:42,578 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Bangalore railway stations'
+2026-09-25 09:36:44,524 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Bangalore railway stations' results=5
+2026-09-25 09:36:44,529 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:36:44,530 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:36:44,530 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Haridwar railway stations","max_results":5}
+2026-09-25 09:36:44,530 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Haridwar railway stations', 'max_results': 5})
+2026-09-25 09:36:44,531 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Haridwar railway stations', 'max_results': 5}
+2026-09-25 09:36:44,800 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Haridwar railway stations' max_results=5
+2026-09-25 09:36:44,803 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Haridwar railway stations'
+2026-09-25 09:36:47,801 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Haridwar railway stations' results=5
+2026-09-25 09:36:47,806 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:36:47,807 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:36:47,807 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Dehradun railway stations","max_results":5}
+2026-09-25 09:36:47,807 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Dehradun railway stations', 'max_results': 5})
+2026-09-25 09:36:47,807 | INFO | agent.py | MCP CLIENT | calling tool | name=web_search | arguments={'query': 'Dehradun railway stations', 'max_results': 5}
+2026-09-25 09:36:48,079 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Dehradun railway stations' max_results=5
+2026-09-25 09:36:48,082 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Dehradun railway stations'
+2026-09-25 09:36:51,135 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Dehradun railway stations' results=5
+2026-09-25 09:36:51,141 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-25 09:36:51,142 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-25 09:36:51,142 | INFO | agent.py | AGENT | round 3 | all 3 tool call(s) completed
+2026-09-25 09:36:51,143 | INFO | agent.py | AGENT | round 3 | sending tool results back to OpenAI
+2026-09-25 09:36:53,718 | INFO | agent.py | AGENT | round 3 | OpenAI responded
+2026-09-25 09:36:53,718 | INFO | agent.py | AGENT | round 4 | model requested 2 tool(s): ['get_train_schedule', 'get_train_schedule']
+2026-09-25 09:36:53,719 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC,YPR,BNC,KJM","destination":"HW","date":"2026-10-02"}
+2026-09-25 09:36:53,719 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC,YPR,BNC,KJM', 'destination': 'HW', 'date': '2026-10-02'})
+2026-09-25 09:36:53,720 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC,YPR,BNC,KJM', 'destination': 'HW', 'date': '2026-10-02'}
+2026-09-25 09:36:53,999 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC,YPR,BNC,KJM -> HW on 2026-10-02
+2026-09-25 09:36:54,002 | INFO | train_tool.py | TRAIN_TOOL | called | SBC,YPR,BNC,KJM -> HW on 2026-10-02
+2026-09-25 09:36:54,005 | WARNING | train_tool.py | TRAIN_TOOL | invalid station code | ['SBC,YPR,BNC,KJM']
+2026-09-25 09:36:54,009 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': 'SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.'}
+2026-09-25 09:36:54,016 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:36:54,016 | WARNING | agent.py | AGENT | tool get_train_schedule returned error: SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.
+2026-09-25 09:36:54,017 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC,YPR,BNC,KJM","destination":"DDN","date":"2026-10-02"}
+2026-09-25 09:36:54,018 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC,YPR,BNC,KJM', 'destination': 'DDN', 'date': '2026-10-02'})
+2026-09-25 09:36:54,018 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC,YPR,BNC,KJM', 'destination': 'DDN', 'date': '2026-10-02'}
+2026-09-25 09:36:54,294 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC,YPR,BNC,KJM -> DDN on 2026-10-02
+2026-09-25 09:36:54,296 | INFO | train_tool.py | TRAIN_TOOL | called | SBC,YPR,BNC,KJM -> DDN on 2026-10-02
+2026-09-25 09:36:54,299 | WARNING | train_tool.py | TRAIN_TOOL | invalid station code | ['SBC,YPR,BNC,KJM']
+2026-09-25 09:36:54,302 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': 'SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.'}
+2026-09-25 09:36:54,307 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:36:54,308 | WARNING | agent.py | AGENT | tool get_train_schedule returned error: SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.
+2026-09-25 09:36:54,308 | INFO | agent.py | AGENT | round 4 | all 2 tool call(s) completed
+2026-09-25 09:36:54,308 | INFO | agent.py | AGENT | round 4 | sending tool results back to OpenAI
+2026-09-25 09:36:57,164 | INFO | agent.py | AGENT | round 4 | OpenAI responded
+2026-09-25 09:36:57,165 | INFO | agent.py | AGENT | round 5 | model requested 2 tool(s): ['get_train_schedule', 'get_train_schedule']
+2026-09-25 09:36:57,165 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC,YPR,BNC,KJM","destination":"HW","date":"2026-10-02"}
+2026-09-25 09:36:57,166 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC,YPR,BNC,KJM', 'destination': 'HW', 'date': '2026-10-02'})
+2026-09-25 09:36:57,166 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC,YPR,BNC,KJM', 'destination': 'HW', 'date': '2026-10-02'}
+2026-09-25 09:36:57,427 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC,YPR,BNC,KJM -> HW on 2026-10-02
+2026-09-25 09:36:57,430 | INFO | train_tool.py | TRAIN_TOOL | called | SBC,YPR,BNC,KJM -> HW on 2026-10-02
+2026-09-25 09:36:57,433 | WARNING | train_tool.py | TRAIN_TOOL | invalid station code | ['SBC,YPR,BNC,KJM']
+2026-09-25 09:36:57,435 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': 'SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.'}
+2026-09-25 09:36:57,442 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:36:57,442 | WARNING | agent.py | AGENT | tool get_train_schedule returned error: SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.
+2026-09-25 09:36:57,442 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC,YPR,BNC,KJM","destination":"DDN","date":"2026-10-02"}
+2026-09-25 09:36:57,443 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC,YPR,BNC,KJM', 'destination': 'DDN', 'date': '2026-10-02'})
+2026-09-25 09:36:57,443 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC,YPR,BNC,KJM', 'destination': 'DDN', 'date': '2026-10-02'}
+2026-09-25 09:36:57,713 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC,YPR,BNC,KJM -> DDN on 2026-10-02
+2026-09-25 09:36:57,716 | INFO | train_tool.py | TRAIN_TOOL | called | SBC,YPR,BNC,KJM -> DDN on 2026-10-02
+2026-09-25 09:36:57,719 | WARNING | train_tool.py | TRAIN_TOOL | invalid station code | ['SBC,YPR,BNC,KJM']
+2026-09-25 09:36:57,722 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'error': 'SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.'}
+2026-09-25 09:36:57,728 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:36:57,728 | WARNING | agent.py | AGENT | tool get_train_schedule returned error: SBC,YPR,BNC,KJM is not a railway station code. Use web_search to find the stations and their official codes (e.g. Bangalore -> SBC, YPR, SMVB) and call get_train_schedule again with the codes.
+2026-09-25 09:36:57,728 | INFO | agent.py | AGENT | round 5 | all 2 tool call(s) completed
+2026-09-25 09:36:57,732 | INFO | agent.py | AGENT | round 5 | sending tool results back to OpenAI
+2026-09-25 09:37:00,292 | INFO | agent.py | AGENT | round 5 | OpenAI responded
+2026-09-25 09:37:00,292 | INFO | agent.py | AGENT | round 6 | model requested 2 tool(s): ['get_train_schedule', 'get_train_schedule']
+2026-09-25 09:37:00,293 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC","destination":"HW","date":"2026-10-02"}
+2026-09-25 09:37:00,293 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC', 'destination': 'HW', 'date': '2026-10-02'})
+2026-09-25 09:37:00,293 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC', 'destination': 'HW', 'date': '2026-10-02'}
+2026-09-25 09:37:00,559 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC -> HW on 2026-10-02
+2026-09-25 09:37:00,562 | INFO | train_tool.py | TRAIN_TOOL | called | SBC -> HW on 2026-10-02
+2026-09-25 09:37:00,566 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=HW | params={'date': '2026-10-02'}
+2026-09-25 09:37:01,599 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:37:01,602 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'HW', 'name': 'Haridwar Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:37:00+05:30', 'traceId': '551130b6-e5e9-4c75-a28e-481ce2452d64', 'source': 'database', 'executionTime': 122}}
+2026-09-25 09:37:01,608 | INFO | train_tool.py | TRAIN_TOOL | no trains found | SBC -> HW on 2026-10-02
+2026-09-25 09:37:01,610 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=HW | params={}
+2026-09-25 09:37:02,520 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:37:02,523 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'HW', 'name': 'Haridwar Jn'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:37:01+05:30', 'traceId': '2ac4f831-c7a5-4102-a1d8-2c486043a3f5', 'source': 'database', 'executionTime': 45}}
+2026-09-25 09:37:02,529 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'SBC', 'to': 'HW', 'date': '2026-10-02', 'trains': []}
+2026-09-25 09:37:02,534 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:37:02,534 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-25 09:37:02,535 | DEBUG | agent.py | AGENT | calling tool: get_train_schedule args={"origin":"SBC","destination":"DDN","date":"2026-10-02"}
+2026-09-25 09:37:02,535 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_schedule({'origin': 'SBC', 'destination': 'DDN', 'date': '2026-10-02'})
+2026-09-25 09:37:02,535 | INFO | agent.py | MCP CLIENT | calling tool | name=get_train_schedule | arguments={'origin': 'SBC', 'destination': 'DDN', 'date': '2026-10-02'}
+2026-09-25 09:37:02,799 | DEBUG | mcp_server.py | MCP | get_train_schedule START | SBC -> DDN on 2026-10-02
+2026-09-25 09:37:02,802 | INFO | train_tool.py | TRAIN_TOOL | called | SBC -> DDN on 2026-10-02
+2026-09-25 09:37:02,805 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=DDN | params={'date': '2026-10-02'}
+2026-09-25 09:37:03,728 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:37:03,731 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'DDN', 'name': 'Dehradoon'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:37:03+05:30', 'traceId': 'aa779845-6bd0-4c2c-81a6-81fad5f8d960', 'source': 'database', 'executionTime': 11}}
+2026-09-25 09:37:03,736 | INFO | train_tool.py | TRAIN_TOOL | no trains found | SBC -> DDN on 2026-10-02
+2026-09-25 09:37:03,738 | INFO | train_tool.py | TRAIN_TOOL | API REQUEST | from=SBC | to=DDN | params={}
+2026-09-25 09:37:04,566 | INFO | train_tool.py | TRAIN_TOOL | API STATUS | 200
+2026-09-25 09:37:04,568 | INFO | train_tool.py | TRAIN_TOOL | API RESPONSE | {'success': True, 'data': {'from': {'code': 'SBC', 'name': 'KSR Bengaluru'}, 'to': {'code': 'DDN', 'name': 'Dehradoon'}, 'trains': [], 'count': 0}, 'meta': {'timestamp': '2026-09-25T09:37:03+05:30', 'traceId': 'df822c90-4faf-44d5-b829-a711ff9845dd', 'source': 'database', 'executionTime': 14}}
+2026-09-25 09:37:04,572 | DEBUG | mcp_server.py | MCP | get_train_schedule RESULT | {'from': 'SBC', 'to': 'DDN', 'date': '2026-10-02', 'trains': []}
+2026-09-25 09:37:04,579 | DEBUG | agent.py | AGENT | MCP tool 'get_train_schedule' completed successfully
+2026-09-25 09:37:04,580 | DEBUG | agent.py | AGENT | tool get_train_schedule completed successfully
+2026-09-25 09:37:04,580 | INFO | agent.py | AGENT | round 6 | all 2 tool call(s) completed
+2026-09-25 09:37:04,581 | INFO | agent.py | AGENT | round 6 | sending tool results back to OpenAI
+2026-09-25 09:37:06,138 | INFO | agent.py | AGENT | round 6 | OpenAI responded
+2026-09-25 09:37:06,139 | INFO | agent.py | AGENT | round 7 | no more tool calls requested — finishing
+2026-09-25 09:37:06,139 | INFO | agent.py | AGENT | finished successfully | places found: 0
+2026-09-25 09:37:07,326 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Haridwar'
+2026-09-25 09:37:12,629 | INFO | main.py | PLAN | succeeded | destination='Haridwar' origin='Bangalore City Junction' places=0
+2026-09-25 14:33:41,394 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-25 14:33:41,404 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-25 14:33:41,404 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-25 14:33:41,407 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-25 14:33:41,407 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-25 14:33:41,412 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-25 14:33:41,413 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-25 14:33:41,426 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-25 14:33:41,426 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-25 14:33:41,426 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-25 14:33:41,432 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-25 14:33:41,433 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-25 14:33:41,439 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-25 14:33:41,440 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-25 14:33:41,442 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-25 14:33:41,443 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-25 14:33:41,445 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-25 14:33:41,453 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-25 14:33:43,056 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-25 14:33:43,057 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-25 14:33:43,067 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-25 14:33:43,069 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-25 14:33:43,070 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-25 14:33:43,081 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-25 14:33:43,084 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-25 14:33:43,095 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-25 14:33:43,096 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-25 14:33:43,103 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-25 14:33:43,106 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-25 14:33:43,111 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-25 14:33:43,113 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-25 14:33:43,114 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-25 14:33:43,114 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-25 14:33:43,117 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-25 14:33:43,121 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-25 14:33:43,137 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-25 14:33:43,141 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-25 14:33:43,141 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-25 14:33:43,142 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-25 14:33:43,142 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-25 14:33:43,143 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-25 14:33:43,145 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-25 14:33:43,151 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-25 14:33:43,152 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-25 14:33:43,153 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-25 14:33:43,153 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-25 14:33:43,154 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-25 14:33:43,156 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-25 14:33:44,540 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-25 14:33:44,543 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-25 14:33:44,548 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-25 14:33:44,550 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-25 14:33:44,564 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-25 14:33:44,565 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-25 14:33:44,656 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-25 14:33:44,657 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-25 14:33:44,668 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-25 14:33:44,669 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-25 14:33:44,686 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-25 14:33:44,687 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1

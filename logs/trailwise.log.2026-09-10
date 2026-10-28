@@ -1,0 +1,306 @@
+2026-09-10 16:58:10,449 | INFO | Starting Trailwise Backend...
+2026-09-10 16:58:14,644 | INFO | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-10 16:58:14,645 | INFO | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-10 16:58:14,646 | INFO | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-10 16:58:14,647 | INFO | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-10 16:58:14,648 | INFO | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-10 16:58:14,648 | INFO | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-10 16:58:14,649 | INFO | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-10 16:58:14,651 | INFO | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-10 16:58:14,651 | DEBUG | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-10 16:58:14,651 | INFO | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-10 16:58:14,652 | INFO | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-10 16:58:14,654 | DEBUG | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-10 16:58:14,655 | INFO | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-10 16:58:14,657 | INFO | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-10 16:58:14,658 | DEBUG | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-10 16:58:14,658 | DEBUG | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-10 16:58:14,659 | DEBUG | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-10 16:58:14,666 | DEBUG | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-10 16:58:15,482 | INFO | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-10 16:58:15,486 | INFO | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-10 16:58:15,486 | INFO | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-10 16:58:15,487 | DEBUG | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-10 16:58:15,497 | INFO | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-10 16:58:15,506 | INFO | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-10 16:58:15,511 | INFO | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-10 16:58:15,516 | INFO | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-10 16:58:15,526 | INFO | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-10 16:58:15,528 | INFO | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-10 16:58:15,529 | INFO | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-10 16:58:15,531 | DEBUG | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-10 16:58:15,544 | INFO | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-10 16:58:15,545 | INFO | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-10 16:58:15,545 | INFO | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-10 16:58:15,545 | INFO | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-10 16:58:15,547 | INFO | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-10 16:58:15,548 | INFO | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-10 16:58:15,551 | INFO | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-10 16:58:15,551 | INFO | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-10 16:58:15,552 | DEBUG | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-10 16:58:15,553 | DEBUG | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-10 16:58:15,554 | DEBUG | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-10 16:58:15,555 | DEBUG | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-10 16:58:16,259 | INFO | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-10 16:58:16,274 | INFO | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-10 16:58:16,302 | INFO | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-10 16:58:16,310 | INFO | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-10 16:58:16,377 | INFO | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-10 16:58:16,427 | INFO | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-10 17:13:00,280 | INFO | main.py | ============================================================
+2026-09-10 17:13:00,282 | INFO | main.py | PLAN | called | chat_id='c8526805-842e-4694-ab03-5a0157d8b058' question='i want to go ooty'
+2026-09-10 17:13:00,283 | INFO | agent.py | ============================================================
+2026-09-10 17:13:00,284 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-10 17:13:00,284 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-10 17:13:00,285 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-10 17:13:00,289 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-10 17:13:07,814 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-10 17:13:07,815 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-10 17:13:07,815 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Ooty travel attractions and conditions","max_results":5}
+2026-09-10 17:13:07,815 | DEBUG | agent.py | AGENT | _execute_tool dispatching: web_search({'query': 'Ooty travel attractions and conditions', 'max_results': 5})
+2026-09-10 17:13:07,815 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Ooty travel attractions and conditions' max_results=5
+2026-09-10 17:13:07,815 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Ooty travel attractions and conditions'
+2026-09-10 17:13:09,998 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Ooty travel attractions and conditions' results=5
+2026-09-10 17:13:09,999 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-10 17:13:09,999 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Ooty"}
+2026-09-10 17:13:09,999 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_weather_forecast({'city': 'Ooty'})
+2026-09-10 17:13:09,999 | INFO | weather_tool.py | WEATHER_TOOL | called | city='Ooty'
+2026-09-10 17:13:09,999 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='Ooty'
+2026-09-10 17:13:10,354 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='Ooty'
+2026-09-10 17:13:10,354 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-10 17:13:10,355 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Ooty"}
+2026-09-10 17:13:10,355 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_place_coordinates({'place_name': 'Ooty'})
+2026-09-10 17:13:10,355 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Ooty'
+2026-09-10 17:13:10,356 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Ooty'
+2026-09-10 17:13:11,432 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Ooty' -> Udhagamandalam, Nilgiris, Tamil Nadu, 643001, India (class=place)
+2026-09-10 17:13:11,433 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-10 17:13:11,433 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Ooty","max_results":3}
+2026-09-10 17:13:11,434 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_place_images({'query': 'Ooty', 'max_results': 3})
+2026-09-10 17:13:11,434 | INFO | image_tool.py | IMAGE_TOOL | called | query='Ooty' max_results=3
+2026-09-10 17:13:11,435 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Ooty'
+2026-09-10 17:13:12,158 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Ooty' images_found=3
+2026-09-10 17:13:12,159 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-10 17:13:12,159 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-10 17:13:12,165 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-10 17:13:17,681 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-10 17:13:17,681 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-10 17:13:17,688 | INFO | agent.py | AGENT | finished successfully | places found: 1
+2026-09-10 17:13:18,954 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Ooty'
+2026-09-10 17:13:23,687 | INFO | main.py | PLAN | succeeded | destination='Ooty' origin='' places=1
+2026-09-10 17:16:39,689 | INFO | main.py | ============================================================
+2026-09-10 17:16:39,690 | INFO | main.py | PLAN | called | chat_id='c8526805-842e-4694-ab03-5a0157d8b058' question='gulbarga on 11sept'
+2026-09-10 17:16:39,690 | INFO | agent.py | ============================================================
+2026-09-10 17:16:39,690 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-10 17:16:39,690 | DEBUG | agent.py | AGENT | history length received: 10
+2026-09-10 17:16:39,690 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-10 17:16:39,690 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-10 17:16:44,387 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-10 17:16:44,387 | INFO | agent.py | AGENT | round 1 | model requested 2 tool(s): ['get_train_options', 'get_place_coordinates']
+2026-09-10 17:16:44,387 | DEBUG | agent.py | AGENT | calling tool: get_train_options args={"from_city":"Gulbarga","to_city":"Ooty","date":"2026-09-11"}
+2026-09-10 17:16:44,387 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_train_options({'from_city': 'Gulbarga', 'to_city': 'Ooty', 'date': '2026-09-11'})
+2026-09-10 17:16:44,387 | DEBUG | agent.py | AGENT | resolve_railway_station(origin='Gulbarga')
+2026-09-10 17:16:44,387 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'Gulbarga'
+2026-09-10 17:16:44,388 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Gulbarga'
+2026-09-10 17:16:44,388 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Gulbarga'
+2026-09-10 17:16:45,036 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Gulbarga' -> Kalaburagi, Kalaburagi taluku, Kalaburagi, Karnataka, 585101, India (class=place)
+2026-09-10 17:16:45,037 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'Gulbarga' -> 'Gulbarga'
+2026-09-10 17:16:45,037 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Gulbarga'
+2026-09-10 17:16:45,599 | WARNING | place_tool.py | STATION_TOOL | could not confidently identify a station for 'Gulbarga'
+2026-09-10 17:16:45,599 | WARNING | agent.py | AGENT | CHAIN BROKE at resolve_railway_station(origin) | Could not confidently identify a railway station for 'Gulbarga'
+2026-09-10 17:16:45,599 | WARNING | agent.py | AGENT | tool get_train_options returned error: Could not confidently identify a railway station for 'Gulbarga'
+2026-09-10 17:16:45,600 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Gulbarga"}
+2026-09-10 17:16:45,600 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_place_coordinates({'place_name': 'Gulbarga'})
+2026-09-10 17:16:45,600 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Gulbarga'
+2026-09-10 17:16:45,600 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Gulbarga'
+2026-09-10 17:16:45,829 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Gulbarga' -> Kalaburagi, Kalaburagi taluku, Kalaburagi, Karnataka, 585101, India (class=place)
+2026-09-10 17:16:45,829 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-10 17:16:45,829 | INFO | agent.py | AGENT | round 1 | all 2 tool call(s) completed
+2026-09-10 17:16:45,830 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-10 17:16:47,959 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-10 17:16:47,959 | INFO | agent.py | AGENT | round 2 | model requested 1 tool(s): ['get_train_options']
+2026-09-10 17:16:47,959 | DEBUG | agent.py | AGENT | calling tool: get_train_options args={"from_city":"Kalaburagi","to_city":"Udhagamandalam","date":"2026-09-11"}
+2026-09-10 17:16:47,960 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_train_options({'from_city': 'Kalaburagi', 'to_city': 'Udhagamandalam', 'date': '2026-09-11'})
+2026-09-10 17:16:47,960 | DEBUG | agent.py | AGENT | resolve_railway_station(origin='Kalaburagi')
+2026-09-10 17:16:47,960 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'Kalaburagi'
+2026-09-10 17:16:47,960 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kalaburagi'
+2026-09-10 17:16:47,960 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kalaburagi'
+2026-09-10 17:16:48,663 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kalaburagi' -> Kalaburagi, Karnataka, India (class=boundary)
+2026-09-10 17:16:48,663 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'Kalaburagi' -> 'Kalaburagi'
+2026-09-10 17:16:48,663 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Kalaburagi'
+2026-09-10 17:16:49,380 | INFO | place_tool.py | STATION_TOOL | resolved | 'Kalaburagi' -> Kalaburagi (KLBG)
+2026-09-10 17:16:49,380 | DEBUG | agent.py | AGENT | resolve_railway_station(destination='Udhagamandalam')
+2026-09-10 17:16:49,380 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'Udhagamandalam'
+2026-09-10 17:16:49,380 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Udhagamandalam'
+2026-09-10 17:16:49,380 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Udhagamandalam'
+2026-09-10 17:16:50,527 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Udhagamandalam' -> Udhagamandalam, Nilgiris, Tamil Nadu, 643001, India (class=place)
+2026-09-10 17:16:50,527 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'Udhagamandalam' -> 'Udhagamandalam'
+2026-09-10 17:16:50,528 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Udhagamandalam'
+2026-09-10 17:16:51,047 | WARNING | place_tool.py | STATION_TOOL | could not confidently identify a station for 'Udhagamandalam'
+2026-09-10 17:16:51,047 | WARNING | agent.py | AGENT | CHAIN BROKE at resolve_railway_station(destination) | Could not confidently identify a railway station for 'Udhagamandalam'
+2026-09-10 17:16:51,047 | WARNING | agent.py | AGENT | tool get_train_options returned error: Could not confidently identify a railway station for 'Udhagamandalam'
+2026-09-10 17:16:51,047 | INFO | agent.py | AGENT | round 2 | all 1 tool call(s) completed
+2026-09-10 17:16:51,047 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-10 17:16:53,501 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-10 17:16:53,501 | INFO | agent.py | AGENT | round 3 | model requested 3 tool(s): ['get_train_options', 'get_train_options', 'get_train_options']
+2026-09-10 17:16:53,501 | DEBUG | agent.py | AGENT | calling tool: get_train_options args={"from_city":"Kalaburagi","to_city":"Coimbatore","date":"2026-09-11"}
+2026-09-10 17:16:53,502 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_train_options({'from_city': 'Kalaburagi', 'to_city': 'Coimbatore', 'date': '2026-09-11'})
+2026-09-10 17:16:53,502 | DEBUG | agent.py | AGENT | resolve_railway_station(origin='Kalaburagi')
+2026-09-10 17:16:53,502 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'Kalaburagi'
+2026-09-10 17:16:53,502 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kalaburagi'
+2026-09-10 17:16:53,502 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kalaburagi'
+2026-09-10 17:16:53,763 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kalaburagi' -> Kalaburagi, Karnataka, India (class=boundary)
+2026-09-10 17:16:53,763 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'Kalaburagi' -> 'Kalaburagi'
+2026-09-10 17:16:53,763 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Kalaburagi'
+2026-09-10 17:16:54,530 | INFO | place_tool.py | STATION_TOOL | resolved | 'Kalaburagi' -> Kalaburagi (KLBG)
+2026-09-10 17:16:54,530 | DEBUG | agent.py | AGENT | resolve_railway_station(destination='Coimbatore')
+2026-09-10 17:16:54,530 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'Coimbatore'
+2026-09-10 17:16:54,530 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Coimbatore'
+2026-09-10 17:16:54,530 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Coimbatore'
+2026-09-10 17:16:55,036 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Coimbatore' -> Coimbatore, Coimbatore North, Coimbatore, Tamil Nadu, 641001, India (class=place)
+2026-09-10 17:16:55,036 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'Coimbatore' -> 'Coimbatore'
+2026-09-10 17:16:55,036 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Coimbatore'
+2026-09-10 17:16:56,030 | INFO | place_tool.py | STATION_TOOL | resolved | 'Coimbatore' -> Coimbatore Jn (CBE)
+2026-09-10 17:16:56,030 | INFO | agent.py | AGENT | get_train_options | Kalaburagi(KLBG) -> Coimbatore(CBE) on 2026-09-11
+2026-09-10 17:16:56,030 | INFO | train_tool.py | TRAIN_TOOL | called | KLBG -> CBE on 2026-09-11
+2026-09-10 17:16:56,030 | DEBUG | train_tool.py | TRAIN_TOOL | attempt starting | KLBG -> CBE on 2026-09-11
+2026-09-10 17:16:57,199 | INFO | train_tool.py | TRAIN_TOOL | succeeded | KLBG -> CBE on 2026-09-11 | 2 train(s) found
+2026-09-10 17:16:57,199 | DEBUG | agent.py | AGENT | tool get_train_options completed successfully
+2026-09-10 17:16:57,199 | DEBUG | agent.py | AGENT | calling tool: get_train_options args={"from_city":"Coimbatore","to_city":"Mettupalayam","date":"2026-09-11"}
+2026-09-10 17:16:57,200 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_train_options({'from_city': 'Coimbatore', 'to_city': 'Mettupalayam', 'date': '2026-09-11'})
+2026-09-10 17:16:57,200 | DEBUG | agent.py | AGENT | resolve_railway_station(origin='Coimbatore')
+2026-09-10 17:16:57,200 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'Coimbatore'
+2026-09-10 17:16:57,200 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Coimbatore'
+2026-09-10 17:16:57,200 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Coimbatore'
+2026-09-10 17:16:57,467 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Coimbatore' -> Coimbatore, Coimbatore North, Coimbatore, Tamil Nadu, 641001, India (class=place)
+2026-09-10 17:16:57,467 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'Coimbatore' -> 'Coimbatore'
+2026-09-10 17:16:57,467 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Coimbatore'
+2026-09-10 17:16:58,389 | INFO | place_tool.py | STATION_TOOL | resolved | 'Coimbatore' -> Coimbatore Jn (CBE)
+2026-09-10 17:16:58,389 | DEBUG | agent.py | AGENT | resolve_railway_station(destination='Mettupalayam')
+2026-09-10 17:16:58,389 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'Mettupalayam'
+2026-09-10 17:16:58,390 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Mettupalayam'
+2026-09-10 17:16:58,390 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Mettupalayam'
+2026-09-10 17:16:58,963 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Mettupalayam' -> Mettuppalayam, Mettupalayam, Coimbatore, Tamil Nadu, 641301, India (class=place)
+2026-09-10 17:16:58,963 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'Mettupalayam' -> 'Mettupalayam'
+2026-09-10 17:16:58,963 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Mettupalayam'
+2026-09-10 17:16:59,554 | INFO | place_tool.py | STATION_TOOL | resolved | 'Mettupalayam' -> Mettupalaiyam (MTP)
+2026-09-10 17:16:59,554 | INFO | agent.py | AGENT | get_train_options | Coimbatore(CBE) -> Mettupalayam(MTP) on 2026-09-11
+2026-09-10 17:16:59,554 | INFO | train_tool.py | TRAIN_TOOL | called | CBE -> MTP on 2026-09-11
+2026-09-10 17:16:59,554 | DEBUG | train_tool.py | TRAIN_TOOL | attempt starting | CBE -> MTP on 2026-09-11
+2026-09-10 17:17:00,287 | INFO | train_tool.py | TRAIN_TOOL | succeeded | CBE -> MTP on 2026-09-11 | 7 train(s) found
+2026-09-10 17:17:00,287 | DEBUG | agent.py | AGENT | tool get_train_options completed successfully
+2026-09-10 17:17:00,287 | DEBUG | agent.py | AGENT | calling tool: get_train_options args={"from_city":"Mettupalayam","to_city":"Ooty","date":"2026-09-11"}
+2026-09-10 17:17:00,287 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_train_options({'from_city': 'Mettupalayam', 'to_city': 'Ooty', 'date': '2026-09-11'})
+2026-09-10 17:17:00,287 | DEBUG | agent.py | AGENT | resolve_railway_station(origin='Mettupalayam')
+2026-09-10 17:17:00,287 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'Mettupalayam'
+2026-09-10 17:17:00,288 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Mettupalayam'
+2026-09-10 17:17:00,288 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Mettupalayam'
+2026-09-10 17:17:00,766 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Mettupalayam' -> Mettuppalayam, Mettupalayam, Coimbatore, Tamil Nadu, 641301, India (class=place)
+2026-09-10 17:17:00,766 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'Mettupalayam' -> 'Mettupalayam'
+2026-09-10 17:17:00,766 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Mettupalayam'
+2026-09-10 17:17:01,634 | INFO | place_tool.py | STATION_TOOL | resolved | 'Mettupalayam' -> Mettupalaiyam (MTP)
+2026-09-10 17:17:01,634 | DEBUG | agent.py | AGENT | resolve_railway_station(destination='Ooty')
+2026-09-10 17:17:01,634 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'Ooty'
+2026-09-10 17:17:01,634 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Ooty'
+2026-09-10 17:17:01,635 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Ooty'
+2026-09-10 17:17:01,882 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Ooty' -> Udhagamandalam, Nilgiris, Tamil Nadu, 643001, India (class=place)
+2026-09-10 17:17:01,882 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'Ooty' -> 'Ooty'
+2026-09-10 17:17:01,882 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'Ooty'
+2026-09-10 17:17:02,389 | WARNING | place_tool.py | STATION_TOOL | could not confidently identify a station for 'Ooty'
+2026-09-10 17:17:02,389 | WARNING | agent.py | AGENT | CHAIN BROKE at resolve_railway_station(destination) | Could not confidently identify a railway station for 'Ooty'
+2026-09-10 17:17:02,389 | WARNING | agent.py | AGENT | tool get_train_options returned error: Could not confidently identify a railway station for 'Ooty'
+2026-09-10 17:17:02,389 | INFO | agent.py | AGENT | round 3 | all 3 tool call(s) completed
+2026-09-10 17:17:02,389 | INFO | agent.py | AGENT | round 3 | sending tool results back to OpenAI
+2026-09-10 17:17:05,654 | INFO | agent.py | AGENT | round 3 | OpenAI responded
+2026-09-10 17:17:05,654 | INFO | agent.py | AGENT | round 4 | model requested 1 tool(s): ['get_bus_options']
+2026-09-10 17:17:05,655 | DEBUG | agent.py | AGENT | calling tool: get_bus_options args={"from_city":"Mettupalayam","to_city":"Ooty","date":"11-Sep-2026"}
+2026-09-10 17:17:05,655 | DEBUG | agent.py | AGENT | _execute_tool dispatching: get_bus_options({'from_city': 'Mettupalayam', 'to_city': 'Ooty', 'date': '11-Sep-2026'})
+2026-09-10 17:17:05,655 | INFO | bus_tool.py | BUS_TOOL | called | Mettupalayam -> Ooty on 11-Sep-2026
+2026-09-10 17:17:05,655 | DEBUG | bus_tool.py | BUS_TOOL | city lookup attempt starting | 'Mettupalayam'
+2026-09-10 17:17:06,274 | ERROR | bus_tool.py | BUS_TOOL | HTTP error 401 | Mettupalayam -> Ooty on 11-Sep-2026 | 401 Client Error: Unauthorized for url: https://api.parse.bot/scraper/35a9b6fe-4009-43dd-89e2-993f11b60ad0/get_city_suggestions?query=Mettupalayam&limit=1
+2026-09-10 17:17:06,275 | WARNING | agent.py | AGENT | tool get_bus_options returned error: Bus search returned an error (status 401): 401 Client Error: Unauthorized for url: https://api.parse.bot/scraper/35a9b6fe-4009-43dd-89e2-993f11b60ad0/get_city_suggestions?query=Mettupalayam&limit=1
+2026-09-10 17:17:06,275 | INFO | agent.py | AGENT | round 4 | all 1 tool call(s) completed
+2026-09-10 17:17:06,275 | INFO | agent.py | AGENT | round 4 | sending tool results back to OpenAI
+2026-09-10 17:17:08,069 | INFO | agent.py | AGENT | round 4 | OpenAI responded
+2026-09-10 17:17:08,070 | INFO | agent.py | AGENT | round 5 | model requested 1 tool(s): ['web_search']
+2026-09-10 17:17:08,070 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"bus from Mettupalayam to Ooty","max_results":3}
+2026-09-10 17:17:08,070 | DEBUG | agent.py | AGENT | _execute_tool dispatching: web_search({'query': 'bus from Mettupalayam to Ooty', 'max_results': 3})
+2026-09-10 17:17:08,070 | INFO | web_search_tool.py | WEB_SEARCH | called | query='bus from Mettupalayam to Ooty' max_results=3
+2026-09-10 17:17:08,070 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='bus from Mettupalayam to Ooty'
+2026-09-10 17:17:15,301 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='bus from Mettupalayam to Ooty' results=3
+2026-09-10 17:17:15,302 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-10 17:17:15,302 | INFO | agent.py | AGENT | round 5 | all 1 tool call(s) completed
+2026-09-10 17:17:15,302 | INFO | agent.py | AGENT | round 5 | sending tool results back to OpenAI
+2026-09-10 17:17:20,275 | INFO | agent.py | AGENT | round 5 | OpenAI responded
+2026-09-10 17:17:20,275 | INFO | agent.py | AGENT | round 6 | no more tool calls requested — finishing
+2026-09-10 17:17:20,281 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Ooty'
+2026-09-10 17:17:20,281 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Ooty'
+2026-09-10 17:17:20,671 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Ooty' -> Udhagamandalam, Nilgiris, Tamil Nadu, 643001, India (class=place)
+2026-09-10 17:17:20,671 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Coimbatore'
+2026-09-10 17:17:20,671 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Coimbatore'
+2026-09-10 17:17:21,041 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Coimbatore' -> Coimbatore, Coimbatore North, Coimbatore, Tamil Nadu, 641001, India (class=place)
+2026-09-10 17:17:21,041 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Mettupalayam'
+2026-09-10 17:17:21,041 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Mettupalayam'
+2026-09-10 17:17:21,399 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Mettupalayam' -> Mettuppalayam, Mettupalayam, Coimbatore, Tamil Nadu, 641301, India (class=place)
+2026-09-10 17:17:21,399 | INFO | agent.py | AGENT | finished successfully | places found: 4
+2026-09-10 17:17:22,675 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Ooty'
+2026-09-10 17:17:28,998 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-10 17:17:28,998 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-10 17:17:28,999 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-10 17:17:28,999 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-10 17:17:28,999 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-10 17:17:28,999 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-10 17:17:29,001 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-10 17:17:29,001 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-10 17:17:29,000 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-10 17:17:29,001 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-10 17:17:29,002 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-10 17:17:29,000 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-10 17:17:29,005 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-10 17:17:29,005 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-10 17:17:29,005 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-10 17:17:29,007 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-10 17:17:29,008 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-10 17:17:29,008 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-10 17:17:29,009 | INFO | main.py | PLAN | succeeded | destination='Ooty' origin='Gulbarga' places=4
+2026-09-10 17:17:29,547 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-10 17:17:29,548 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-10 17:17:29,551 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-10 17:17:29,551 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-10 17:17:29,552 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-10 17:17:29,561 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-10 17:17:29,561 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-10 17:17:29,566 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-10 17:17:29,567 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-10 17:17:29,568 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-10 17:17:29,572 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-10 17:17:29,572 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-10 17:17:29,577 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-10 17:17:29,577 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-10 17:17:29,577 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-10 17:17:29,617 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-10 17:17:29,617 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-10 17:17:29,621 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-10 17:17:29,622 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-10 17:17:29,622 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-10 17:17:29,708 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-10 17:17:29,710 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-10 17:17:29,710 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-10 17:17:29,710 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-10 17:17:29,714 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-10 17:17:29,714 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-10 17:17:29,714 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-10 17:17:29,714 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-10 17:17:29,715 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-10 17:17:29,715 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-10 17:17:30,109 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-10 17:17:30,109 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-10 17:17:30,157 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-10 17:17:30,157 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-10 17:17:30,182 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-10 17:17:30,182 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-10 17:17:30,201 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-10 17:17:30,201 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-10 17:17:30,306 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-10 17:17:30,306 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-10 17:17:30,333 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-10 17:17:30,333 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1

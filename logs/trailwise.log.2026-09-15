@@ -1,0 +1,1360 @@
+2026-09-15 12:31:50,253 | INFO | main.py | Starting Trailwise Backend...
+2026-09-15 12:32:31,269 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 12:32:31,270 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 12:32:31,271 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 12:32:31,271 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 12:32:31,271 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 12:32:31,272 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 12:32:31,272 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 12:32:31,272 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 12:32:31,272 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 12:32:31,273 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 12:32:31,273 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 12:32:31,273 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 12:32:31,274 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 12:32:31,277 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 12:32:31,277 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 12:32:31,280 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 12:32:31,282 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 12:32:31,286 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 12:32:31,921 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:32:31,921 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:32:31,924 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 12:32:31,925 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 12:32:31,925 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 12:32:31,953 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:32:31,953 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:32:31,957 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 12:32:31,958 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 12:32:31,958 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 12:32:31,976 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:32:31,977 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:32:31,977 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:32:31,978 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:32:31,980 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 12:32:31,981 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 12:32:31,982 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 12:32:31,983 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 12:32:31,983 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 12:32:31,983 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 12:32:32,007 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:32:32,008 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:32:32,012 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 12:32:32,014 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 12:32:32,014 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 12:32:32,381 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:32:32,382 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:32:32,384 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 12:32:32,384 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 12:32:32,384 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 12:32:32,398 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:32:32,398 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:32:32,492 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:32:32,492 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:32:32,506 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:32:32,507 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:32:32,535 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:32:32,535 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:32:32,551 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:32:32,551 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:32:32,718 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:32:32,718 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:41:30,291 | INFO | main.py | ============================================================
+2026-09-15 12:41:30,292 | INFO | main.py | PLAN | called | chat_id='312ac520-6238-4777-8977-45bd2a30ded7' question='manali trip ideas'
+2026-09-15 12:41:30,292 | INFO | agent.py | ============================================================
+2026-09-15 12:41:30,295 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 12:41:30,296 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-15 12:41:30,298 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 12:41:30,298 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 12:41:36,284 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 12:41:36,284 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-15 12:41:36,284 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Manali travel attractions and adventure activities","max_results":5}
+2026-09-15 12:41:36,285 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Manali travel attractions and adventure activities', 'max_results': 5})
+2026-09-15 12:41:36,285 | ERROR | agent.py | AGENT | MCP tool 'web_search' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:41:36,295 | WARNING | agent.py | AGENT | tool web_search returned error: MCP tool 'web_search' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:41:36,301 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Manali"}
+2026-09-15 12:41:36,301 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Manali'})
+2026-09-15 12:41:36,302 | ERROR | agent.py | AGENT | MCP tool 'get_weather_forecast' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:41:36,302 | WARNING | agent.py | AGENT | tool get_weather_forecast returned error: MCP tool 'get_weather_forecast' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:41:36,303 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Manali"}
+2026-09-15 12:41:36,303 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Manali'})
+2026-09-15 12:41:36,304 | ERROR | agent.py | AGENT | MCP tool 'get_place_coordinates' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:41:36,304 | WARNING | agent.py | AGENT | tool get_place_coordinates returned error: MCP tool 'get_place_coordinates' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:41:36,305 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Manali","max_results":3}
+2026-09-15 12:41:36,305 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Manali', 'max_results': 3})
+2026-09-15 12:41:36,305 | ERROR | agent.py | AGENT | MCP tool 'get_place_images' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:41:36,306 | WARNING | agent.py | AGENT | tool get_place_images returned error: MCP tool 'get_place_images' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:41:36,307 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-15 12:41:36,311 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-15 12:41:42,687 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-15 12:41:42,687 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-15 12:41:42,694 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Manali'
+2026-09-15 12:41:42,695 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Manali'
+2026-09-15 12:41:43,958 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Manali' -> Manali, Kullu, Himachal Pradesh, 175131, India (class=place)
+2026-09-15 12:41:43,959 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Chandigarh'
+2026-09-15 12:41:43,959 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Chandigarh'
+2026-09-15 12:41:45,064 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Chandigarh' -> Chandigarh, 160018, India (class=place)
+2026-09-15 12:41:45,064 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Ambala'
+2026-09-15 12:41:45,065 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Ambala'
+2026-09-15 12:41:46,266 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Ambala' -> Ambala, Ambala Cantt, Ambala, Haryana, 134002, India (class=place)
+2026-09-15 12:41:46,267 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-15 12:41:47,870 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Manali'
+2026-09-15 12:41:53,847 | INFO | main.py | PLAN | succeeded | destination='Manali' origin='Chandigarh' places=3
+2026-09-15 12:45:55,686 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 12:45:55,686 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 12:45:55,688 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 12:45:55,688 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 12:45:55,689 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 12:45:55,690 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 12:45:55,691 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 12:45:55,692 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 12:45:55,692 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 12:45:55,694 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 12:45:55,695 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 12:45:55,695 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 12:45:55,695 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 12:45:55,701 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 12:45:55,702 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 12:45:55,705 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 12:45:55,707 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 12:45:55,712 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 12:45:56,543 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:45:56,543 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:45:56,547 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:45:56,548 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:45:56,556 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 12:45:56,557 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 12:45:56,557 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 12:45:56,560 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 12:45:56,561 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 12:45:56,565 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:45:56,567 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 12:45:56,568 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:45:56,580 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:45:56,584 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:45:56,585 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:45:56,590 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:45:56,591 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:45:56,592 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 12:45:56,594 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:45:56,597 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 12:45:56,600 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 12:45:56,608 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 12:45:56,611 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 12:45:56,611 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 12:45:56,612 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 12:45:56,613 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 12:45:56,614 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 12:45:56,615 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 12:45:56,615 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 12:45:56,617 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 12:45:57,297 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:45:57,298 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:45:57,303 | INFO | main.py | ============================================================
+2026-09-15 12:45:57,304 | INFO | main.py | PLAN | called | chat_id='53ac6e1b-d8e3-431c-b13c-f23015c693f9' question='manali trip ideas'
+2026-09-15 12:45:57,305 | INFO | agent.py | ============================================================
+2026-09-15 12:45:57,305 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 12:45:57,305 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-15 12:45:57,307 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 12:45:57,307 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 12:45:57,326 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:45:57,327 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:45:57,328 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:45:57,329 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:45:57,340 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:45:57,341 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:45:57,349 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:45:57,350 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:45:57,353 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:45:57,355 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:46:00,956 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 12:46:00,957 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-15 12:46:00,957 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Manali travel attractions and adventure activities","max_results":5}
+2026-09-15 12:46:00,958 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Manali travel attractions and adventure activities', 'max_results': 5})
+2026-09-15 12:46:00,958 | ERROR | agent.py | AGENT | MCP tool 'web_search' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:46:00,970 | WARNING | agent.py | AGENT | tool web_search returned error: MCP tool 'web_search' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:46:00,970 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Manali"}
+2026-09-15 12:46:00,971 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Manali'})
+2026-09-15 12:46:00,971 | ERROR | agent.py | AGENT | MCP tool 'get_weather_forecast' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:46:00,972 | WARNING | agent.py | AGENT | tool get_weather_forecast returned error: MCP tool 'get_weather_forecast' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:46:00,972 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Manali"}
+2026-09-15 12:46:00,972 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Manali'})
+2026-09-15 12:46:00,973 | ERROR | agent.py | AGENT | MCP tool 'get_place_coordinates' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:46:00,973 | WARNING | agent.py | AGENT | tool get_place_coordinates returned error: MCP tool 'get_place_coordinates' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:46:00,974 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Manali","max_results":3}
+2026-09-15 12:46:00,974 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Manali', 'max_results': 3})
+2026-09-15 12:46:00,974 | ERROR | agent.py | AGENT | MCP tool 'get_place_images' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:46:00,975 | WARNING | agent.py | AGENT | tool get_place_images returned error: MCP tool 'get_place_images' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:46:00,976 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-15 12:46:00,980 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-15 12:46:06,230 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-15 12:46:06,230 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-15 12:46:06,235 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Manali'
+2026-09-15 12:46:06,236 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Manali'
+2026-09-15 12:46:07,254 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Manali' -> Manali, Kullu, Himachal Pradesh, 175131, India (class=place)
+2026-09-15 12:46:07,254 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Chandigarh'
+2026-09-15 12:46:07,255 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Chandigarh'
+2026-09-15 12:46:08,301 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Chandigarh' -> Chandigarh, 160018, India (class=place)
+2026-09-15 12:46:08,301 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Pathankot'
+2026-09-15 12:46:08,301 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Pathankot'
+2026-09-15 12:46:10,216 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Pathankot' -> Pathankot, Punjab, India (class=boundary)
+2026-09-15 12:46:10,216 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-15 12:46:11,314 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Manali'
+2026-09-15 12:46:13,072 | INFO | main.py | PLAN | succeeded | destination='Manali' origin='Chandigarh' places=3
+2026-09-15 12:50:42,684 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 12:50:42,686 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 12:50:42,686 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 12:50:42,687 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 12:50:42,687 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 12:50:42,688 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 12:50:42,688 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 12:50:42,687 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 12:50:42,690 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 12:50:42,690 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 12:50:42,691 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 12:50:42,691 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 12:50:42,692 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 12:50:42,693 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 12:50:42,693 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 12:50:42,693 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 12:50:42,698 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 12:50:42,701 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 12:50:43,552 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:50:43,554 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:50:43,557 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:50:43,558 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:50:43,569 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:50:43,575 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 12:50:43,575 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 12:50:43,576 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:50:43,578 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:50:43,581 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:50:43,582 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 12:50:43,586 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:50:43,589 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 12:50:43,590 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:50:43,591 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:50:43,592 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 12:50:43,593 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:50:43,594 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 12:50:43,598 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 12:50:43,605 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 12:50:43,609 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 12:50:43,619 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 12:50:43,629 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 12:50:43,630 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 12:50:43,633 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 12:50:43,633 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 12:50:43,635 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 12:50:43,636 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 12:50:43,639 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 12:50:43,646 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 12:50:44,378 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:50:44,378 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:50:44,382 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:50:44,383 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:50:44,390 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:50:44,393 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:50:44,394 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:50:44,396 | INFO | main.py | ============================================================
+2026-09-15 12:50:44,396 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:50:44,402 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:50:44,402 | INFO | main.py | PLAN | called | chat_id='82645d11-0c13-4d23-b8db-01fb960eedaa' question='manali trip ideas'
+2026-09-15 12:50:44,403 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:50:44,403 | INFO | agent.py | ============================================================
+2026-09-15 12:50:44,404 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 12:50:44,405 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-15 12:50:44,405 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 12:50:44,406 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 12:50:44,469 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:50:44,470 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:50:48,334 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 12:50:48,335 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-15 12:50:48,335 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Manali travel attractions and adventure activities","max_results":5}
+2026-09-15 12:50:48,336 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Manali travel attractions and adventure activities', 'max_results': 5})
+2026-09-15 12:50:48,336 | ERROR | agent.py | AGENT | MCP tool 'web_search' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:50:48,349 | WARNING | agent.py | AGENT | tool web_search returned error: MCP tool 'web_search' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:50:48,349 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Manali"}
+2026-09-15 12:50:48,350 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Manali'})
+2026-09-15 12:50:48,350 | ERROR | agent.py | AGENT | MCP tool 'get_weather_forecast' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:50:48,351 | WARNING | agent.py | AGENT | tool get_weather_forecast returned error: MCP tool 'get_weather_forecast' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:50:48,352 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Manali"}
+2026-09-15 12:50:48,352 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Manali'})
+2026-09-15 12:50:48,352 | ERROR | agent.py | AGENT | MCP tool 'get_place_coordinates' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:50:48,353 | WARNING | agent.py | AGENT | tool get_place_coordinates returned error: MCP tool 'get_place_coordinates' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:50:48,354 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Manali","max_results":3}
+2026-09-15 12:50:48,355 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Manali', 'max_results': 3})
+2026-09-15 12:50:48,356 | ERROR | agent.py | AGENT | MCP tool 'get_place_images' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:50:48,356 | WARNING | agent.py | AGENT | tool get_place_images returned error: MCP tool 'get_place_images' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:50:48,356 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-15 12:50:48,359 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-15 12:50:52,183 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-15 12:50:52,184 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-15 12:50:52,187 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Manali'
+2026-09-15 12:50:52,188 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Manali'
+2026-09-15 12:50:52,702 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Manali' -> Manali, Kullu, Himachal Pradesh, 175131, India (class=place)
+2026-09-15 12:50:52,703 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Joginder Nagar'
+2026-09-15 12:50:52,704 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Joginder Nagar'
+2026-09-15 12:50:53,410 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Joginder Nagar' -> Joginder Nagar, Great Nicobar, Nicobar, Andaman and Nicobar Islands, India (class=place)
+2026-09-15 12:50:53,411 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Chandigarh'
+2026-09-15 12:50:53,412 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Chandigarh'
+2026-09-15 12:50:53,904 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Chandigarh' -> Chandigarh, 160018, India (class=place)
+2026-09-15 12:50:53,905 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-15 12:50:55,144 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Manali'
+2026-09-15 12:50:57,129 | INFO | main.py | PLAN | succeeded | destination='Manali' origin='' places=3
+2026-09-15 12:51:09,155 | INFO | main.py | ============================================================
+2026-09-15 12:51:09,156 | INFO | main.py | PLAN | called | chat_id='82645d11-0c13-4d23-b8db-01fb960eedaa' question='referce image of that place'
+2026-09-15 12:51:09,156 | INFO | agent.py | ============================================================
+2026-09-15 12:51:09,156 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 12:51:09,156 | DEBUG | agent.py | AGENT | history length received: 10
+2026-09-15 12:51:09,156 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 12:51:09,157 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 12:51:11,274 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 12:51:11,283 | INFO | agent.py | AGENT | round 1 | model requested 2 tool(s): ['get_place_coordinates', 'get_place_images']
+2026-09-15 12:51:11,284 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Manali"}
+2026-09-15 12:51:11,284 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Manali'})
+2026-09-15 12:51:11,285 | ERROR | agent.py | AGENT | MCP tool 'get_place_coordinates' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:51:11,285 | WARNING | agent.py | AGENT | tool get_place_coordinates returned error: MCP tool 'get_place_coordinates' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:51:11,286 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Manali","max_results":3}
+2026-09-15 12:51:11,286 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Manali', 'max_results': 3})
+2026-09-15 12:51:11,287 | ERROR | agent.py | AGENT | MCP tool 'get_place_images' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:51:11,287 | WARNING | agent.py | AGENT | tool get_place_images returned error: MCP tool 'get_place_images' failed: asyncio.run() cannot be called from a running event loop
+2026-09-15 12:51:11,300 | INFO | agent.py | AGENT | round 1 | all 2 tool call(s) completed
+2026-09-15 12:51:11,301 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-15 12:51:13,715 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-15 12:51:13,716 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-15 12:51:13,716 | INFO | agent.py | AGENT | finished successfully | places found: 0
+2026-09-15 12:51:14,593 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Manali'
+2026-09-15 12:51:18,531 | INFO | main.py | PLAN | succeeded | destination='Manali' origin='' places=0
+2026-09-15 12:56:20,660 | INFO | main.py | Starting Trailwise Backend...
+2026-09-15 12:56:24,938 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 12:56:24,939 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 12:56:24,942 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 12:56:24,943 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 12:56:24,943 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 12:56:24,943 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 12:56:24,945 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 12:56:24,945 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 12:56:24,946 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 12:56:24,946 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 12:56:24,950 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 12:56:24,950 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 12:56:24,950 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 12:56:24,951 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 12:56:24,952 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 12:56:24,952 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 12:56:24,954 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 12:56:24,956 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 12:56:26,096 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:56:26,097 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:56:26,103 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 12:56:26,106 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 12:56:26,107 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 12:56:26,249 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:56:26,252 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:56:26,255 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:56:26,253 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:56:26,256 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:56:26,257 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:56:26,263 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 12:56:26,263 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 12:56:26,263 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 12:56:26,264 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 12:56:26,265 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 12:56:26,266 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 12:56:26,266 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 12:56:26,268 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 12:56:26,269 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 12:56:26,299 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:56:26,299 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:56:26,303 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 12:56:26,304 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 12:56:26,304 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 12:56:26,327 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:56:26,328 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:56:26,333 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 12:56:26,334 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 12:56:26,335 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 12:56:27,100 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:56:27,101 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 12:56:27,146 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:56:27,146 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 12:56:27,329 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:56:27,329 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 12:56:27,337 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:56:27,338 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 12:56:27,341 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:56:27,342 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 12:56:27,362 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:56:27,362 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 12:56:37,907 | INFO | main.py | ============================================================
+2026-09-15 12:56:37,910 | INFO | main.py | PLAN | called | chat_id='2b51f208-b6b0-46fa-b36b-f31f183830b5' question='kedarnath trip ideas'
+2026-09-15 12:56:37,936 | ERROR | main.py | PLAN | CHAIN BROKE | cannot unpack non-iterable coroutine object
+Traceback (most recent call last):
+  File "C:\Users\varshas\Desktop\Agentic AI\main.py", line 955, in plan
+    reply_text, updated_history, places = run_agent(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable coroutine object
+2026-09-15 13:00:01,145 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:00:01,147 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:00:01,148 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:00:01,149 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:00:01,150 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:00:01,151 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:00:01,152 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:00:01,153 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:00:01,153 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 13:00:01,154 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:00:01,154 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:00:01,155 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 13:00:01,155 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:00:01,156 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 13:00:01,157 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:00:01,158 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 13:00:01,159 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 13:00:01,163 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 13:00:02,097 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:00:02,098 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:00:02,104 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:00:02,108 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:00:02,108 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:00:02,112 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:00:02,112 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:00:02,113 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:00:02,118 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 13:00:02,118 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:00:02,122 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:00:02,123 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 13:00:02,128 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:00:02,129 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 13:00:02,132 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:00:02,135 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:00:02,142 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:00:02,147 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 13:00:02,150 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 13:00:02,152 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 13:00:02,328 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:00:02,329 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:00:02,332 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:00:02,332 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:00:02,332 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:00:02,357 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:00:02,357 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:00:02,361 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:00:02,361 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:00:02,361 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:00:03,099 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:00:03,100 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:00:03,106 | INFO | main.py | ============================================================
+2026-09-15 13:00:03,108 | INFO | main.py | PLAN | called | chat_id='75a762da-77a1-428b-b574-7cf66eae3a69' question='kedarnath trip ideas'
+2026-09-15 13:00:03,108 | INFO | agent.py | ============================================================
+2026-09-15 13:00:03,109 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 13:00:03,110 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-15 13:00:03,111 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 13:00:03,111 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 13:00:03,169 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:00:03,171 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:00:03,172 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:00:03,173 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:00:03,182 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:00:03,183 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:00:03,215 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:00:03,216 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:00:03,334 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:00:03,336 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:00:08,356 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 13:00:08,357 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-15 13:00:08,357 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Kedarnath trip ideas","max_results":5}
+2026-09-15 13:00:08,358 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Kedarnath trip ideas', 'max_results': 5})
+2026-09-15 13:00:08,703 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Kedarnath trip ideas' max_results=5
+2026-09-15 13:00:08,708 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Kedarnath trip ideas'
+2026-09-15 13:00:11,324 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Kedarnath trip ideas' results=5
+2026-09-15 13:00:11,340 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-15 13:00:11,341 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-15 13:00:11,342 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Kedarnath"}
+2026-09-15 13:00:11,343 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Kedarnath'})
+2026-09-15 13:00:11,642 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-15 13:00:11,642 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-15 13:00:11,643 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Kedarnath"}
+2026-09-15 13:00:11,643 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Kedarnath'})
+2026-09-15 13:00:11,947 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates' completed successfully
+2026-09-15 13:00:11,949 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-15 13:00:11,951 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Kedarnath","max_results":3}
+2026-09-15 13:00:11,951 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Kedarnath', 'max_results': 3})
+2026-09-15 13:00:12,231 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Kedarnath | max_results=3
+2026-09-15 13:00:12,236 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kedarnath' max_results=3
+2026-09-15 13:00:12,242 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kedarnath'
+2026-09-15 13:00:13,403 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kedarnath' images_found=3
+2026-09-15 13:00:13,405 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Kedarnath', 'images': [{'url': 'https://images.pexels.com/photos/16152405/pexels-photo-16152405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A crowd of pilgrims at Kedarnath Temple with snowcapped Himalayan peaks in the background.', 'photographer': 'Abhra Ghosh', 'photographer_url': 'https://www.pexels.com/@abhra-ghosh-362148807'}, {'url': 'https://images.pexels.com/photos/19010050/pexels-photo-19010050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Scenic view of majestic mountains and stream in Kedarnath, India, under a clear blue sky.', 'photographer': 'Soubhagya Maharana', 'photographer_url': 'https://www.pexels.com/@soubhagya23'}, {'url': 'https://images.pexels.com/photos/15031440/pexels-photo-15031440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Crowd gathers at Kedarnath Temple with Himalayas backdrop, showcasing religious significance and stunning landscape.', 'photographer': 'Alok Kumar', 'photographer_url': 'https://www.pexels.com/@alok-kumar-273007'}]}
+2026-09-15 13:00:13,428 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-15 13:00:13,430 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-15 13:00:13,430 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-15 13:00:13,431 | ERROR | agent.py | AGENT | CHAIN BROKE at unknown stage | Exception: Object of type TextContent is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\varshas\Desktop\Agentic AI\agent.py", line 629, in run_agent
+    "output": json.dumps(result),
+              ~~~~~~~~~~^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 235, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\json\encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type TextContent is not JSON serializable
+when serializing list item 0
+2026-09-15 13:00:14,493 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Kedarnath'
+2026-09-15 13:00:19,627 | INFO | main.py | PLAN | succeeded | destination='Kedarnath' origin='' places=0
+2026-09-15 13:03:55,921 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:03:55,921 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:03:55,921 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:03:55,922 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:03:55,922 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:03:55,922 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:03:55,923 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:03:55,923 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:03:55,924 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:03:55,923 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:03:55,926 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:03:55,929 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 13:03:55,929 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:03:55,930 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 13:03:55,932 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 13:03:55,932 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 13:03:55,936 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 13:03:55,937 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 13:03:56,362 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:03:56,363 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:03:56,364 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:03:56,372 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:03:56,373 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:03:56,374 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:03:56,378 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:03:56,379 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:03:56,380 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:03:56,380 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:03:56,381 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:03:56,383 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:03:56,441 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:03:56,444 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:03:56,445 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:03:56,448 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:03:56,451 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:03:56,452 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:03:56,459 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:03:56,461 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:03:56,462 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:03:56,464 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:03:56,466 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:03:56,466 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 13:03:56,471 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:03:56,472 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 13:03:56,473 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 13:03:56,476 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 13:03:56,478 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 13:03:56,479 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 13:03:57,156 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:03:57,158 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:03:57,173 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:03:57,174 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:03:57,176 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:03:57,176 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:03:57,201 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:03:57,203 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:03:57,413 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:03:57,414 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:03:57,444 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:03:57,445 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:03:57,704 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:03:57,704 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:03:57,708 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:03:57,709 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:03:57,714 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:03:57,715 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:03:57,717 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:03:57,719 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:03:57,722 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:03:57,723 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:03:57,725 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:03:57,729 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:03:57,732 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:03:57,736 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:03:57,740 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:03:57,741 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:03:57,742 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:03:57,749 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 13:03:57,750 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 13:03:57,752 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 13:03:57,859 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:03:57,859 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:03:57,895 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:03:57,895 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:03:57,899 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:03:57,900 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:03:57,904 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:03:57,905 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:03:57,956 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:03:57,956 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:03:57,960 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 13:03:57,961 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 13:03:57,961 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 13:03:57,976 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:03:57,976 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:03:57,981 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:03:57,981 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:03:57,982 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:03:58,566 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:03:58,567 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:03:58,570 | INFO | main.py | ============================================================
+2026-09-15 13:03:58,570 | INFO | main.py | PLAN | called | chat_id='5610f2fd-bf68-46ba-b0bd-657249ad21b7' question='kedarnath trip ideas'
+2026-09-15 13:03:58,571 | INFO | agent.py | ============================================================
+2026-09-15 13:03:58,571 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 13:03:58,571 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-15 13:03:58,571 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 13:03:58,572 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 13:03:58,584 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:03:58,585 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:03:58,735 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:03:58,736 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:03:58,748 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:03:58,748 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:03:58,771 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:03:58,772 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:03:58,816 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:03:58,817 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:04:01,615 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 13:04:01,616 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-15 13:04:01,616 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Kedarnath travel guide 2026","max_results":5}
+2026-09-15 13:04:01,616 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Kedarnath travel guide 2026', 'max_results': 5})
+2026-09-15 13:04:01,898 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Kedarnath travel guide 2026' max_results=5
+2026-09-15 13:04:01,902 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Kedarnath travel guide 2026'
+2026-09-15 13:04:06,538 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Kedarnath travel guide 2026' results=5
+2026-09-15 13:04:06,547 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-15 13:04:06,547 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-15 13:04:06,547 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Kedarnath"}
+2026-09-15 13:04:06,547 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Kedarnath'})
+2026-09-15 13:04:06,823 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-15 13:04:06,823 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-15 13:04:06,823 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Kedarnath"}
+2026-09-15 13:04:06,824 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Kedarnath'})
+2026-09-15 13:04:07,102 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates' completed successfully
+2026-09-15 13:04:07,102 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-15 13:04:07,102 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Kedarnath","max_results":3}
+2026-09-15 13:04:07,103 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Kedarnath', 'max_results': 3})
+2026-09-15 13:04:07,372 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Kedarnath | max_results=3
+2026-09-15 13:04:07,375 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kedarnath' max_results=3
+2026-09-15 13:04:07,376 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kedarnath'
+2026-09-15 13:04:08,016 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kedarnath' images_found=3
+2026-09-15 13:04:08,020 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Kedarnath', 'images': [{'url': 'https://images.pexels.com/photos/16152405/pexels-photo-16152405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A crowd of pilgrims at Kedarnath Temple with snowcapped Himalayan peaks in the background.', 'photographer': 'Abhra Ghosh', 'photographer_url': 'https://www.pexels.com/@abhra-ghosh-362148807'}, {'url': 'https://images.pexels.com/photos/19010050/pexels-photo-19010050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Scenic view of majestic mountains and stream in Kedarnath, India, under a clear blue sky.', 'photographer': 'Soubhagya Maharana', 'photographer_url': 'https://www.pexels.com/@soubhagya23'}, {'url': 'https://images.pexels.com/photos/15031440/pexels-photo-15031440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Crowd gathers at Kedarnath Temple with Himalayas backdrop, showcasing religious significance and stunning landscape.', 'photographer': 'Alok Kumar', 'photographer_url': 'https://www.pexels.com/@alok-kumar-273007'}]}
+2026-09-15 13:04:08,031 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-15 13:04:08,032 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-15 13:04:08,032 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-15 13:04:08,032 | ERROR | agent.py | AGENT | CHAIN BROKE at unknown stage | Exception: Object of type TextContent is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\varshas\Desktop\Agentic AI\agent.py", line 629, in run_agent
+    "output": json.dumps(result),
+              ~~~~~~~~~~^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 235, in dumps
+    return _default_encoder.encode(obj)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\json\encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type TextContent is not JSON serializable
+when serializing list item 0
+2026-09-15 13:04:09,426 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Kedarnath'
+2026-09-15 13:04:15,015 | INFO | main.py | PLAN | succeeded | destination='Kedarnath' origin='' places=0
+2026-09-15 13:04:39,749 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 13:04:39,750 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:04:39,750 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 13:04:39,751 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 13:04:39,751 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:04:39,752 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 13:04:39,752 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:04:39,752 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:04:39,753 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 13:04:39,753 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:04:39,754 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:04:39,755 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 13:04:39,756 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:04:39,756 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:04:39,768 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:04:39,781 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:04:39,781 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:04:39,782 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:04:40,574 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:04:40,579 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:04:40,583 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:04:40,586 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:04:40,586 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:04:40,587 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:04:40,598 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:04:40,600 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:04:40,603 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:04:40,604 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:04:40,605 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:04:40,605 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:04:40,606 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:04:40,606 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:04:40,609 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:04:40,612 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:04:40,614 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:04:40,617 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:04:40,623 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:04:40,628 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:04:40,805 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:04:40,806 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:04:40,810 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 13:04:40,810 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 13:04:40,810 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 13:04:40,831 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:04:40,831 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:04:40,835 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 13:04:40,835 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 13:04:40,836 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 13:04:41,383 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:04:41,383 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:04:41,388 | INFO | main.py | ============================================================
+2026-09-15 13:04:41,389 | INFO | main.py | PLAN | called | chat_id='71ad3ba9-13f2-4ab2-8921-e9751da4a326' question='kedarnath trip ideas'
+2026-09-15 13:04:41,389 | INFO | agent.py | ============================================================
+2026-09-15 13:04:41,389 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 13:04:41,390 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-15 13:04:41,393 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 13:04:41,393 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 13:04:41,395 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:04:41,397 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:04:41,400 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:04:41,400 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:04:41,411 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:04:41,412 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:04:41,577 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:04:41,578 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:04:41,800 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:04:41,801 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:04:44,978 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 13:04:44,979 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-15 13:04:44,979 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Kedarnath travel guide 2026","max_results":5}
+2026-09-15 13:04:44,980 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Kedarnath travel guide 2026', 'max_results': 5})
+2026-09-15 13:04:45,310 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Kedarnath travel guide 2026' max_results=5
+2026-09-15 13:04:45,316 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Kedarnath travel guide 2026'
+2026-09-15 13:04:47,325 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Kedarnath travel guide 2026' results=5
+2026-09-15 13:04:47,350 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-15 13:04:47,351 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-15 13:04:47,351 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Kedarnath"}
+2026-09-15 13:04:47,352 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Kedarnath'})
+2026-09-15 13:04:47,645 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-15 13:04:47,646 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-15 13:04:47,648 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Kedarnath"}
+2026-09-15 13:04:47,649 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Kedarnath'})
+2026-09-15 13:04:47,930 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates' completed successfully
+2026-09-15 13:04:47,931 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-15 13:04:47,931 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Kedarnath Temple","max_results":3}
+2026-09-15 13:04:47,932 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Kedarnath Temple', 'max_results': 3})
+2026-09-15 13:04:48,209 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Kedarnath Temple | max_results=3
+2026-09-15 13:04:48,214 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kedarnath Temple' max_results=3
+2026-09-15 13:04:48,217 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kedarnath Temple'
+2026-09-15 13:04:49,269 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kedarnath Temple' images_found=3
+2026-09-15 13:04:49,273 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Kedarnath Temple', 'images': [{'url': 'https://images.pexels.com/photos/16152405/pexels-photo-16152405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A crowd of pilgrims at Kedarnath Temple with snowcapped Himalayan peaks in the background.', 'photographer': 'Abhra Ghosh', 'photographer_url': 'https://www.pexels.com/@abhra-ghosh-362148807'}, {'url': 'https://images.pexels.com/photos/15031440/pexels-photo-15031440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Crowd gathers at Kedarnath Temple with Himalayas backdrop, showcasing religious significance and stunning landscape.', 'photographer': 'Alok Kumar', 'photographer_url': 'https://www.pexels.com/@alok-kumar-273007'}, {'url': 'https://images.pexels.com/photos/32619517/pexels-photo-32619517.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A large crowd gathers at the historic Kedarnath Temple in India amidst misty weather.', 'photographer': 'Sahil  Chib', 'photographer_url': 'https://www.pexels.com/@sahil-chib-2147988493'}]}
+2026-09-15 13:04:49,292 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-15 13:04:49,293 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-15 13:04:49,293 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-15 13:04:49,296 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-15 13:04:51,272 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-15 13:04:51,273 | INFO | agent.py | AGENT | round 2 | model requested 3 tool(s): ['get_train_options', 'get_place_coordinates', 'get_place_coordinates']
+2026-09-15 13:04:51,273 | DEBUG | agent.py | AGENT | calling tool: get_train_options args={"from_city":"Haridwar","to_city":"Rudraprayag","date":"2026-09-20"}
+2026-09-15 13:04:51,273 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_train_options({'from_city': 'Haridwar', 'to_city': 'Rudraprayag', 'date': '2026-09-20'})
+2026-09-15 13:04:51,580 | DEBUG | agent.py | AGENT | MCP tool 'get_train_options' completed successfully
+2026-09-15 13:04:51,582 | DEBUG | agent.py | AGENT | tool get_train_options completed successfully
+2026-09-15 13:04:51,583 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Haridwar"}
+2026-09-15 13:04:51,583 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Haridwar'})
+2026-09-15 13:04:51,870 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates' completed successfully
+2026-09-15 13:04:51,872 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-15 13:04:51,873 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Rudraprayag"}
+2026-09-15 13:04:51,873 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Rudraprayag'})
+2026-09-15 13:04:52,172 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates' completed successfully
+2026-09-15 13:04:52,173 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-15 13:04:52,174 | INFO | agent.py | AGENT | round 2 | all 3 tool call(s) completed
+2026-09-15 13:04:52,174 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-15 13:04:58,421 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-15 13:04:58,421 | INFO | agent.py | AGENT | round 3 | no more tool calls requested — finishing
+2026-09-15 13:04:58,426 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kedarnath'
+2026-09-15 13:04:58,428 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kedarnath'
+2026-09-15 13:04:59,580 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kedarnath' -> Kedarnath, Ukhimath, Rudraprayag, Uttarakhand, India (class=place)
+2026-09-15 13:04:59,580 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Haridwar'
+2026-09-15 13:04:59,582 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Haridwar'
+2026-09-15 13:05:00,695 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Haridwar' -> Haridwār, Hardwar, Haridwar, Uttarakhand, 249401, India (class=place)
+2026-09-15 13:05:00,698 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Rudraprayag'
+2026-09-15 13:05:00,700 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Rudraprayag'
+2026-09-15 13:05:01,969 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Rudraprayag' -> Rudraprayag, Uttarakhand, India (class=boundary)
+2026-09-15 13:05:01,969 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Gaurikund'
+2026-09-15 13:05:01,969 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Gaurikund'
+2026-09-15 13:05:02,725 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Gaurikund' -> Gaurikund, Ukhimath, Rudraprayag, Uttarakhand, 246477, India (class=place)
+2026-09-15 13:05:02,726 | INFO | agent.py | AGENT | finished successfully | places found: 4
+2026-09-15 13:05:03,772 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Kedarnath'
+2026-09-15 13:05:09,024 | INFO | main.py | PLAN | succeeded | destination='Kedarnath' origin='Haridwar' places=4
+2026-09-15 13:30:56,697 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:30:56,698 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:30:56,700 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:30:56,701 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:30:56,702 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:30:56,703 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:30:56,704 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:30:56,704 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:30:56,705 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:30:56,706 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:30:56,707 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 13:30:56,709 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:30:56,710 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:30:56,711 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 13:30:56,713 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 13:30:56,716 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 13:30:56,718 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 13:30:56,723 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 13:30:57,497 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:30:57,497 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:30:57,499 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:30:57,500 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:30:57,504 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 13:30:57,507 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 13:30:57,507 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 13:30:57,516 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:30:57,517 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 13:30:57,520 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:30:57,524 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 13:30:57,529 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:30:57,537 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:30:57,541 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 13:30:57,545 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:30:57,551 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:30:57,553 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:30:57,559 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:30:57,563 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 13:30:57,565 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 13:30:57,566 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 13:30:57,566 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 13:30:57,568 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 13:30:57,569 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 13:30:57,570 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 13:30:57,571 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 13:30:57,572 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 13:30:57,572 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 13:30:57,573 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 13:30:57,574 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 13:30:58,300 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:30:58,300 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 13:30:58,303 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:30:58,316 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:30:58,316 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 13:30:58,322 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 13:30:58,324 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:30:58,326 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:30:58,331 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:30:58,333 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 13:30:58,334 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 13:30:58,334 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 13:31:43,561 | INFO | main.py | ============================================================
+2026-09-15 13:31:43,564 | INFO | main.py | PLAN | called | chat_id='aa13fae6-faa5-4a41-b71e-6e6d77d1ce41' question='kedarnath trip ideas'
+2026-09-15 13:31:43,565 | INFO | agent.py | ============================================================
+2026-09-15 13:31:43,566 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 13:31:43,568 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-15 13:31:43,572 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 13:31:43,575 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 13:31:48,379 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 13:31:48,379 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-15 13:31:48,379 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Kedarnath trip ideas","max_results":5}
+2026-09-15 13:31:48,380 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Kedarnath trip ideas', 'max_results': 5})
+2026-09-15 13:31:48,651 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Kedarnath trip ideas' max_results=5
+2026-09-15 13:31:48,654 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Kedarnath trip ideas'
+2026-09-15 13:31:50,785 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Kedarnath trip ideas' results=5
+2026-09-15 13:31:50,794 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-15 13:31:50,794 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-15 13:31:50,794 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Kedarnath"}
+2026-09-15 13:31:50,794 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Kedarnath'})
+2026-09-15 13:31:51,071 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-15 13:31:51,072 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-15 13:31:51,072 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Kedarnath"}
+2026-09-15 13:31:51,072 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Kedarnath'})
+2026-09-15 13:31:51,354 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates' completed successfully
+2026-09-15 13:31:51,354 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-15 13:31:51,354 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Kedarnath","max_results":3}
+2026-09-15 13:31:51,355 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Kedarnath', 'max_results': 3})
+2026-09-15 13:31:51,628 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Kedarnath | max_results=3
+2026-09-15 13:31:51,631 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kedarnath' max_results=3
+2026-09-15 13:31:51,633 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kedarnath'
+2026-09-15 13:31:52,412 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kedarnath' images_found=3
+2026-09-15 13:31:52,415 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Kedarnath', 'images': [{'url': 'https://images.pexels.com/photos/16152405/pexels-photo-16152405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A crowd of pilgrims at Kedarnath Temple with snowcapped Himalayan peaks in the background.', 'photographer': 'Abhra Ghosh', 'photographer_url': 'https://www.pexels.com/@abhra-ghosh-362148807'}, {'url': 'https://images.pexels.com/photos/19010050/pexels-photo-19010050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Scenic view of majestic mountains and stream in Kedarnath, India, under a clear blue sky.', 'photographer': 'Soubhagya Maharana', 'photographer_url': 'https://www.pexels.com/@soubhagya23'}, {'url': 'https://images.pexels.com/photos/15031440/pexels-photo-15031440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Crowd gathers at Kedarnath Temple with Himalayas backdrop, showcasing religious significance and stunning landscape.', 'photographer': 'Alok Kumar', 'photographer_url': 'https://www.pexels.com/@alok-kumar-273007'}]}
+2026-09-15 13:31:52,432 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-15 13:31:52,432 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-15 13:31:52,432 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-15 13:31:52,432 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-15 13:31:58,000 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-15 13:31:58,000 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-15 13:31:58,000 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Kedarnath'
+2026-09-15 13:31:58,001 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Kedarnath'
+2026-09-15 13:31:58,904 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Kedarnath' -> Kedarnath, Ukhimath, Rudraprayag, Uttarakhand, India (class=place)
+2026-09-15 13:31:58,905 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Rishikesh'
+2026-09-15 13:31:58,905 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Rishikesh'
+2026-09-15 13:31:59,544 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Rishikesh' -> Rishikesh, Dehradun, Uttarakhand, 249201, India (class=place)
+2026-09-15 13:31:59,545 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Haridwar'
+2026-09-15 13:31:59,545 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Haridwar'
+2026-09-15 13:32:00,259 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Haridwar' -> Haridwār, Hardwar, Haridwar, Uttarakhand, 249401, India (class=place)
+2026-09-15 13:32:00,260 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Sonprayag'
+2026-09-15 13:32:00,260 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Sonprayag'
+2026-09-15 13:32:00,936 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Sonprayag' -> Sonprayag, Trijugi Nārāyan, Ukhimath, Rudraprayag, Uttarakhand, 246471, India (class=place)
+2026-09-15 13:32:00,936 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Gaurikund'
+2026-09-15 13:32:00,936 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Gaurikund'
+2026-09-15 13:32:01,737 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Gaurikund' -> Gaurikund, Ukhimath, Rudraprayag, Uttarakhand, 246477, India (class=place)
+2026-09-15 13:32:01,738 | INFO | agent.py | AGENT | finished successfully | places found: 5
+2026-09-15 13:32:03,057 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Kedarnath'
+2026-09-15 13:32:15,109 | INFO | main.py | PLAN | succeeded | destination='Kedarnath' origin='Rishikesh' places=5
+2026-09-15 14:52:11,550 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 14:52:11,551 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 14:52:11,552 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 14:52:11,552 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 14:52:11,553 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 14:52:11,553 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 14:52:11,553 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 14:52:11,554 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 14:52:11,554 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 14:52:11,555 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 14:52:11,556 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 14:52:11,556 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 14:52:11,556 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 14:52:11,557 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 14:52:11,561 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 14:52:11,561 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 14:52:11,562 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 14:52:11,563 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 14:52:12,407 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 14:52:12,408 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 14:52:12,420 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 14:52:12,421 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 14:52:12,427 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 14:52:12,431 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 14:52:12,432 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 14:52:12,432 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 14:52:12,433 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 14:52:12,434 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 14:52:12,451 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 14:52:12,452 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 14:52:12,458 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 14:52:12,462 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 14:52:12,468 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 14:52:12,469 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 14:52:12,473 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 14:52:12,475 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 14:52:12,476 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 14:52:12,479 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 14:52:12,481 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 14:52:12,485 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 14:52:12,486 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 14:52:12,486 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 14:52:12,486 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 14:52:12,487 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 14:52:12,488 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 14:52:12,488 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 14:52:12,489 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 14:52:12,491 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 14:52:13,177 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 14:52:13,177 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 14:52:13,183 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 14:52:13,183 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 14:52:13,209 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 14:52:13,210 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 14:52:13,221 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 14:52:13,221 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 14:52:13,235 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 14:52:13,236 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 14:52:13,389 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 14:52:13,390 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 15:15:10,960 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 15:15:10,961 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 15:15:10,962 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 15:15:10,962 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 15:15:10,963 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 15:15:10,963 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 15:15:10,965 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 15:15:10,969 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 15:15:10,969 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 15:15:10,975 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 15:15:10,977 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 15:15:10,977 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 15:15:10,978 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 15:15:10,980 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 15:15:10,980 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 15:15:10,981 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 15:15:10,982 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 15:15:10,982 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 15:15:11,872 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 15:15:11,873 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 15:15:11,881 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 15:15:11,882 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 15:15:11,884 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 15:15:11,885 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 15:15:11,885 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 15:15:11,894 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 15:15:11,895 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 15:15:11,896 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 15:15:11,917 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 15:15:11,919 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 15:15:11,921 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 15:15:11,922 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 15:15:11,935 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 15:15:11,937 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 15:15:11,938 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 15:15:11,937 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 15:15:11,939 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 15:15:11,939 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 15:15:11,941 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 15:15:11,944 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 15:15:11,947 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 15:15:11,948 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 15:15:11,949 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 15:15:12,108 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 15:15:12,109 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 15:15:12,111 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 15:15:12,112 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 15:15:12,112 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 15:15:12,662 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 15:15:12,663 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 15:15:12,674 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 15:15:12,674 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 15:15:12,697 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 15:15:12,698 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 15:15:12,727 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 15:15:12,728 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 15:15:12,811 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 15:15:12,812 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 15:15:12,988 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 15:15:12,989 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 20:20:04,469 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 20:20:04,470 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 20:20:04,471 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 20:20:04,472 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 20:20:04,473 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 20:20:04,473 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 20:20:04,474 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 20:20:04,475 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 20:20:04,475 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 20:20:04,476 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 20:20:04,481 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 20:20:04,482 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 20:20:04,483 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 20:20:04,484 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 20:20:04,487 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 20:20:04,489 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 20:20:04,496 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 20:20:04,498 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 20:20:05,854 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 20:20:05,857 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 20:20:05,860 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 20:20:05,862 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 20:20:05,865 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 20:20:05,866 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 20:20:05,869 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 20:20:05,870 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 20:20:05,871 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 20:20:05,872 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 20:20:05,875 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 20:20:05,876 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 20:20:05,888 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 20:20:05,890 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 20:20:05,891 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 20:20:05,894 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 20:20:05,894 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 20:20:05,894 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 20:20:05,894 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 20:20:05,894 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 20:20:05,896 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 20:20:05,895 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 20:20:05,896 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 20:20:05,898 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 20:20:05,898 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 20:20:05,899 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 20:20:05,899 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 20:20:05,901 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 20:20:05,901 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 20:20:05,903 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 20:20:06,609 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 20:20:06,610 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 20:20:06,618 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 20:20:06,618 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 20:20:06,629 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 20:20:06,631 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 20:20:06,631 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 20:20:06,632 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 20:20:06,634 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 20:20:06,635 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 20:20:06,643 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 20:20:06,643 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 20:32:31,681 | INFO | train_tool.py | TRAIN_TOOL | called | kalaburagi -> new delhi on 16/09/2026
+2026-09-15 20:32:31,695 | DEBUG | train_tool.py | TRAIN_TOOL | attempt starting | kalaburagi -> new delhi on 16/09/2026
+2026-09-15 20:32:33,129 | ERROR | train_tool.py | TRAIN_TOOL | HTTP error 400 | kalaburagi -> new delhi on 16/09/2026 | 400 Client Error: Bad Request for url: https://api.railradar.in/v1/trains/between/kalaburagi/new%20delhi?date=16%2F09%2F2026
+2026-09-15 20:37:03,137 | INFO | web_search_tool.py | WEB_SEARCH | called | query='manali' max_results=5
+2026-09-15 20:37:03,144 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='manali'
+2026-09-15 20:37:06,309 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='manali' results=5
+2026-09-15 20:37:30,372 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'manali'
+2026-09-15 20:37:30,380 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'manali'
+2026-09-15 20:37:31,886 | DEBUG | place_tool.py | PLACE_TOOL | matched 'manali' -> Manali, Kullu, Himachal Pradesh, 175131, India (class=place)
+2026-09-15 20:38:02,985 | INFO | weather_tool.py | WEATHER_TOOL | called | city='kalaburagi'
+2026-09-15 20:38:02,993 | DEBUG | weather_tool.py | WEATHER_TOOL | attempt starting | city='kalaburagi'
+2026-09-15 20:38:03,798 | INFO | weather_tool.py | WEATHER_TOOL | succeeded | city='kalaburagi'
+2026-09-15 20:52:57,070 | INFO | train_tool.py | TRAIN_TOOL | called | kalaburagi -> ksr bangaluru on 2026-09-16
+2026-09-15 20:52:57,073 | DEBUG | train_tool.py | TRAIN_TOOL | attempt starting | kalaburagi -> ksr bangaluru on 2026-09-16
+2026-09-15 20:52:58,075 | ERROR | train_tool.py | TRAIN_TOOL | HTTP error 400 | kalaburagi -> ksr bangaluru on 2026-09-16 | 400 Client Error: Bad Request for url: https://api.railradar.in/v1/trains/between/kalaburagi/ksr%20bangaluru?date=2026-09-16
+2026-09-15 21:00:46,418 | INFO | main.py | Starting Trailwise Backend...
+2026-09-15 21:00:51,130 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 21:00:51,132 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 21:00:51,133 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 21:00:51,133 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 21:00:51,135 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 21:00:51,136 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 21:00:51,137 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 21:00:51,137 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 21:00:51,138 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 21:00:51,139 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 21:00:51,140 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 21:00:51,141 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 21:00:51,142 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 21:00:51,143 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 21:00:51,146 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 21:00:51,146 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 21:00:51,149 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 21:00:51,163 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 21:00:52,486 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 21:00:52,487 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 21:00:52,492 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 21:00:52,492 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 21:00:52,493 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 21:00:52,516 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 21:00:52,521 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 21:00:52,525 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 21:00:52,526 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 21:00:52,530 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 21:00:52,523 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 21:00:52,530 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 21:00:52,535 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 21:00:52,537 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 21:00:52,539 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 21:00:52,551 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 21:00:52,553 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 21:00:52,554 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 21:00:52,557 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 21:00:52,557 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 21:00:52,557 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 21:00:52,559 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 21:00:52,559 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 21:00:52,561 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 21:00:52,563 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 21:00:52,563 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 21:00:52,564 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 21:00:52,564 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 21:00:52,565 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 21:00:52,565 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 21:00:53,644 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 21:00:53,645 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 21:00:53,750 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 21:00:53,752 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 21:00:53,756 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 21:00:53,757 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 21:00:53,764 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 21:00:53,767 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 21:00:53,766 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 21:00:53,770 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 21:00:53,781 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 21:00:53,782 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 21:02:26,560 | INFO | train_tool.py | TRAIN_TOOL | called | kalaburagi -> new delhi on 2026-09-16
+2026-09-15 21:02:26,569 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'kalaburagi'
+2026-09-15 21:02:26,575 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'kalaburagi'
+2026-09-15 21:02:26,589 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'kalaburagi'
+2026-09-15 21:02:28,054 | DEBUG | place_tool.py | PLACE_TOOL | matched 'kalaburagi' -> Kalaburagi, Karnataka, India (class=boundary)
+2026-09-15 21:02:28,059 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'kalaburagi' -> 'kalaburagi'
+2026-09-15 21:02:28,066 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'kalaburagi'
+2026-09-15 21:02:29,599 | INFO | place_tool.py | STATION_TOOL | resolved | 'kalaburagi' -> Kalaburagi (KLBG)
+2026-09-15 21:02:29,603 | INFO | train_tool.py | TRAIN_TOOL | origin resolved | kalaburagi -> KLBG
+2026-09-15 21:02:29,609 | INFO | place_tool.py | STATION_TOOL | resolve_railway_station called | 'new delhi'
+2026-09-15 21:02:29,613 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'new delhi'
+2026-09-15 21:02:29,622 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'new delhi'
+2026-09-15 21:02:31,434 | DEBUG | place_tool.py | PLACE_TOOL | matched 'new delhi' -> New Delhi, Delhi, India (class=boundary)
+2026-09-15 21:02:31,437 | DEBUG | place_tool.py | STATION_TOOL | canonical place: 'new delhi' -> 'new delhi'
+2026-09-15 21:02:31,440 | DEBUG | place_tool.py | STATION_TOOL | station search attempt starting | 'new delhi'
+2026-09-15 21:02:35,632 | INFO | place_tool.py | STATION_TOOL | resolved | 'new delhi' -> New Delhi (NDLS)
+2026-09-15 21:02:35,637 | INFO | train_tool.py | TRAIN_TOOL | destination resolved | new delhi -> NDLS
+2026-09-15 21:02:35,644 | DEBUG | train_tool.py | TRAIN_TOOL | attempt starting | KLBG -> NDLS on 2026-09-16
+2026-09-15 21:02:37,064 | INFO | train_tool.py | TRAIN_TOOL | succeeded | KLBG -> NDLS on 2026-09-16 | 1 train(s) found
+2026-09-15 21:26:39,610 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 21:26:39,613 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 21:26:39,616 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 21:26:39,617 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 21:26:39,616 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 21:26:39,619 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 21:26:39,620 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 21:26:39,624 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 21:26:39,624 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 21:26:39,627 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 21:26:39,627 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 21:26:39,626 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 21:26:39,629 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 21:26:39,631 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 21:26:39,634 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 21:26:39,650 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 21:26:39,659 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 21:26:39,665 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 21:26:41,715 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 21:26:41,716 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 21:26:41,723 | INFO | main.py | DESTINATION_IMAGES | called | query='Manali India travel'
+2026-09-15 21:26:41,724 | INFO | image_tool.py | IMAGE_TOOL | called | query='Manali India travel' max_results=1
+2026-09-15 21:26:41,729 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Manali India travel'
+2026-09-15 21:26:41,739 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 21:26:41,744 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 21:26:41,745 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 21:26:41,746 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 21:26:41,763 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 21:26:41,765 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 21:26:41,770 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 21:26:41,773 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 21:26:41,778 | INFO | main.py | DESTINATION_IMAGES | called | query='Kerala Backwaters India travel'
+2026-09-15 21:26:41,779 | INFO | main.py | DESTINATION_IMAGES | called | query='Rishikesh India travel'
+2026-09-15 21:26:41,782 | INFO | image_tool.py | IMAGE_TOOL | called | query='Kerala Backwaters India travel' max_results=1
+2026-09-15 21:26:41,783 | INFO | image_tool.py | IMAGE_TOOL | called | query='Rishikesh India travel' max_results=1
+2026-09-15 21:26:41,786 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Kerala Backwaters India travel'
+2026-09-15 21:26:41,788 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Rishikesh India travel'
+2026-09-15 21:26:41,790 | INFO | main.py | DESTINATION_IMAGES | called | query='Udaipur India travel'
+2026-09-15 21:26:41,791 | INFO | main.py | DESTINATION_IMAGES | called | query='Goa India travel'
+2026-09-15 21:26:41,795 | INFO | image_tool.py | IMAGE_TOOL | called | query='Udaipur India travel' max_results=1
+2026-09-15 21:26:41,798 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Udaipur India travel'
+2026-09-15 21:26:41,801 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa India travel' max_results=1
+2026-09-15 21:26:41,806 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa India travel'
+2026-09-15 21:26:41,997 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 21:26:41,998 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 21:26:42,006 | INFO | main.py | DESTINATION_IMAGES | called | query='Munnar India travel'
+2026-09-15 21:26:42,007 | INFO | image_tool.py | IMAGE_TOOL | called | query='Munnar India travel' max_results=1
+2026-09-15 21:26:42,009 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Munnar India travel'
+2026-09-15 21:26:43,724 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Manali India travel' images_found=1
+2026-09-15 21:26:43,725 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Manali India travel' images_found=1
+2026-09-15 21:26:43,739 | INFO | main.py | ============================================================
+2026-09-15 21:26:43,740 | INFO | main.py | PLAN | called | chat_id='50952289-8e67-4547-9b6b-8a921d1596ac' question='goa trip ideas'
+2026-09-15 21:26:43,742 | INFO | agent.py | ============================================================
+2026-09-15 21:26:43,743 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 21:26:43,744 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-15 21:26:43,746 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 21:26:43,747 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 21:26:43,809 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 21:26:43,810 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Rishikesh India travel' images_found=1
+2026-09-15 21:26:43,822 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 21:26:43,823 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Kerala Backwaters India travel' images_found=1
+2026-09-15 21:26:43,837 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa India travel' images_found=1
+2026-09-15 21:26:43,838 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Goa India travel' images_found=1
+2026-09-15 21:26:43,951 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 21:26:43,952 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Munnar India travel' images_found=1
+2026-09-15 21:26:44,079 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 21:26:44,081 | INFO | main.py | DESTINATION_IMAGES | succeeded | query='Udaipur India travel' images_found=1
+2026-09-15 21:26:50,608 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 21:26:50,609 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-15 21:26:50,609 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Goa travel attractions and adventure activities","max_results":5}
+2026-09-15 21:26:50,609 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Goa travel attractions and adventure activities', 'max_results': 5})
+2026-09-15 21:26:50,947 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Goa travel attractions and adventure activities' max_results=5
+2026-09-15 21:26:50,952 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Goa travel attractions and adventure activities'
+2026-09-15 21:26:54,783 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Goa travel attractions and adventure activities' results=5
+2026-09-15 21:26:54,804 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-15 21:26:54,804 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-15 21:26:54,804 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Goa"}
+2026-09-15 21:26:54,805 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Goa'})
+2026-09-15 21:26:55,080 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-15 21:26:55,081 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-15 21:26:55,081 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Goa"}
+2026-09-15 21:26:55,081 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Goa'})
+2026-09-15 21:26:55,361 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates' completed successfully
+2026-09-15 21:26:55,362 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-15 21:26:55,362 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Goa","max_results":3}
+2026-09-15 21:26:55,362 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Goa', 'max_results': 3})
+2026-09-15 21:26:55,635 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Goa | max_results=3
+2026-09-15 21:26:55,639 | INFO | image_tool.py | IMAGE_TOOL | called | query='Goa' max_results=3
+2026-09-15 21:26:55,645 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Goa'
+2026-09-15 21:26:56,577 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Goa' images_found=3
+2026-09-15 21:26:56,580 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Goa', 'images': [{'url': 'https://images.pexels.com/photos/28368719/pexels-photo-28368719.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'A picturesque view of Mandrem Beach with lush greenery and blue sky in Goa, India.', 'photographer': 'Mohit Hambiria', 'photographer_url': 'https://www.pexels.com/@mohit-hambiria-92377455'}, {'url': 'https://images.pexels.com/photos/28355680/pexels-photo-28355680.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Bustling Baga Beach in Goa, India, with people enjoying a sunny day by the sea.', 'photographer': 'Mohit Hambiria', 'photographer_url': 'https://www.pexels.com/@mohit-hambiria-92377455'}, {'url': 'https://images.pexels.com/photos/11438923/pexels-photo-11438923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Vibrant street view in Panaji, India showcasing colorful colonial architecture and bustling traffic.', 'photographer': 'Samar Mourya', 'photographer_url': 'https://www.pexels.com/@samarmourya'}]}
+2026-09-15 21:26:56,598 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-15 21:26:56,599 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-15 21:26:56,599 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-15 21:26:56,601 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-15 21:27:03,270 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-15 21:27:03,271 | INFO | agent.py | AGENT | round 2 | no more tool calls requested — finishing
+2026-09-15 21:27:03,275 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Goa'
+2026-09-15 21:27:03,275 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Goa'
+2026-09-15 21:27:04,767 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Goa' -> Goa, India (class=boundary)
+2026-09-15 21:27:04,768 | INFO | agent.py | AGENT | finished successfully | places found: 1
+2026-09-15 21:27:05,800 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Goa'
+2026-09-15 21:27:09,797 | INFO | main.py | PLAN | succeeded | destination='Goa' origin='' places=1
+2026-09-15 21:30:49,465 | INFO | main.py | Starting Trailwise Backend...
+2026-09-15 21:31:02,946 | INFO | mcp_server.py | MCP SERVER | Starting server...
+2026-09-15 21:31:34,502 | INFO | main.py | ============================================================
+2026-09-15 21:31:34,503 | INFO | main.py | PLAN | called | chat_id='0c241425-b5fc-4a8b-80aa-dd5c7c7ec447' question='i want to go ooty'
+2026-09-15 21:31:34,504 | INFO | agent.py | ============================================================
+2026-09-15 21:31:34,504 | INFO | agent.py | AGENT | started | question='[User preferences — budget: Budget, travel style: Adventure, preferred mode: Train, group size: 2. Respect these unless the message below says otherwi'
+2026-09-15 21:31:34,505 | DEBUG | agent.py | AGENT | history length received: 0
+2026-09-15 21:31:34,506 | INFO | agent.py | AGENT | calling OpenAI (initial) | model=gpt-4.1-mini
+2026-09-15 21:31:34,506 | DEBUG | agent.py | AGENT | available tools: ['get_weather_forecast', 'send_plan_email', 'web_search', 'get_place_images', 'get_train_options', 'get_bus_options', 'get_place_coordinates']
+2026-09-15 21:31:39,509 | INFO | agent.py | AGENT | initial OpenAI call succeeded
+2026-09-15 21:31:39,510 | INFO | agent.py | AGENT | round 1 | model requested 4 tool(s): ['web_search', 'get_weather_forecast', 'get_place_coordinates', 'get_place_images']
+2026-09-15 21:31:39,510 | DEBUG | agent.py | AGENT | calling tool: web_search args={"query":"Ooty travel attractions and conditions","max_results":5}
+2026-09-15 21:31:39,512 | DEBUG | agent.py | AGENT | _execute_tool via MCP: web_search({'query': 'Ooty travel attractions and conditions', 'max_results': 5})
+2026-09-15 21:31:39,814 | INFO | web_search_tool.py | WEB_SEARCH | called | query='Ooty travel attractions and conditions' max_results=5
+2026-09-15 21:31:39,819 | DEBUG | web_search_tool.py | WEB_SEARCH | attempt starting | query='Ooty travel attractions and conditions'
+2026-09-15 21:31:43,387 | INFO | web_search_tool.py | WEB_SEARCH | succeeded | query='Ooty travel attractions and conditions' results=5
+2026-09-15 21:31:43,404 | DEBUG | agent.py | AGENT | MCP tool 'web_search' completed successfully
+2026-09-15 21:31:43,410 | DEBUG | agent.py | AGENT | tool web_search completed successfully
+2026-09-15 21:31:43,412 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Ooty"}
+2026-09-15 21:31:43,413 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Ooty'})
+2026-09-15 21:31:43,698 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-15 21:31:43,698 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-15 21:31:43,698 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Ooty"}
+2026-09-15 21:31:43,698 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Ooty'})
+2026-09-15 21:31:43,984 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates' completed successfully
+2026-09-15 21:31:43,984 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-15 21:31:43,985 | DEBUG | agent.py | AGENT | calling tool: get_place_images args={"query":"Ooty","max_results":3}
+2026-09-15 21:31:43,985 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_images({'query': 'Ooty', 'max_results': 3})
+2026-09-15 21:31:44,260 | DEBUG | mcp_server.py | MCP | get_place_images START | query=Ooty | max_results=3
+2026-09-15 21:31:44,263 | INFO | image_tool.py | IMAGE_TOOL | called | query='Ooty' max_results=3
+2026-09-15 21:31:44,267 | DEBUG | image_tool.py | IMAGE_TOOL | attempt starting | query='Ooty'
+2026-09-15 21:31:45,080 | INFO | image_tool.py | IMAGE_TOOL | succeeded | query='Ooty' images_found=3
+2026-09-15 21:31:45,083 | DEBUG | mcp_server.py | MCP | get_place_images RESULT | {'query': 'Ooty', 'images': [{'url': 'https://images.pexels.com/photos/31029893/pexels-photo-31029893.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Captivating view of picturesque waterfalls amidst lush vegetation in Ooty, India.', 'photographer': 'Nikky Vaidya', 'photographer_url': 'https://www.pexels.com/@nikky-vaidya-436486308'}, {'url': 'https://images.pexels.com/photos/21363801/pexels-photo-21363801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Charming view of Ooty town nestled in lush hills under a clear sky.', 'photographer': 'Ambareesh Sridhar Photography', 'photographer_url': 'https://www.pexels.com/@kichu98'}, {'url': 'https://images.pexels.com/photos/25946627/pexels-photo-25946627.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', 'alt': 'Aerial view of lush Ooty hills and townscape surrounded by verdant forests.', 'photographer': 'General Kenobi', 'photographer_url': 'https://www.pexels.com/@jetkerim'}]}
+2026-09-15 21:31:45,101 | DEBUG | agent.py | AGENT | MCP tool 'get_place_images' completed successfully
+2026-09-15 21:31:45,102 | DEBUG | agent.py | AGENT | tool get_place_images completed successfully
+2026-09-15 21:31:45,102 | INFO | agent.py | AGENT | round 1 | all 4 tool call(s) completed
+2026-09-15 21:31:45,104 | INFO | agent.py | AGENT | round 1 | sending tool results back to OpenAI
+2026-09-15 21:31:46,914 | INFO | agent.py | AGENT | round 1 | OpenAI responded
+2026-09-15 21:31:46,915 | INFO | agent.py | AGENT | round 2 | model requested 2 tool(s): ['get_place_coordinates', 'get_weather_forecast']
+2026-09-15 21:31:46,915 | DEBUG | agent.py | AGENT | calling tool: get_place_coordinates args={"place_name":"Ooty"}
+2026-09-15 21:31:46,915 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_place_coordinates({'place_name': 'Ooty'})
+2026-09-15 21:31:47,198 | DEBUG | agent.py | AGENT | MCP tool 'get_place_coordinates' completed successfully
+2026-09-15 21:31:47,198 | DEBUG | agent.py | AGENT | tool get_place_coordinates completed successfully
+2026-09-15 21:31:47,198 | DEBUG | agent.py | AGENT | calling tool: get_weather_forecast args={"city":"Ooty"}
+2026-09-15 21:31:47,198 | DEBUG | agent.py | AGENT | _execute_tool via MCP: get_weather_forecast({'city': 'Ooty'})
+2026-09-15 21:31:47,485 | DEBUG | agent.py | AGENT | MCP tool 'get_weather_forecast' completed successfully
+2026-09-15 21:31:47,486 | DEBUG | agent.py | AGENT | tool get_weather_forecast completed successfully
+2026-09-15 21:31:47,486 | INFO | agent.py | AGENT | round 2 | all 2 tool call(s) completed
+2026-09-15 21:31:47,486 | INFO | agent.py | AGENT | round 2 | sending tool results back to OpenAI
+2026-09-15 21:31:52,512 | INFO | agent.py | AGENT | round 2 | OpenAI responded
+2026-09-15 21:31:52,513 | INFO | agent.py | AGENT | round 3 | no more tool calls requested — finishing
+2026-09-15 21:31:52,517 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Ooty'
+2026-09-15 21:31:52,517 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Ooty'
+2026-09-15 21:31:53,639 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Ooty' -> Udhagamandalam, Nilgiris, Tamil Nadu, 643001, India (class=place)
+2026-09-15 21:31:53,639 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Coimbatore'
+2026-09-15 21:31:53,640 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Coimbatore'
+2026-09-15 21:31:54,765 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Coimbatore' -> Coimbatore, Coimbatore North, Coimbatore, Tamil Nadu, 641001, India (class=place)
+2026-09-15 21:31:54,766 | INFO | place_tool.py | PLACE_TOOL | get_place_coordinates called | 'Mettupalayam'
+2026-09-15 21:31:54,767 | DEBUG | place_tool.py | PLACE_TOOL | geocode attempt starting | 'Mettupalayam'
+2026-09-15 21:31:56,013 | DEBUG | place_tool.py | PLACE_TOOL | matched 'Mettupalayam' -> Mettuppalayam, Mettupalayam, Coimbatore, Tamil Nadu, 641301, India (class=place)
+2026-09-15 21:31:56,014 | INFO | agent.py | AGENT | finished successfully | places found: 3
+2026-09-15 21:31:57,085 | DEBUG | main.py | EXTRACT_DESTINATION | resolved to 'Ooty'
+2026-09-15 21:31:59,812 | INFO | main.py | PLAN | succeeded | destination='Ooty' origin='' places=3
+2026-09-15 22:02:51,229 | INFO | mcp_server.py | MCP SERVER | Starting server...
+2026-09-15 22:07:16,208 | INFO | mcp_server.py | MCP SERVER | Starting server...
+2026-09-15 22:07:49,724 | INFO | mcp_server.py | MCP SERVER | Starting server...
